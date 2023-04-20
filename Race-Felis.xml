@@ -68,7 +68,7 @@
 		<sheet>
 			<description>You increase your Wisdom score by 1.</description>
 		</sheet>
-		<sheet display="false"/>
+		<sheet display="false" />
 			<description>You increase your Wisdom score by 1.</description>
 		</sheet>
 		<description>
@@ -76,7 +76,7 @@
 		</description>
 		
 		</rules>
-		<stat name="charisma" value="2"/>
+		<stat name="charisma" value="2" />
    		</rules>
   	</element>
 		<!-- Grotag Tribe Goblin -->
