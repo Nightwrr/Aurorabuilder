@@ -13,14 +13,8 @@
 		<description>
 			<p class="flavor">“Felis are the kindest, and most adorable stranglers I have ever met. If it were not for their love of sunbathing I fear they would have turned to conquest; and I find myself wondering if the world is worse for it”</p>
 			<p>
-			Beauty can be found everywhere, you merely have to look for it. Mothian are typically a calm and peaceful people who enjoy a gentle way of life. </p>
-			<p class="indent">
-			Mothian follow a similar life cycle to the common moth except for their disproportionately long adult stage. Upon emerging from their cocoon, they innately know the language of their clan's lineage (or common). The unfamiliar may confuse a Mothian for a Sprite, but they differ in their wing shape, their long fanned antennae, all-black eyes, and a very soft short fuzzy fur over most of their skin in a mottled grey and brown color.</p>
-			<h4>MOTHIAN TRADITIONS</h4>
-			<p>All of the Mothian people have an innate knowledge of ancient traditions with each clan having their own unique variations. Festival dancing on the night of the full moon, extinguishing a burning candle with a bare hand as a right of passage, a dare, or a test of bravery.</p>
-			<h4>MOTHIAN POLITICS</h4>
-			<p>There are clans within the Mothian people that each pursue different ideals, but the clans are open and somewhat dynamic. Members of a clan may leave and join any clan at any time, although it is uncommon for this to happen. Having few predators in their native environment, they are a curious people.</p>
-			<h4>MOTHIAN TRAITS</h4>
+			All Felis share a love of exploring - their curiosity of the world is what drives them onwards. They are constantly looking for new technologies, spells, and rare legendary items to further their clan's honor. Felis are strong dexterous race only stopped by their own shortcomings. </p>
+			<h4>FELIS TRAITS</h4>
 			<p>Your Felis character will share a few common traits and attributes with all other Felis</p>
 			<p class="indent"><b><i>Ability Score Increase. </i></b>Your Charisma and Dexterity score increases by 2.</p>
 			<p class="indent"><b><i>Age. </i></b>Felis are considered full adults when the reach the age of 13.</p>
@@ -29,11 +23,11 @@
 			<p class="indent"><b><i>Speed. </i></b>Your base walking speed is 25 feet.</p>
 			<p class="indent"><b><i>Claws. </i></b>Due to your claws you have a climb speed of 15 feet. You can also use your claws as a weapon. When you land an attack you deal 1d4 + Strength modifier as slashing damage as an unarmed attack.</p>
 			<p class="indent"><b><i>Felis Lineage. </i></b>Choose one of the lineages. Your lineage determines your Felis Favor.</p>
-      <p class="indent"><b><i>Darkvision. </i></b>Accustomed to the night, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
+      			<p class="indent"><b><i>Darkvision. </i></b>Accustomed to the night, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
 			<p class="indent"><b><i>Purrsuasion </i></b>Felis use their short and cute nature to their advantage as much as they can. You have proficiency in the Persuasion skill.</p>
-      <p class="indent"><b><i>Curious Nature </i></b>Being an inquisitive Felis you have proficiency in the Investigation skill.</p>
-      <p class="indent"><b><i>Nine Lives </i></b>You can fail 9 death saves before you die, instead of 3. Additionally you regain 1 hit point on a natural 19 when rolling death saves.</p>
-      <p class="indent"><b><i>Ride. </i></b>You can get on the back of any Party member taller than 6.5 feet and ride them, reducing your damage to 1d6.</p>
+      			<p class="indent"><b><i>Curious Nature </i></b>Being an inquisitive Felis you have proficiency in the Investigation skill.</p>
+     			<p class="indent"><b><i>Nine Lives </i></b>You can fail 9 death saves before you die, instead of 3. Additionally you regain 1 hit point on a natural 19 when rolling death saves.</p>
+      			<p class="indent"><b><i>Ride. </i></b>You can get on the back of any Party member taller than 6.5 feet and ride them, reducing your damage to 1d6.</p>
 			<p class="indent"><b><i>Languages. </i></b>You can speak, read, and write Common and Sylvan.</p>
 		</description>
 		<setters>
@@ -46,33 +40,35 @@
 		<sheet display="false" />
 		<rules>
 			<stat name="charisma" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-      <stat name="dexterity" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+      			<stat name="dexterity" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<select type="Ability Score Improvement" name="Ability Score Increase (Felis)" supports="Ability Score Improvement, Felis" number="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Felis)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Felis)" number="2" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<stat name="innate speed" value="25" bonus="base" />
 			<grant type="Size" id="ID_SIZE_SMALL" />
 			<grant type="Vision" id="ID_VISION_DARKVISION" />
-			<grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_FLIGHT20" />
-			<grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_SILVER_TONGUE" />
-			<grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_MOTHIAN_BLESSING" />
+			<grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_CLAWS" />
+			<grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_PURRSUASION" />
+			<grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_CURIOUS_NATURE" />
+			<grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_NINE_LIVES" />
+			<grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_RIDE" />
 			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 			<select type="Language" name="Customized Language" supports="Custom Race Language" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<select type="Language" name="Language (Mothian)" number="2" supports="Standard||Exotic" />
+			<select type="Language" name="Language (Sylvan)" number="2" supports="Standard||Exotic" />
 		</rules>
 	</element>
-	<element name="Moth Wings" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_FLIGHT20">
+	<element name="Claws" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_CLAWS">
 		<description>
-			<p>You have a flying speed of 20 feet. To use this speed, you can’t be wearing medium or heavy armor.</p>
+			<p>You have a climbing speed of 15 feet. To use this speed, you can’t be wearing heavy armor.</p>
 		</description>
 		<sheet>
-			<description>You have a flying speed of 20 feet. To use this speed, you can’t be wearing medium or heavy armor.</description>
+			<description>You have a climbing speed of 15 feet. To use this speed, you can’t be wearing heavy armor.</description>
 		</sheet>
 		<rules>
-			<stat name="innate speed:fly" value="20" bonus="base" equipped="![armor:medium],![armor:heavy]" />
+			<stat name="innate speed:Climb" value="15" bonus="base" equipped="![armor:heavy]" />
 		</rules>
 	</element>
-	<element name="Silver Tongue" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_SILVER_TONGUE">
+	<element name="Purrsuasion" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_PURRSUASION">
 		<description>
 			<p>You gain proficiency in the Persuasion skill.</p>
 		</description>
@@ -83,33 +79,63 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
 			<select type="Proficiency" name="Customized Skill Proficiency" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
 		</rules>
-	</element>
-	<element name="Mothian Blessing" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_MOTHIAN_BLESSING">
+		</element>
+	<element name="Curious Nature" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_CURIOUS_NATURE">
 		<description>
-			<p>You know one cantrip [Light, Produce FLame, or Prestidigitation]. Charisma is your spellcasting ability for it.</p>
+			<p>You gain proficiency in the Investigation skill.</p>
+		</description>
+		<sheet display="false">
+			<description>You gain proficiency in the Investigation skill.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INVESTIGATION" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Customized Skill Proficiency" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+		</rules>
+	</element>
+	<element name="Nine Lives" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_NINE_LIVES">
+		<description>
+			<p>You can fail 9 death saves before you die, instead of 3. Additionally you regain 1 hit point on a natural 19 when rolling death saves.</p>
 		</description>
 		<sheet>
-			<description>You know one cantrip [Light, Produce FLame, or Prestidigitation]. (Spellcasting: Charisma)</description>
+			<description>You can fail 9 death saves before you die, instead of 3. Additionally you regain 1 hit point on a natural 19 when rolling death saves.</description>
 		</sheet>
 		
 		<sheet display="false">
-			<description>The spells on the Mothian Blessing Spells table are Light, Produce FLame, and Prestidigitation.</description>
+			<description>You can fail 9 death saves before you die, instead of 3. Additionally you regain 1 hit point on a natural 19 when rolling death saves.</description>
 		</sheet>
-		<spellcasting name="Mothian Blessing" ability="Charisma" allowReplace="true">
-			<list>Mothian Blessing</list>
+		<spellcasting name="Nine Lives" ability="Charisma" allowReplace="true">
+			<list>Nine Lives</list>
 		</spellcasting>
 		<rules>
-			<select type="Spell" name="Cantrip (Mothian Blessing)" supports="Mothian Blessing, 0" spellcasting="Mothian Blessing" />
+			<select type="Spell" name="Cantrip (Nine lives)" supports="Nine Lives, 0" spellcasting="Nine Lives" />
+		</rules>
+	</element>
+	<element name="Ride" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_RIDE">
+		<description>
+			<p>You can get on the back of any Party member taller than 6.5 feet and ride them, reducing your damage to 1d6.</p>
+		</description>
+		<sheet>
+			<description>You can get on the back of any Party member taller than 6.5 feet and ride them, reducing your damage to 1d6.</description>
+		</sheet>
+		
+		<sheet display="false">
+			<description>You can get on the back of any Party member taller than 6.5 feet and ride them, reducing your damage to 1d6.</description>
+		</sheet>
+		<spellcasting name="Ride" ability="Charisma" allowReplace="true">
+			<list>Ride</list>
+		</spellcasting>
+		<rules>
+			<select type="Spell" name="Cantrip (Ride)" supports="Ride, 0" spellcasting="Ride" />
 		</rules>
   </element>
   
-  <append id="ID_PHB_SPELL_LIGHT">
-    <supports>Mothian Blessing</supports>
-  </append>
-    <append id="ID_PHB_SPELL_PRODUCE_FLAME">
-    <supports>Mothian Blessing</supports>
-  </append>
-    <append id="ID_PHB_SPELL_PRESTIDIGITATION">
-    <supports>Mothian Blessing</supports>
-  </append>
+ // <append id="ID_PHB_SPELL_LIGHT">
+ //   <supports>Mothian Blessing</supports>
+ // </append>
+ //   <append id="ID_PHB_SPELL_PRODUCE_FLAME">
+ //   <supports>Mothian Blessing</supports>
+ // </append>
+ //   <append id="ID_PHB_SPELL_PRESTIDIGITATION">
+ //   <supports>Mothian Blessing</supports>
+ // </append>
 </elements>
