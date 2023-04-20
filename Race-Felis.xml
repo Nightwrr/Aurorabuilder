@@ -14,6 +14,8 @@
 			<p class="flavor">“Felis are the kindest, and most adorable stranglers I have ever met. If it were not for their love of sunbathing I fear they would have turned to conquest; and I find myself wondering if the world is worse for it”</p>
 			<p>
 			All Felis share a love of exploring - their curiosity of the world is what drives them onwards. They are constantly looking for new technologies, spells, and rare legendary items to further their clan's honor. Felis are strong dexterous race only stopped by their own shortcomings. </p>
+			<h4>FELIS Names</h4>
+			<p><span class="feature">Felis Names:</span>(Male) Anton (Female) Claudia; (Clan name) Cerulean, Claw, Maine, White Paw, Shadow, Forest, Chant, Hex, Iron Tooth</p>
 			<h4>FELIS TRAITS</h4>
 			<p>Your Felis character will share a few common traits and attributes with all other Felis</p>
 			<p class="indent"><b><i>Ability Score Increase. </i></b>Your Charisma and Dexterity score increases by 2.</p>
@@ -36,13 +38,9 @@
 			<grant type="Size" id="ID_SIZE_SMALL" />
 			<grant type="Vision" id="ID_VISION_DARKVISION" />
 			<grant type="Language" id="ID_LANGUAGE_COMMON" />
-    			<select type="Sub Race" name="Felis Lineage" supports="Felis Lineages" />
+    			<select type="Sub Race" name="Felis Lineage" supports="Felis Lineages" Optional="true" />
     		</rules>
 		<setters>
-			<set name="names" type="male">Luna, Celeste, Truni, Wai, Yolfa</set>
-			<set name="names" type="female">Luna, Celeste, Truni, Wai, Yolfa</set>
-			<set name="names" type="surname">Cerulean, Claw, Maine, White Paw, Shadow, Forest, Chant, Hex, Iron Tooth</set>
-			<set name="names-format">{{name}} {{surname}}</set>
 			<set name="height" modifier="1d12">2'0"</set>
 			<set name="weight" modifier="2d4">60 lb.</set>
 		</setters>
