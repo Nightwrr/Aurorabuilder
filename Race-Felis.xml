@@ -62,23 +62,18 @@
 			<select type="Language" name="Language (Felis)" number="2" supports="Standard||Exotic" />
 		</rules>
 	</element>
-		<!-- Grotag Tribe Goblin -->
-	<element name="Common Bond" type="Sub Race" source="AAA" id="ID_CUSTOM_FELIS_CB">
+
+		<!-- Common Bond -->
+		<element name="Common Bond" type="Sub Race" source="AAA" id="ID_TCOE_FELIS_SUBRACE_CB">
 		<supports>Felis</supports>
-		<sheet>
-			<description>You increase your Wisdom score by 1.</description>
-		</sheet>
-		<sheet display="false" />
-			<description>You increase your Wisdom score by 1.</description>
-		</sheet>
 		<description>
-			<p>Tabby Felis are among the most common of all the lineages. As such they know more about common social spheres. You increase your Wisdom score by 1</p>
+			<p> Tabby Felis are among the most common of all the lineages. As such they know more about common social spheres. You increase your Wisdom score by 1 </p>
 		</description>
-		
+		<sheet display="false" />
+		<rules>
+			<stat name="Wisdom" value="1" />
 		</rules>
-		<stat name="charisma" value="2" />
-   		</rules>
-  	</element>
+	</element>
 		<!-- Grotag Tribe Goblin -->
 		<element name="Noble Leadership" type="Sub Race" source="Custom" id="ID_CUST_FELIS_NL">
 		<supports>Felis</supports>
