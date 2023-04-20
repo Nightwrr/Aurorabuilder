@@ -189,12 +189,6 @@
 		<sheet display="false">
 			<description>You can fail 9 death saves before you die, instead of 3. Additionally you regain 1 hit point on a natural 19 when rolling death saves.</description>
 		</sheet>
-		<spellcasting name="Nine Lives" ability="Charisma" allowReplace="true">
-			<list>Nine Lives</list>
-		</spellcasting>
-		<rules>
-			<select type="Spell" name="Cantrip (Nine lives)" supports="Nine Lives, 0" spellcasting="Nine Lives" />
-		</rules>
 	</element>
 	
 		
@@ -209,12 +203,6 @@
 		<sheet display="false">
 			<description>You can get on the back of any Party member taller than 6.5 feet and ride them, reducing your damage to 1d6.</description>
 		</sheet>
-		<spellcasting name="Ride" ability="Charisma" allowReplace="true">
-			<list>Ride</list>
-		</spellcasting>
-		<rules>
-			<select type="Spell" name="Cantrip (Ride)" supports="Ride, 0" spellcasting="Ride" />
-		</rules>
   	</element>
  
 </elements>
