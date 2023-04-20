@@ -148,7 +148,8 @@
 		<stat name="charisma" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
    		</rules>
   	</element>
-		<element name="Noble Leadership" type="Sub Race" source="Custom" id="ID_CUST_FELIS_CB">
+
+		<element name="Noble Leadership" type="Sub Race" source="Custom" id="ID_CUST_FELIS_NL">
 		<supports>Felis</supports>
 		<description>
 			<p>Tabby Felis are among the most common of all the lineages. As such they know more about common social spheres. You increase your Wisdom score by 1</p>
@@ -160,7 +161,8 @@
 		<stat name="charisma" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
    		</rules>
   	</element>
-		<element name="Fiery Nature" type="Sub Race" source="Custom" id="ID_CUST_FELIS_CB">
+
+		<element name="Fiery Nature" type="Sub Race" source="Custom" id="ID_CUST_FELIS_FN">
 		<supports>Felis</supports>
 		<description>
 			<p>Tabby Felis are among the most common of all the lineages. As such they know more about common social spheres. You increase your Wisdom score by 1</p>
@@ -172,7 +174,8 @@
 		<stat name="charisma" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
    		</rules>
   	</element>
-		<element name="Hunters Sense" type="Sub Race" source="Custom" id="ID_CUST_FELIS_CB">
+
+		<element name="Hunters Sense" type="Sub Race" source="Custom" id="ID_CUST_FELIS_HS">
 		<supports>Felis</supports>
 		<description>
 			<p>Tabby Felis are among the most common of all the lineages. As such they know more about common social spheres. You increase your Wisdom score by 1</p>
@@ -184,7 +187,8 @@
 		<stat name="charisma" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
    		</rules>
   	</element>
-		<element name="Good Fortune" type="Sub Race" source="Custom" id="ID_CUST_FELIS_CB">
+
+		<element name="Good Fortune" type="Sub Race" source="Custom" id="ID_CUST_FELIS_GF">
 		<supports>Felis</supports>
 		<description>
 			<p>Tabby Felis are among the most common of all the lineages. As such they know more about common social spheres. You increase your Wisdom score by 1</p>
@@ -196,7 +200,8 @@
 		<stat name="charisma" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
    		</rules>
   	</element>
-  		<element name="Arcane Adept" type="Sub Race" source="Custom" id="ID_CUST_FELIS_CB">
+
+  		<element name="Arcane Adept" type="Sub Race" source="Custom" id="ID_CUST_FELIS_AA">
 		<supports>Felis</supports>
 		<description>
 			<p>Tabby Felis are among the most common of all the lineages. As such they know more about common social spheres. You increase your Wisdom score by 1</p>
@@ -208,7 +213,8 @@
 		<stat name="charisma" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
    		</rules>
   	</element>
-		<element name="Night Stalker" type="Sub Race" source="Custom" id="ID_CUST_FELIS_CB">
+
+		<element name="Night Stalker" type="Sub Race" source="Custom" id="ID_CUST_FELIS_NS">
 		<supports>Felis</supports>
 		<description>
 			<p>Tabby Felis are among the most common of all the lineages. As such they know more about common social spheres. You increase your Wisdom score by 1</p>
@@ -220,7 +226,8 @@
 		<stat name="charisma" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
    		</rules>
   	</element>
-		<element name="Unlucky" type="Sub Race" source="Custom" id="ID_CUST_FELIS_CB">
+
+		<element name="Unlucky" type="Sub Race" source="Custom" id="ID_CUST_FELIS_U">
 		<supports>Felis</supports>
 		<description>
 			<p>Tabby Felis are among the most common of all the lineages. As such they know more about common social spheres. You increase your Wisdom score by 1</p>
