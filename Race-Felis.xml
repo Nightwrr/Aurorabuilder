@@ -30,12 +30,17 @@
       			<p class="indent"><b><i>Ride. </i></b>You can get on the back of any Party member taller than 6.5 feet and ride them, reducing your damage to 1d6.</p>
 			<p class="indent"><b><i>Languages. </i></b>You can speak, read, and write Common and Sylvan.</p>
 		</description>
+		<sheet display="false"/>
+    		<rules>
+    		<select type="Sub Race" name="Felis Lineage" supports="Felis" />
+    		</rules>
 		<setters>
-			<set name="names" type="name">Luna, Celeste, Truni, Wai, Yolfa</set>
+			<set name="names" type="male">Luna, Celeste, Truni, Wai, Yolfa</set>
+			<set name="names" type="female">Luna, Celeste, Truni, Wai, Yolfa</set>
 			<set name="names" type="surname">Cerulean, Claw, Maine, White Paw, Shadow, Forest, Chant, Hex, Iron Tooth</set>
 			<set name="names-format">{{name}} {{surname}}</set>
 			<set name="height" modifier="1d12">2'0"</set>
-			<set name="weight" modifier="2d4">80 lb.</set>
+			<set name="weight" modifier="2d4">60 lb.</set>
 		</setters>
 		<sheet display="false" />
 		<rules>
@@ -54,7 +59,7 @@
 			<grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_RIDE" />
 			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 			<select type="Language" name="Customized Language" supports="Custom Race Language" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<select type="Language" name="Language (Sylvan)" number="2" supports="Standard||Exotic" />
+			<select type="Language" name="Language (Felis)" number="2" supports="Standard||Exotic" />
 		</rules>
 	</element>
 	<element name="Claws" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_CLAWS">
@@ -110,7 +115,9 @@
 			<select type="Spell" name="Cantrip (Nine lives)" supports="Nine Lives, 0" spellcasting="Nine Lives" />
 		</rules>
 	</element>
-	<element name="Ride" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_RIDE">
+	
+		
+		<element name="Ride" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_RIDE">
 		<description>
 			<p>You can get on the back of any Party member taller than 6.5 feet and ride them, reducing your damage to 1d6.</p>
 		</description>
@@ -127,15 +134,103 @@
 		<rules>
 			<select type="Spell" name="Cantrip (Ride)" supports="Ride, 0" spellcasting="Ride" />
 		</rules>
-  </element>
-  
- // <append id="ID_PHB_SPELL_LIGHT">
- //   <supports>Mothian Blessing</supports>
- // </append>
- //   <append id="ID_PHB_SPELL_PRODUCE_FLAME">
- //   <supports>Mothian Blessing</supports>
- // </append>
- //   <append id="ID_PHB_SPELL_PRESTIDIGITATION">
- //   <supports>Mothian Blessing</supports>
- // </append>
+  	</element>
+	
+		<element name="Common Bond" type="Sub Race" source="Custom" id="ID_CUST_FELIS_CB">
+		<supports>Felis</supports>
+		<description>
+			<p>Tabby Felis are among the most common of all the lineages. As such they know more about common social spheres. You increase your Wisdom score by 1</p>
+		</description>
+		<sheet display="false"/>
+			<description>You increase your Wisdom score by 1.</description>
+		</sheet>
+		</rules>
+		<stat name="charisma" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+   		</rules>
+  	</element>
+		<element name="Noble Leadership" type="Sub Race" source="Custom" id="ID_CUST_FELIS_CB">
+		<supports>Felis</supports>
+		<description>
+			<p>Tabby Felis are among the most common of all the lineages. As such they know more about common social spheres. You increase your Wisdom score by 1</p>
+		</description>
+		<sheet display="false"/>
+			<description>You increase your Wisdom score by 1.</description>
+		</sheet>
+		</rules>
+		<stat name="charisma" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+   		</rules>
+  	</element>
+		<element name="Fiery Nature" type="Sub Race" source="Custom" id="ID_CUST_FELIS_CB">
+		<supports>Felis</supports>
+		<description>
+			<p>Tabby Felis are among the most common of all the lineages. As such they know more about common social spheres. You increase your Wisdom score by 1</p>
+		</description>
+		<sheet display="false"/>
+			<description>You increase your Wisdom score by 1.</description>
+		</sheet>
+		</rules>
+		<stat name="charisma" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+   		</rules>
+  	</element>
+		<element name="Hunters Sense" type="Sub Race" source="Custom" id="ID_CUST_FELIS_CB">
+		<supports>Felis</supports>
+		<description>
+			<p>Tabby Felis are among the most common of all the lineages. As such they know more about common social spheres. You increase your Wisdom score by 1</p>
+		</description>
+		<sheet display="false"/>
+			<description>You increase your Wisdom score by 1.</description>
+		</sheet>
+		</rules>
+		<stat name="charisma" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+   		</rules>
+  	</element>
+		<element name="Good Fortune" type="Sub Race" source="Custom" id="ID_CUST_FELIS_CB">
+		<supports>Felis</supports>
+		<description>
+			<p>Tabby Felis are among the most common of all the lineages. As such they know more about common social spheres. You increase your Wisdom score by 1</p>
+		</description>
+		<sheet display="false"/>
+			<description>You increase your Wisdom score by 1.</description>
+		</sheet>
+		</rules>
+		<stat name="charisma" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+   		</rules>
+  	</element>
+  		<element name="Arcane Adept" type="Sub Race" source="Custom" id="ID_CUST_FELIS_CB">
+		<supports>Felis</supports>
+		<description>
+			<p>Tabby Felis are among the most common of all the lineages. As such they know more about common social spheres. You increase your Wisdom score by 1</p>
+		</description>
+		<sheet display="false"/>
+			<description>You increase your Wisdom score by 1.</description>
+		</sheet>
+		</rules>
+		<stat name="charisma" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+   		</rules>
+  	</element>
+		<element name="Night Stalker" type="Sub Race" source="Custom" id="ID_CUST_FELIS_CB">
+		<supports>Felis</supports>
+		<description>
+			<p>Tabby Felis are among the most common of all the lineages. As such they know more about common social spheres. You increase your Wisdom score by 1</p>
+		</description>
+		<sheet display="false"/>
+			<description>You increase your Wisdom score by 1.</description>
+		</sheet>
+		</rules>
+		<stat name="charisma" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+   		</rules>
+  	</element>
+		<element name="Unlucky" type="Sub Race" source="Custom" id="ID_CUST_FELIS_CB">
+		<supports>Felis</supports>
+		<description>
+			<p>Tabby Felis are among the most common of all the lineages. As such they know more about common social spheres. You increase your Wisdom score by 1</p>
+		</description>
+		<sheet display="false"/>
+			<description>You increase your Wisdom score by 1.</description>
+		</sheet>
+		</rules>
+		<stat name="charisma" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+   		</rules>
+  	</element>
+ 
 </elements>
