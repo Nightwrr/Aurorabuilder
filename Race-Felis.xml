@@ -32,7 +32,11 @@
 		</description>
 		<sheet display="false"/>
     		<rules>
-    		<select type="Sub Race" name="Felis Lineage" supports="Felis" />
+			<stat name="innate speed" value="25" bonus="base" />
+			<grant type="Size" id="ID_SIZE_SMALL" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+    			<select type="Sub Race" name="Felis Lineage" supports="Felis Lineages" />
     		</rules>
 		<setters>
 			<set name="names" type="male">Luna, Celeste, Truni, Wai, Yolfa</set>
@@ -49,15 +53,12 @@
 			<select type="Ability Score Improvement" name="Ability Score Increase (Felis)" supports="Ability Score Improvement, Felis" number="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Felis)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Felis)" number="2" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<stat name="innate speed" value="25" bonus="base" />
-			<grant type="Size" id="ID_SIZE_SMALL" />
-			<grant type="Vision" id="ID_VISION_DARKVISION" />
 			<grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_CLAWS" />
 			<grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_PURRSUASION" />
 			<grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_CURIOUS_NATURE" />
 			<grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_NINE_LIVES" />
 			<grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_RIDE" />
-			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			
 			<select type="Language" name="Customized Language" supports="Custom Race Language" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 			<select type="Language" name="Language (Felis)" number="2" supports="Standard||Exotic" />
 		</rules>
@@ -65,7 +66,7 @@
 
 		<!-- Common Bond -->
 		<element name="Common Bond" type="Sub Race" source="AAA" id="ID_TCOE_FELIS_SUBRACE_CB">
-		<supports>Felis</supports>
+		<supports>Felis Lineages</supports>
 		<description>
 			<p> Tabby Felis are among the most common of all the lineages. As such they know more about common social spheres. You increase your Wisdom score by 1 </p>
 		</description>
@@ -76,7 +77,7 @@
 	</element>
 		<!-- Noble Leadership -->
 		<element name="Noble Leadership" type="Sub Race" source="AAA" id="ID_TCOE_FELIS_SUBRACE_NL">
-		<supports>Felis</supports>
+		<supports>Felis Lineages</supports>
 		<description>
 			<p> Tabby Felis are among the most common of all the lineages. As such they know more about common social spheres. You increase your Wisdom score by 1 </p>
 		</description>
@@ -87,7 +88,7 @@
 	</element>
 		<!-- Fiery Nature -->
 		<element name="Fiery Nature" type="Sub Race" source="AAA" id="ID_TCOE_FELIS_SUBRACE_FN">
-		<supports>Felis</supports>
+		<supports>Felis Lineages</supports>
 		<description>
 			<p> Tabby Felis are among the most common of all the lineages. As such they know more about common social spheres. You increase your Wisdom score by 1 </p>
 		</description>
@@ -98,7 +99,7 @@
 	</element>
 		<!-- Hunters Sense -->
 		<element name="Hunters Sense" type="Sub Race" source="AAA" id="ID_TCOE_FELIS_SUBRACE_HS">
-		<supports>Felis</supports>
+		<supports>Felis Lineages</supports>
 		<description>
 			<p> Tabby Felis are among the most common of all the lineages. As such they know more about common social spheres. You increase your Wisdom score by 1 </p>
 		</description>
@@ -109,7 +110,7 @@
 	</element>
 		<!-- Good Fortune -->
 		<element name="Good Fortune" type="Sub Race" source="AAA" id="ID_TCOE_FELIS_SUBRACE_GF">
-		<supports>Felis</supports>
+		<supports>Felis Lineages</supports>
 		<description>
 			<p> Tabby Felis are among the most common of all the lineages. As such they know more about common social spheres. You increase your Wisdom score by 1 </p>
 		</description>
@@ -120,7 +121,7 @@
 	</element>
 		<!-- Arcane Adept -->
 		<element name="Arcane Adept" type="Sub Race" source="AAA" id="ID_TCOE_FELIS_SUBRACE_AA">
-		<supports>Felis</supports>
+		<supports>Felis Lineages</supports>
 		<description>
 			<p> Tabby Felis are among the most common of all the lineages. As such they know more about common social spheres. You increase your Wisdom score by 1 </p>
 		</description>
@@ -131,7 +132,7 @@
 	</element>
 		<!-- Night Stalker -->
 		<element name="Night Stalker" type="Sub Race" source="AAA" id="ID_TCOE_FELIS_SUBRACE_NS">
-		<supports>Felis</supports>
+		<supports>Felis Lineages</supports>
 		<description>
 			<p> Tabby Felis are among the most common of all the lineages. As such they know more about common social spheres. You increase your Wisdom score by 1 </p>
 		</description>
@@ -142,7 +143,7 @@
 	</element>
 		<!-- Unlucky -->
 		<element name="Unlucky" type="Sub Race" source="AAA" id="ID_TCOE_FELIS_SUBRACE_U">
-		<supports>Felis</supports>
+		<supports>Felis Lineages</supports>
 		<description>
 			<p> Tabby Felis are among the most common of all the lineages. As such they know more about common social spheres. You increase your Wisdom score by 1 </p>
 		</description>
