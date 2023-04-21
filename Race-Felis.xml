@@ -58,88 +58,90 @@
 		<element name="Common Bond" type="Sub Race" source="AAA" id="ID_TCOE_FELIS_SUBRACE_CB">
 		<supports>Felis Lineages</supports>
 		<description>
-			<p> Tabby Felis are among the most common of all the lineages. As such they know more about common social spheres. You increase your Wisdom score by 1 </p>
+			<p>Tabby Felis are among the most common of all the lineages. As such they know more about common social spheres. You increase your Wisdom score by 1.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="Wisdom" value="1" />
+			<stat name="wisdom" value="1" />
 		</rules>
 	</element>
 		<!-- Noble Leadership -->
 		<element name="Noble Leadership" type="Sub Race" source="AAA" id="ID_TCOE_FELIS_SUBRACE_NL">
 		<supports>Felis Lineages</supports>
 		<description>
-			<p> Tabby Felis are among the most common of all the lineages. As such they know more about common social spheres. You increase your Wisdom score by 1 </p>
+			<p>Fur pure as the whitest snow, those Felis born without color are often seen as the noblest of the Felis. When of age they take up leadership roles in their clans. Once per long rest you can instill allies with a sense of vigor. Those within a 15 foot range of you gain temporary health equal to your Charisma modifier for 8 hours.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="Wisdom" value="1" />
+			<grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_LEADERSHIP" />
 		</rules>
 	</element>
 		<!-- Fiery Nature -->
 		<element name="Fiery Nature" type="Sub Race" source="AAA" id="ID_TCOE_FELIS_SUBRACE_FN">
 		<supports>Felis Lineages</supports>
 		<description>
-			<p> Tabby Felis are among the most common of all the lineages. As such they know more about common social spheres. You increase your Wisdom score by 1 </p>
+			<p> Hot tempered and quick to lash out with claws, these ginger furred Felis are furious in the field of battle. Increase your Strength score by 1. </p>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="Wisdom" value="1" />
+			<stat name="strength" value="1" />
 		</rules>
 	</element>
 		<!-- Hunters Sense -->
 		<element name="Hunters Sense" type="Sub Race" source="AAA" id="ID_TCOE_FELIS_SUBRACE_HS">
 		<supports>Felis Lineages</supports>
 		<description>
-			<p> Tabby Felis are among the most common of all the lineages. As such they know more about common social spheres. You increase your Wisdom score by 1 </p>
+			<p>Masters of tracking, those with brown fur are destined to hunt. You gain proficence in the Survival skill.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="Wisdom" value="1" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Customized Skill Proficiency" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
 		</rules>
 	</element>
 		<!-- Good Fortune -->
 		<element name="Good Fortune" type="Sub Race" source="AAA" id="ID_TCOE_FELIS_SUBRACE_GF">
 		<supports>Felis Lineages</supports>
 		<description>
-			<p> Tabby Felis are among the most common of all the lineages. As such they know more about common social spheres. You increase your Wisdom score by 1 </p>
+			<p>Calico fur is the rarest of all Felis lineages. The legends say that all of the black furred Felis' luck went to the calico. Once per day when you roll an attack roll, ability check, or saving throw you can choose to reroll. You must accept the results of the reroll.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="Wisdom" value="1" />
+			<grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_FORTUNE" />
 		</rules>
 	</element>
 		<!-- Arcane Adept -->
 		<element name="Arcane Adept" type="Sub Race" source="AAA" id="ID_TCOE_FELIS_SUBRACE_AA">
 		<supports>Felis Lineages</supports>
 		<description>
-			<p> Tabby Felis are among the most common of all the lineages. As such they know more about common social spheres. You increase your Wisdom score by 1 </p>
+			<p>Starry eyed and fur of a blue-night sky it is said that these Felis are connected to the Astral Sea. Increase your intelligence by 1.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="Wisdom" value="1" />
+			<stat name="intelligence" value="1" />
 		</rules>
 	</element>
 		<!-- Night Stalker -->
 		<element name="Night Stalker" type="Sub Race" source="AAA" id="ID_TCOE_FELIS_SUBRACE_NS">
 		<supports>Felis Lineages</supports>
 		<description>
-			<p> Tabby Felis are among the most common of all the lineages. As such they know more about common social spheres. You increase your Wisdom score by 1 </p>
+			<p>Grey is the purrfect color for being able to blend into things. Felis with grey fur are able to hide very easily. you gain proficency in the Stealth skill.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="Wisdom" value="1" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Customized Skill Proficiency" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
 		</rules>
 	</element>
 		<!-- Unlucky -->
 		<element name="Unlucky" type="Sub Race" source="AAA" id="ID_TCOE_FELIS_SUBRACE_U">
 		<supports>Felis Lineages</supports>
 		<description>
-			<p> Tabby Felis are among the most common of all the lineages. As such they know more about common social spheres. You increase your Wisdom score by 1 </p>
+			<p>Typically those born of this lineage are of pure black fur and carry a natural unluckiness where ever they go. Once per long rest as a reaction you cast your bad luck onto an enemy giving them disadvantage on one attack or ability saving throw.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="Wisdom" value="1" />
+			<grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_UNFORTUNE" />
 		</rules>
 	</element>
 	
@@ -154,6 +156,7 @@
 			<stat name="innate speed:Climb" value="15" bonus="base" equipped="![armor:heavy]" />
 		</rules>
 	</element>
+	
 	<element name="Purrsuasion" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_PURRSUASION">
 		<description>
 			<p>You gain proficiency in the Persuasion skill.</p>
@@ -165,7 +168,8 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
 			<select type="Proficiency" name="Customized Skill Proficiency" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
 		</rules>
-		</element>
+	</element>
+	
 	<element name="Curious Nature" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_CURIOUS_NATURE">
 		<description>
 			<p>You gain proficiency in the Investigation skill.</p>
@@ -178,6 +182,7 @@
 			<select type="Proficiency" name="Customized Skill Proficiency" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
 		</rules>
 	</element>
+	
 	<element name="Nine Lives" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_NINE_LIVES">
 		<description>
 			<p>You can fail 9 death saves before you die, instead of 3. Additionally you regain 1 hit point on a natural 19 when rolling death saves.</p>
@@ -202,6 +207,43 @@
 		
 		<sheet display="false">
 			<description>You can get on the back of any Party member taller than 6.5 feet and ride them, reducing your damage to 1d6.</description>
+		</sheet>
+  	</element>
+	
+		<element name="Leadership" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_LEADERSHIP">
+		<description>
+			<p>Those within a 15 foot range of you gain temporary health, equal to your Charisma modifier for 8 hours.</p>
+		</description>
+		<sheet>
+			<description>Those within a 15 foot range of you gain temporary health, equal to your Charisma modifier for 8 hours.</description>
+		</sheet>
+		
+		<sheet display="false">
+			<description>Those within a 15 foot range of you gain temporary health, equal to your Charisma modifier for 8 hours.</description>
+		</sheet>
+  	</element>
+		<element name="Fortune" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_FORTUNE">
+		<description>
+			<p>Once per day when you roll an attack roll, ability check, or saving throw, you can choose to reroll. You must accept the results of the reroll.</p>
+		</description>
+		<sheet>
+			<description>Once per day when you roll an attack roll, ability check, or saving throw, you can choose to reroll. You must accept the results of the reroll.</description>
+		</sheet>
+		
+		<sheet display="false">
+			<description>Once per day when you roll an attack roll, ability check, or saving throw, you can choose to reroll. You must accept the results of the reroll.</description>
+		</sheet>
+  	</element>
+		<element name="Unfortune" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_UNFORTUNE">
+		<description>
+			<p>Once per long rest as a reaction you cast your bad luck onto an enemy giving them disadvantage on one attack or ability saving throw.</p>
+		</description>
+		<sheet>
+			<description>Once per long rest as a reaction you cast your bad luck onto an enemy giving them disadvantage on one attack or ability saving throw.</description>
+		</sheet>
+		
+		<sheet display="false">
+			<description>Once per long rest as a reaction you cast your bad luck onto an enemy giving them disadvantage on one attack or ability saving throw.</description>
 		</sheet>
   	</element>
  
