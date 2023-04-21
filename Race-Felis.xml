@@ -12,28 +12,49 @@
 	<element name="Felis" type="Race" source="AAA" id="ID_CUSTOM_RACE_FELIS">
 		<description>
 			<p class="flavor">“Felis are the kindest, and most adorable stranglers I have ever met. If it were not for their love of sunbathing I fear they would have turned to conquest; and I find myself wondering if the world is worse for it”</p>
-			<p>
-			All Felis share a love of exploring - their curiosity of the world is what drives them onwards. They are constantly looking for new technologies, spells, and rare legendary items to further their clan's honor. Felis are strong dexterous race only stopped by their own shortcomings. </p>
-			<h4>FELIS Names</h4>
-			<p><span class="feature">Felis Names:</span>(Male) Anton (Female) Claudia; (Clan name) Cerulean, Claw, Maine, White Paw, Shadow, Forest, Chant, Hex, Iron Tooth</p>
-			<h4>FELIS TRAITS</h4>
-			<p>Your Felis character will share a few common traits and attributes with all other Felis</p>
-			<p class="indent"><b><i>Ability Score Increase. </i></b>Your Charisma and Dexterity score increases by 2.</p>
-			<p class="indent"><b><i>Age. </i></b>Felis are considered full adults when the reach the age of 13.</p>
-			<p class="indent"><b><i>Alignment. </i></b>The majority of Felis are neutral and lean towards being adventures or quest seekers. A Felis will always inspect the interesting and discover out the unknown.</p>
-			<p class="indent"><b><i>Size. </i></b>Felis average between 2-3 feet tall and weigh up to 60 pounds. Your size is Small.</p>
-			<p class="indent"><b><i>Speed. </i></b>Your base walking speed is 25 feet.</p>
-			<p class="indent"><b><i>Claws. </i></b>Due to your claws you have a climb speed of 15 feet. You can also use your claws as a weapon. When you land an attack you deal 1d4 + Strength modifier as slashing damage as an unarmed attack.</p>
-			<p class="indent"><b><i>Felis Lineage. </i></b>Choose one of the lineages. Your lineage determines your Felis Favor.</p>
-      			<p class="indent"><b><i>Darkvision. </i></b>Accustomed to the night, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
-			<p class="indent"><b><i>Purrsuasion </i></b>Felis use their short and cute nature to their advantage as much as they can. You have proficiency in the Persuasion skill.</p>
-      			<p class="indent"><b><i>Curious Nature </i></b>Being an inquisitive Felis you have proficiency in the Investigation skill.</p>
-     			<p class="indent"><b><i>Nine Lives </i></b>You can fail 9 death saves before you die, instead of 3. Additionally you regain 1 hit point on a natural 19 when rolling death saves.</p>
-      			<p class="indent"><b><i>Ride. </i></b>You can get on the back of any Party member taller than 6.5 feet and ride them, reducing your damage to 1d6.</p>
-			<p class="indent"><b><i>Languages. </i></b>You can speak, read, and write Common and Sylvan.</p>
+			
+			<h4>Nine Lives Short Lived</h4>
+				<p>Felis live up to 450 years of age. It is whispered that they possess nine lives and, by some forgotten curse, they burn through each life every 50 years. This has led many Felis adventurers to set out on a quest to seek an end to their curse and restore the race's full life span. Even with their cursed nine lives the average Felis outlive most biengs. This longevity gives them a larger outlook on life. They make acquantances easily and friends rarely. Felis live their lives with a good sense of magic. Most Felis are able to sniff out a wizard in a room full of grey bearded, pointy hat wearing men. Other races often connect the Felis' innate magic sense as being tied to their origins of being used to aid wizards with spells as conduits of natural energy.</p>
+			<h4>Clan Hierarchy</h4>
+				<p>The Felis clans are overseen by a clan elder who is elected by the clan as a whole. The elder doesn't have to be elderly to achieve the title, but those who take the mantle young are seen as inexperienced. Usually the clan elder resides in Sunrock Village to coordinate with other clans.</p>
+				<p> Ranked below the elders, in name only, are the clan mothers. Clan mothers are those who manage the clans home affairs, organise quests, determine occupations, and just about everything else. While elders are elected, clan mothers will choose a child from the litter and tutor them personally. After the clan mother passes the chosen child will take up the role.
+			<h4>Short And Furry</h4>
+				<p>Felis are often underestimated due to their short stature and cuddly demeanor. Felis come in all shapes and colors. They can grow to be up to 3 ft tall and often vary in the weight due to differing habits.</p>
+				<p>Felis range from fiery gingers to the cool calculating cerulean blues. The differing sub species of Felis all have their own quirks, but, as a species overall they are known as intelligent and gifted adventurers.</p>
+				<p> Each breed of Felis has their own clan which they are extremely proud of. This pride often leads to scuffles and contests for pride of oneself and their clan. There has always been a healthy rivalry among the different breeds of Felis. Some rivalries end in brawls and others end with shame and loss of respect. OFten, individuals will be challenged to single combat for their honor, and on the rarest of occasions, the honor of an entire clan.</p>
+			<h4>The Sunrock Clans</h4>
+				<p>Once the Felis came into existence, the original elders of each clan decided that they needed a land they could call home. After sending out adventurers to seek a new home, a shorthair, named Max, found the Great Sunrocks. These massive rocks soak up sunlight and retain the heat even throughout the nights and winters. Sunning on these boulders is a common trait that all Felis love.</p>
+				<p> Venturing to Sunrock Village to recieve a piece of the Sunrock is an honor all Felis seek to earn. Each clan is overseen by an Elder who resides in Sunrock Village. These Elders have the last say in conflicts between clans and the species in general, but events hardly get that far.</p>
+			<h4>Overcoming The Underestimated</h4>
+				<p>Felis are among the shortest races and are often overlooked for their small stature. Their domesticated ancestor, the house cat, is sometimes what all other races will see when dealing with a Felis. Adventuring Felis have learne to use this to their advantage, often sweet talking the tall folk into increasing their fee. But this talent isn't just limited to dealings, while fighting foes will often turn their backs to a Felis, giving the furry creatures an opening to strike.</p>
+			<h4>Curious Explorers</h4>
+				<p>All Felis share a love of exploring - their curiosity of the world is what drives them onwards. They are constantly looking for new technologies, spells, and rare legendary items to further their clan's honor. Felis are strong dexterous race only stopped by their own shortcomings.</p>
+			<h4>Felis Names</h4>
+				<p>Felis are given their names by their clan mother. A clan mother often determines the name by divining the future of a kitten. If the future tells of the child doing great deeds a heroic name is chosen, if not, a standard house name is choosen.</p>
+				<p><span class="feature">Male Names:</span>Al, Bree, Chester, Edgar, Fiddle, Jester, Jack, Luke, Luther, Max, Maru, Mew, Milo, Minka, Muschi, Oliver, Oscar, Rufus, Smokey, Simon</p>
+				<p><span class="feature">Female Names:</span>Alice, Angel, Ash, Charlotte, Claire, Curie, Chloe, Daisy, Eva, Lucy, Millie, Mimi, Misty, Mew, Rosie, Ruby, Sasha, Susi, Tasha, Trixie</p>
+				<p><span class="feature">Clan Names:</span>Cerulean, Claw, Maine, White Paw, Shadow, Forest, Chant, Hex, Iron Tooth (Heroic names) Azreal, Leo, Felix, Ozfell, Proudfoot, Patches, Salem, Theo, Cecil</p>
+			<h4>Felis Traits</h4>
+				<p>Your Felis character will share a few common traits and attributes with all other Felis</p>
+				<p class="indent"><b><i>Ability Score Increase. </i></b>Your Charisma and Dexterity score increases by 2.</p>
+				<p class="indent"><b><i>Age. </i></b>Felis are considered full adults when the reach the age of 13.</p>
+				<p class="indent"><b><i>Alignment. </i></b>The majority of Felis are neutral and lean towards being adventures or quest seekers. A Felis will always inspect the interesting and discover out the unknown.</p>
+				<p class="indent"><b><i>Size. </i></b>Felis average between 2-3 feet tall and weigh up to 60 pounds. Your size is Small.</p>
+				<p class="indent"><b><i>Speed. </i></b>Your base walking speed is 25 feet.</p>
+				<p class="indent"><b><i>Claws. </i></b>Due to your claws you have a climb speed of 15 feet. You can also use your claws as a weapon. When you land an attack you deal 1d4 + Strength modifier as slashing damage as an unarmed attack.</p>
+				<p class="indent"><b><i>Felis Lineage. </i></b>Choose one of the lineages. Your lineage determines your Felis Favor.</p>
+				<p class="indent"><b><i>Darkvision. </i></b>Accustomed to the night, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
+				<p class="indent"><b><i>Purrsuasion </i></b>Felis use their short and cute nature to their advantage as much as they can. You have proficiency in the Persuasion skill.</p>
+				<p class="indent"><b><i>Curious Nature </i></b>Being an inquisitive Felis you have proficiency in the Investigation skill.</p>
+				<p class="indent"><b><i>Nine Lives </i></b>You can fail 9 death saves before you die, instead of 3. Additionally you regain 1 hit point on a natural 19 when rolling death saves.</p>
+				<p class="indent"><b><i>Ride. </i></b>You can get on the back of any Party member taller than 6.5 feet and ride them, reducing your damage to 1d6.</p>
+				<p class="indent"><b><i>Languages. </i></b>You can speak, read, and write Common and Sylvan.</p>
 		</description>
 		<sheet display="false"/>
 		<setters>
+			<set name="names" type="male">Al, Azreal, Bree, Chester, Edgar, Felix, Fiddle, Jester, Jack, Leo, Luke, Luther, Max, Maru, Mew, Milo, Minka, Muschi, Oliver, Oscar, Ozfell, Proudfoot, Patches, Salem, Theo, Rufus, Smokey, Simon</set>
+      			<set name="names" type="female">Alice, Angel, Ash, Cecil, Charlotte, Claire, Curie, Chloe, Daisy, Eva, Lucy, Millie, Mimi, Misty, Mew, Rosie, Ruby, Sasha, Susi, Tasha, Trixie</set>
+      			<set name="names" type="surname">Cerulean, Claw, Maine, White Paw, Shadow, Forest, Chant, Hex, Iron Tooth</set>
 			<set name="height" modifier="1d12">2'0"</set>
 			<set name="weight" modifier="2d4">60 lb.</set>
 		</setters>
@@ -80,7 +101,7 @@
 		<element name="Fiery Nature" type="Sub Race" source="AAA" id="ID_TCOE_FELIS_SUBRACE_FN">
 		<supports>Felis Lineages</supports>
 		<description>
-			<p> Hot tempered and quick to lash out with claws, these ginger furred Felis are furious in the field of battle. Increase your Strength score by 1. </p>
+			<p>Hot tempered and quick to lash out with claws, these ginger furred Felis are furious in the field of battle. Increase your Strength score by 1. </p>
 		</description>
 		<sheet display="false" />
 		<rules>
