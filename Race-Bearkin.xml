@@ -20,21 +20,21 @@
 			<h4>Uncertain Origin</h4>
 				<p>While Bearkin have only been around for a few generations their origin is surround in mystery. Most believe that they are the result of malevolent druidic rituals; The bearkin, it is said, upon achieving true sentinence did not obey, killed their masters and escaped. In bearkin families gathered around campfires, they tell scary tales of evil druid pacts and monsters that will come to take children who do not perform simple chores or behave, though no bearkin truly knows where they came from.</p>
 				<p>Other theories of bearkin origins are less credible, such as their role as native guardians in the Feywilds escaped to the Material Plane after a war, or that they owe their creation to a pact made by an army of great warriors, given the bodies and strength of bears to dominate their enemies. Intelligent or scholarly bearkin often wish to discover this detail.</p>
-      <h4>Blood Ties</h4>
+      			<h4>Blood Ties</h4>
 				<p>A traditional bearkin tribe consists of one alpha male, the strongest, as a leader with several females. Young bearkin who wish to become alpha must battle in honorable unarmed combat to claim the throne - otherwise the youth of the clan usually show great respect to their elders. Bearkin clans tend to have tough, intimidating names like First Tooth, Furious Swipes, and Bloody Roar, and often use simple symbols that they scratch into tree trunks to designate their territory. Veteran travellers who recognize these symbols when travelling know to deviate their course to avoid getting attacked by aggressive tribes. Most often, a bearkin leaves as a result of disgracing their family in battle or breaking code, though many bearkin found in cities credit their abandonment to a family massacre, being lost, forest fires or other causes that physically ejected them from their home. Bearkin away from their homes are often drawn to a life of adventure as a result of their natural instinct and origin in the wilds.</p>
 			<h4>Tradition And Honor</h4>
 				<p>Traditionally, Bearkin tend not to be religious creatures, though all owe faith to Grizzus, their patron god of Bears. While clans differ vastly in beliefs and ideals, all owe allegiance to Grizzus and his ideals of clan law and leadership.</p>
-        <p>Tribes and families of bearkin are often found fighting and feuding, although complex politics and tmany of the concepts of ownership, such as money, are unfamiliar customs to them.</p>
-        <p>Grizzus, who Bearkin believes watches and guides them through play and battle, often contacts Elders or shaman within tribes as well as particularly righteous or powerful warriors. They claim to have seen visions of their god in their sleep designating them a specific task, and it is not uncommon for a member of the tribe to leave in pursuit of this mission, which is a sign of honor.</p>
+       				<p>Tribes and families of bearkin are often found fighting and feuding, although complex politics and tmany of the concepts of ownership, such as money, are unfamiliar customs to them.</p>
+        			<p>Grizzus, who Bearkin believes watches and guides them through play and battle, often contacts Elders or shaman within tribes as well as particularly righteous or powerful warriors. They claim to have seen visions of their god in their sleep designating them a specific task, and it is not uncommon for a member of the tribe to leave in pursuit of this mission, which is a sign of honor.</p>
 			<h4>Bearkin Names</h4>
 				<p>Bearkin names are derived from their grizzly origin, adn therefore have strong sounds and syllables. Young Bearkin also usually have a pet name that they are known as throughout their tribe, and are often referred to as such affectionately by their elders and spouses even as they reach adulthood. Others who refer to them in this way are sure to raise a bearkin's ire.</p>
 				<p><span class="feature">Childhood Nicknames:</span>Butterball, Cub, Flatear, Fuzzy, Prickles, Roughnose, Scruffy, Southpaw, Tiny</p>
-        <p><span class="feature">Male Names:</span>Argus, Brutin, Dale, Duggar, Gorf, Kidas, Mars, Orwin, Pantg, Slark, Tusk, Zalk</p>
+        			<p><span class="feature">Male Names:</span>Argus, Brutin, Dale, Duggar, Gorf, Kidas, Mars, Orwin, Pantg, Slark, Tusk, Zalk</p>
 				<p><span class="feature">Female Names:</span>Alici, Brin, Connie, Flore, Mazie, Namina, Varen, Vixen, Tribbi, Willow</p>
 				<p><span class="feature">Clan Names:</span>Bloody Roar, Cut Masters, Dust Burners, Final Bark, First Tooth, Furious Swipes, Proud Claw, Sharp Paw, Tough Hide, Warrior Clan, Wild Boar, Yellow Fur</p>
 			<h4>Creatures of Instinct</h4>
-        <p>Bearkin who have taken the Barbarian class may take a variant of this race that adds the following two options. Ability Score Decrease. Your Intelligence score decreases by 1. Reverted Rage. While raging, you are unable to speak any language but Bearic. Raging Bear. While raging and wearing no armor, your unarmed strikes with claws deal 1d6 damage. When attacking in this way, you can also make another unarmed strike as a bonus action (does not stack with any monk abilities).</p>
-      <h4>Felis Traits</h4>
+        			<p>Bearkin who have taken the Barbarian class may take a variant of this race that adds the following two options. Ability Score Decrease. Your Intelligence score decreases by 1. Reverted Rage. While raging, you are unable to speak any language but Bearic. Raging Bear. While raging and wearing no armor, your unarmed strikes with claws deal 1d6 damage. When attacking in this way, you can also make another unarmed strike as a bonus action (does not stack with any monk abilities).</p>
+      			<h4>Felis Traits</h4>
 				<p>Your Bearkin character has a number of traits as a part of their ursine heritage.</p>
 				<p class="indent"><b><i>Ability Score Increase. </i></b>Your Strength and Constitution score increases by 2.</p>
 				<p class="indent"><b><i>Age. </i></b>Bearkin reach adolescence at about the same time as humans, but usually only live to about age 60.</p>
@@ -53,25 +53,30 @@
 		<sheet display="false"/>
 		<setters>
 			<set name="names" type="male">Argus, Brutin, Dale, Duggar, Gorf, Kidas, Mars, Orwin, Pantg, Slark, Tusk, Zalk</set>
-      <set name="names" type="female">Alici, Brin, Connie, Flore, Mazie, Namina, Varen, Vixen, Tribbi, Willow</set>
-      <set name="names" type="surname">Bloody Roar, Cut Masters, Dust Burners, Final Bark, First Tooth, Furious Swipes, Proud Claw, Sharp Paw, Tough Hide, Warrior Clan, Wild Boar, Yellow Fur</set>
+      			<set name="names" type="female">Alici, Brin, Connie, Flore, Mazie, Namina, Varen, Vixen, Tribbi, Willow</set>
+      			<set name="names" type="surname">Bloody Roar, Cut Masters, Dust Burners, Final Bark, First Tooth, Furious Swipes, Proud Claw, Sharp Paw, Tough Hide, Warrior Clan, Wild Boar, Yellow Fur</set>
 			<set name="height" modifier="1d12">6'0"</set>
 			<set name="weight" modifier="2d4">300 lb.</set>
 		</setters>
     		<rules>
           <stat name="innate speed" value="30" bonus="base" />
-          <stat name="strength" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-          <stat name="Constitution" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-          <grant type="Size" id="ID_SIZE_MEDIUM" />
-          <grant type="Vision" id="ID_VISION_DARKVISION" />
-          <grant type="Language" id="ID_LANGUAGE_COMMON" />
-          <grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_KEEN_SMELL" />
-          <grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_ANIMAL_INSTINCT" />
-          <grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_CLAWS" />
-          <grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_DOWN_ON_FOUR" />
-          <grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_POWERFUL_BUILD" />
+          <stat name="strength" value="2"/>
+          <stat name="constitution" value="2" />
+          		<grant type="Size" id="ID_SIZE_MEDIUM" />
+          		<grant type="Vision" id="ID_VISION_DARKVISION" />
+          		<grant type="Language" id="ID_LANGUAGE_COMMON" />
+          		<grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_KEEN_SMELL" />
+          		<grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_ANIMAL_INSTINCT" />
+          		<grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_CLAWS" />
+         		<grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_DOWN_ON_FOUR" />
+          		<grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_POWERFUL_BUILD" />
+			<stat name="intelligence" value="-1" requirements="ID_WOTC_PHB_CLASS_BARBARIAN" />
+			<grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_REVERTED_RAGE" requirements="ID_WOTC_PHB_CLASS_BARBARIAN" />
+			<grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_RAGING_BEAR" requirements="ID_WOTC_PHB_CLASS_BARBARIAN"  />
     			<select type="Sub Race" name="Bearkin Sub races" supports="Bearkin Subrace" />
     		</rules>
+		
+		requirements="ID_WOTC_PHB_CLASS_BARBARIAN"
 		
 	</element>
 
@@ -80,14 +85,14 @@
 		<supports>Bearkin Subrace</supports>
 		<description>
 			<p>The smallest and most timid of the bearkin varieties, Black Bears tend to be smarter and make up clans of single families in caves or other underground locations, occasionally including the Underdark. They mostly keep to themselves and protect their lairs and territories without moving about, but will happily interact with others of their kind.</p>
-		  <p><b><i>Ability Score Improvement.</i></b> Your Wisdom score increases by 1.</p>
-      <p><b><i>Mask Of The Wild</i></b> You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena. Proficiency in the Stealth Skill.</p>
+			<p><b><i>Ability Score Improvement.</i></b> Your Wisdom score increases by 1.</p>
+      			<p><b><i>Mask Of The Wild</i></b> You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena. Proficiency in the Stealth Skill.</p>
     </description>
 		<sheet display="false" />
 		<rules>
 			<stat name="wisdom" value="1" />
-      <grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_MASK_OF_THE_WILD" />
-      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+      			<grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_MASK_OF_THE_WILD" />
+      			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
 			<select type="Proficiency" name="Customized Skill Proficiency" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
 		</rules>
 	</element>
