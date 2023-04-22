@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Bearkin</name>
+		<description>Bearkin</description>
+		<author url="https://github.com/Nightwrr/aurorabuilder/">Nightwrr</author>
+		<update version="0.0.3">
+			<file name="Race-Bearkin.xml" url="https://raw.githubusercontent.com/Nighwrr/aurorabuilder/main/Race-Bearkin.xml" />
+		</update>
+	</info>
+
+	<element name="Bearkin" type="Race" source="AAA" id="ID_CUSTOM_RACE_BEARKIN">
+		<description>
+			<p class="flavor">“ROOARR”</p>
+			
+			<h4>Grizzuz</h4>
+				<p>Bearkin, while wild, have a strict code of honor bestowed upon them by their god-protector, Grizzuz. When dictating combat between tribes or individuals. The Code of Grizzuz guarentees that a fair fight will be had between both parties, fighting unarmed and face-to-face. Bearkin who purposefully break this vow are often cast out from their clan to live in solitude.</p>
+			<h4>Protective Nature</h4>
+				<p>Bearkin have strong parental instincts and are willing to fight to protect their clans and families. To a bearkin blood is thicker than water, and few situations would result in a bearkin abandoning their clan and joining a life of adventure. Powerful and protective they tend to be wary of outsiders but make very loyal allies, though they rarely side with large kingdoms or armies due to their disinterest politics. As strong in heart as in muscle, Bearkin have a strong natural parental instinct. In their families, both parents are expected to provide and care for their children (known as 'cubs') as best they can.</p>
+			<h4>Uncertain Origin</h4>
+				<p>While Bearkin have only been around for a few generations their origin is surround in mystery. Most believe that they are the result of malevolent druidic rituals; The bearkin, it is said, upon achieving true sentinence did not obey, killed their masters and escaped. In bearkin families gathered around campfires, they tell scary tales of evil druid pacts and monsters that will come to take children who do not perform simple chores or behave, though no bearkin truly knows where they came from.</p>
+				<p>Other theories of bearkin origins are less credible, such as their role as native guardians in the Feywilds escaped to the Material Plane after a war, or that they owe their creation to a pact made by an army of great warriors, given the bodies and strength of bears to dominate their enemies. Intelligent or scholarly bearkin often wish to discover this detail.</p>
+      <h4>Blood Ties</h4>
+				<p>A traditional bearkin tribe consists of one alpha male, the strongest, as a leader with several females. Young bearkin who wish to become alpha must battle in honorable unarmed combat to claim the throne - otherwise the youth of the clan usually show great respect to their elders. Bearkin clans tend to have tough, intimidating names like First Tooth, Furious Swipes, and Bloody Roar, and often use simple symbols that they scratch into tree trunks to designate their territory. Veteran travellers who recognize these symbols when travelling know to deviate their course to avoid getting attacked by aggressive tribes. Most often, a bearkin leaves as a result of disgracing their family in battle or breaking code, though many bearkin found in cities credit their abandonment to a family massacre, being lost, forest fires or other causes that physically ejected them from their home. Bearkin away from their homes are often drawn to a life of adventure as a result of their natural instinct and origin in the wilds.</p>
+			<h4>Tradition And Honor</h4>
+				<p>Traditionally, Bearkin tend not to be religious creatures, though all owe faith to Grizzus, their patron god of Bears. While clans differ vastly in beliefs and ideals, all owe allegiance to Grizzus and his ideals of clan law and leadership.</p>
+        <p>Tribes and families of bearkin are often found fighting and feuding, although complex politics and tmany of the concepts of ownership, such as money, are unfamiliar customs to them.</p>
+        <p>Grizzus, who Bearkin believes watches and guides them through play and battle, often contacts Elders or shaman within tribes as well as particularly righteous or powerful warriors. They claim to have seen visions of their god in their sleep designating them a specific task, and it is not uncommon for a member of the tribe to leave in pursuit of this mission, which is a sign of honor.</p>
+			<h4>Bearkin Names</h4>
+				<p>Bearkin names are derived from their grizzly origin, adn therefore have strong sounds and syllables. Young Bearkin also usually have a pet name that they are known as throughout their tribe, and are often referred to as such affectionately by their elders and spouses even as they reach adulthood. Others who refer to them in this way are sure to raise a bearkin's ire.</p>
+				<p><span class="feature">Childhood Nicknames:</span>Butterball, Cub, Flatear, Fuzzy, Prickles, Roughnose, Scruffy, Southpaw, Tiny</p>
+        <p><span class="feature">Male Names:</span>Argus, Brutin, Dale, Duggar, Gorf, Kidas, Mars, Orwin, Pantg, Slark, Tusk, Zalk</p>
+				<p><span class="feature">Female Names:</span>Alici, Brin, Connie, Flore, Mazie, Namina, Varen, Vixen, Tribbi, Willow</p>
+				<p><span class="feature">Clan Names:</span>Bloody Roar, Cut Masters, Dust Burners, Final Bark, First Tooth, Furious Swipes, Proud Claw, Sharp Paw, Tough Hide, Warrior Clan, Wild Boar, Yellow Fur</p>
+			<h4>Creatures of Instinct</h4>
+        <p>Bearkin who have taken the Barbarian class may take a variant of this race that adds the following two options. Ability Score Decrease. Your Intelligence score decreases by 1. Reverted Rage. While raging, you are unable to speak any language but Bearic. Raging Bear. While raging and wearing no armor, your unarmed strikes with claws deal 1d6 damage. When attacking in this way, you can also make another unarmed strike as a bonus action (does not stack with any monk abilities).</p>
+      <h4>Felis Traits</h4>
+				<p>Your Bearkin character has a number of traits as a part of their ursine heritage.</p>
+				<p class="indent"><b><i>Ability Score Increase. </i></b>Your Strength and Constitution score increases by 2.</p>
+				<p class="indent"><b><i>Age. </i></b>Bearkin reach adolescence at about the same time as humans, but usually only live to about age 60.</p>
+				<p class="indent"><b><i>Alignment. </i></b>Bearkin naturally tend towards neutrality, though they tend to be more good than evil. They also tend to favour a balance between the law of their clan and the chaotic nature of their lifestyle.</p>
+				<p class="indent"><b><i>Size. </i></b>Bearkin tower over their companions at around 7 to 8 feet tall, and weigh anywhere from 300 to above 450 pounds. Your size is Medium.</p>
+				<p class="indent"><b><i>Speed. </i></b>Your base walking speed is 30 feet. Heavy armor does not reduce your speed.</p>
+				<p class="indent"><b><i>Keen Smell. </i></b>You gain advantage on Wisdom (Perception) checks that rely on smell.</p>
+				<p class="indent"><b><i>Animal Instinct. </i></b>You have proficiency in the Survival skill.</p>
+				<p class="indent"><b><i>Darkvision. </i></b>Accustomed to the night, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
+        <p class="indent"><b><i>Large Paws. </i></b>Using your bear claws to attack, your unarmed strikes deal 1d4 slashing damage.</p>
+				<p class="indent"><b><i>Down On Four. </i></b>Going down on all four gives you 40 ft speed. And lets you carry 1.5 times as much. At the cost of your dignity.</p>
+				<p class="indent"><b><i>Powerful Build. </i></b>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
+        <p class="indent"><b><i>Languages. </i></b>You know Common and Bearic. Bearic is a primitive language of growls and barks most often used to quickly convey details while hunting and to intimidate. It has no written form. You can communicate with bears, as well as bear-based creatures.</p>
+		    <p class="indent"><b><i>Subrace. </i></b>Differences in the backrounds and the locations of their enviroment have resulted in five different subraces of Bearkin: Black Bear, Brown Bear, Polar Bear, Panda Bear, and Koalas. Choose one of these subraces.</p>
+    </description>
+		<sheet display="false"/>
+		<setters>
+			<set name="names" type="male">Argus, Brutin, Dale, Duggar, Gorf, Kidas, Mars, Orwin, Pantg, Slark, Tusk, Zalk</set>
+      <set name="names" type="female">Alici, Brin, Connie, Flore, Mazie, Namina, Varen, Vixen, Tribbi, Willow</set>
+      <set name="names" type="surname">Bloody Roar, Cut Masters, Dust Burners, Final Bark, First Tooth, Furious Swipes, Proud Claw, Sharp Paw, Tough Hide, Warrior Clan, Wild Boar, Yellow Fur</set>
+			<set name="height" modifier="1d12">6'0"</set>
+			<set name="weight" modifier="2d4">300 lb.</set>
+		</setters>
+    		<rules>
+          <stat name="innate speed" value="30" bonus="base" />
+          <stat name="strength" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+          <stat name="Constitution" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+          <grant type="Size" id="ID_SIZE_MEDIUM" />
+          <grant type="Vision" id="ID_VISION_DARKVISION" />
+          <grant type="Language" id="ID_LANGUAGE_COMMON" />
+          <grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_KEEN_SMELL" />
+          <grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_ANIMAL_INSTINCT" />
+          <grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_CLAWS" />
+          <grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_DOWN_ON_FOUR" />
+          <grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_POWERFUL_BUILD" />
+    			<select type="Sub Race" name="Bearkin Sub races" supports="Bearkin Subrace" />
+    		</rules>
+		
+	</element>
+
+		<!-- Black Bear -->
+		<element name="Black Bear" type="Sub Race" source="AAA" id="ID_TCOE_BEARKIN_SUBRACE_BLB">
+		<supports>Bearkin Subrace</supports>
+		<description>
+			<p>The smallest and most timid of the bearkin varieties, Black Bears tend to be smarter and make up clans of single families in caves or other underground locations, occasionally including the Underdark. They mostly keep to themselves and protect their lairs and territories without moving about, but will happily interact with others of their kind.</p>
+		  <p><b><i>Ability Score Improvement.</i></b> Your Wisdom score increases by 1.</p>
+      <p><b><i>Mask Of The Wild</i></b> You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena. Proficiency in the Stealth Skill.</p>
+    </description>
+		<sheet display="false" />
+		<rules>
+			<stat name="wisdom" value="1" />
+      <grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_MASK_OF_THE_WILD" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Customized Skill Proficiency" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+		</rules>
+	</element>
+  
+		<!-- Brown Bear -->
+		<element name="Brown Bear" type="Sub Race" source="AAA" id="ID_TCOE_BEARKIN_SUBRACE_BRB">
+		<supports>Bearkin Subrace</supports>
+		<description>
+		  <p>Fiercely protective, honorable and strong, and usually friendly to outsiders, the most common of the bearkin varieties have a strong protective instinct and make up large clans with a lax hierachy." They often live nomadically, moving from forest to forest to cycle their prey and avoid retaliation from nearby developed settlements.</p>
+		  <p><b><i>Ability Score Improvement.</i></b> Your Charisma score increases by 1.</p>
+      <p><b><i>Protector</i></b> When an ally within 10ft of you must make a Strength saving throw, you may choose to have the effect target you in their place. This feature can only be used twice every short rest.</p>
+      <p><b><i>Brave</i></b> You have advantage on saving throws against being frightened.</p>
+    </description>
+		<sheet display="false" />
+		<rules>
+      <stat name="wisdom" value="1" />
+			<grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_PROTECTOR" />
+      <grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_BRAVE" />
+		</rules>
+	</element>
+  
+		<!-- Polar Bear -->
+		<element name="Polar Bear" type="Sub Race" source="AAA" id="ID_TCOE_BEARKIN_SUBRACE_PB">
+		<supports>Bearkin Subrace</supports>
+		<description>
+			<p>The rarest of the bearkin, polar bears have thick winter hides, tend to be very aggressive to outsiders and have very large territories. During harsh winters, Polar Bear tribes raid human settlements at their weakest for food and supplies when their natural prey runs low. For this reason, especially in colder regions, Polar Bears are usually regarded as hostile.</p>
+		  <p><b><i>Ability Score Improvement.</i></b> Your Constitution score increases by 1.</p>
+      <p><b><i>Winter Hide</i></b> You have resistance to Cold damage. You are also able to weather much colder climates than most other races, as described in chapter 5 of the Dungeon Master's Guide. </p>
+    </description>
+		<sheet display="false" />
+		<rules>
+			<stat name="constitution" value="1" />
+      <grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_WINTER_HIDE" />
+		</rules>
+	</element>
+  
+		<!-- Panda Bear -->
+		<element name="Panda Bear" type="Sub Race" source="AAA" id="ID_TCOE_BEARKIN_SUBRACE_PBD">
+		<supports>Bearkin Subrace</supports>
+		<description>
+			<p>Found in the Far East, Panda Bear tribes and customs are largely unknown and foreign, partly as a result of their rarity. As spiritual as their notorious appetite, they have a long history and a keen sense of wisdom, preferring to keep out of the eyes of civilized society.</p>
+      <p><b><i>Ability Score Improvement.</i></b> Your Wisdom score increases by 1.</p>
+      <p><b><i>Folk Heaker. </i></b> You gain proficiency in the Medicine skill.</p>
+      <p><b><i>Spiritual Communication. </i></b> You have the ability to cast the spell Speak With Plants using Wisdom as your spellcasting modifier. Using this feature, you are only able to communicate with the plants, not command, move or control them. Once you use this feature, you cannot use it again until the end of a long rest.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+      <stat name="constitution" value="1" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_MEDICINE" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Customized Skill Proficiency" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+      <grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_SPIRIT_COM" />
+		</rules>
+	</element>
+
+  "ID_CUSTOM_RACIAL_TRAIT_SPIRIT_COM"
+	
+	<element name="Keen Smell" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_KEEN_SMELL">
+		<description>
+			<p>You gain advantage on Wisdom(Perception) checks that rely on smell.</p>
+		</description>
+		<sheet>
+			<description>You gain advantage on Wisdom(Perception) checks that rely on smell.</description>
+		</sheet>
+	</element>
+	
+	<element name="Animal Instinct" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_ANIMAL_INSTINCT">
+		<description>
+			<p>You have proficiency in the Survival skill.</p>
+		</description>
+		<sheet display="false">
+			<description>You have proficiency in the Survival skill.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Customized Skill Proficiency" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+		</rules>
+	</element>
+	
+	<element name="Large Paws" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_CURIOUS_CLAWS">
+		<description>
+			<p>Using your bear claws to attack, your unarmed strikes deal 1d4 slashing damage.</p>
+		</description>
+		<sheet>
+			<description>Using your bear claws to attack, your unarmed strikes deal 1d4 slashing damage.</description>
+		</sheet>
+	</element>
+	
+	<element name="Down On Four" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_DOWN_ON_FOUR">
+		<description>
+			<p>Going down on all four gives you 40 ft speed. And lets you carry 1.5 times as much. At the cost of your dignity.</p>
+		</description>
+		<sheet>
+			<description>Going down on all four gives you 40 ft speed. And lets you carry 1.5 times as much. At the cost of your dignity.</description>
+		</sheet>
+	</element>
+	
+		
+		<element name="Powerful Build" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_POWERFUL_BUILD">
+      <description>
+        <p>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
+      </description>
+      <sheet>
+        <description>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</description>
+      </sheet>
+  	</element>
+	
+		<element name="Mask Of The Wild" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_MASK_OF_THE_WILD">
+      <description>
+        <p>You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.</p>
+      </description>
+      <sheet>
+        <description>You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.</description>
+      </sheet>
+  	</element>
+    
+		<element name="Protector" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_PROTECTOR">
+      <description>
+        <p>When an ally within 10ft of you must make a Strength saving throw, you may choose to have the effect target you in their place. This feature can only be used twice every short rest.</p>
+      </description>
+      <sheet>
+        <description>When an ally within 10ft of you must make a Strength saving throw, you may choose to have the effect target you in their place. This feature can only be used twice every short rest.</description>
+      </sheet>
+  	</element>
+    
+		<element name="Brave" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_BRAVE">
+		<description>
+			<p>You have advantage on saving throws against being frightened.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on saving throws against being frightened.</description>
+		</sheet>
+  	</element>
+    
+    <element name="Winter Hide" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_WINTER_HIDE">
+		<description>
+			<p>You have resistance to Cold damage. You are also able to weather much colder climates than most other races.</p>
+		</description>
+		<sheet>
+			<description>You have resistance to Cold damage. You are also able to weather much colder climates than most other races.</description>
+		</sheet>
+  	</element>
+    
+    <element name="Spiritual Communication" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_SPIRIT_COM">
+		<description>
+			<p>You have the ability to cast the spell Speak With Plants using Wisdom as your spellcasting modifier. Using this feature, you are only able to communicate with the plants, not command, move or control them. Once you use this feature, you cannot use it again until the end of a long rest.</p>
+		</description>
+		<sheet>
+			<description>You have the ability to cast the spell Speak With Plants using Wisdom as your spellcasting modifier. Using this feature, you are only able to communicate with the plants, not command, move or control them. Once you use this feature, you cannot use it again until the end of a long rest.</description>
+		</sheet>
+  	</element>
+ 
+</elements>
