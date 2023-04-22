@@ -33,7 +33,10 @@
 				<p><span class="feature">Female Names:</span>Alici, Brin, Connie, Flore, Mazie, Namina, Varen, Vixen, Tribbi, Willow</p>
 				<p><span class="feature">Clan Names:</span>Bloody Roar, Cut Masters, Dust Burners, Final Bark, First Tooth, Furious Swipes, Proud Claw, Sharp Paw, Tough Hide, Warrior Clan, Wild Boar, Yellow Fur</p>
 			<h4>Creatures of Instinct</h4>
-        			<p>Bearkin who have taken the Barbarian class may take a variant of this race that adds the following two options. Ability Score Decrease. Your Intelligence score decreases by 1. Reverted Rage. While raging, you are unable to speak any language but Bearic. Raging Bear. While raging and wearing no armor, your unarmed strikes with claws deal 1d6 damage. When attacking in this way, you can also make another unarmed strike as a bonus action (does not stack with any monk abilities).</p>
+        			<p>Bearkin who have taken the Barbarian class may take a variant of this race that adds the following two options. </p>
+				<p><b>Ability Score Decrease.</b> Your Intelligence score decreases by 1. </p>
+				<p><b>Reverted Rage.</b> While raging, you are unable to speak any language but Bearic. </p>
+				<p><b>Raging Bear.</b> While raging and wearing no armor, your unarmed strikes with claws deal 1d6 damage. When attacking in this way, you can also make another unarmed strike as a bonus action (does not stack with any monk abilities).</p>
       			<h4>Felis Traits</h4>
 				<p>Your Bearkin character has a number of traits as a part of their ursine heritage.</p>
 				<p class="indent"><b><i>Ability Score Increase. </i></b>Your Strength and Constitution score increases by 2.</p>
@@ -241,6 +244,24 @@
 		</description>
 		<sheet>
 			<description>You have the ability to cast the spell Speak With Plants using Wisdom as your spellcasting modifier. Using this feature, you are only able to communicate with the plants, not command, move or control them. Once you use this feature, you cannot use it again until the end of a long rest.</description>
+		</sheet>
+  	</element>
+	
+	<element name="Reverted Rage" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_REVERTED_RAGE">
+		<description>
+			<p>While raging, you are unable to speak any language but Bearic.</p>
+		</description>
+		<sheet>
+			<description>While raging, you are unable to speak any language but Bearic.</description>
+		</sheet>
+  	</element>
+	
+	<element name="Raging Bear" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_RAGING_BEAR">
+		<description>
+			<p>While raging and wearing no armor, your unarmed strikes with claws deal 1d6 damage. When attacking in this way, you can also make another unarmed strike as a bonus action (does not stack with any monk abilities).</p>
+		</description>
+		<sheet>
+			<description>While raging and wearing no armor, your unarmed strikes with claws deal 1d6 damage. When attacking in this way, you can also make another unarmed strike as a bonus action (does not stack with any monk abilities).</description>
 		</sheet>
   	</element>
  
