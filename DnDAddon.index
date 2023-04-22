@@ -10,6 +10,7 @@
 	</info>
 	<files>
 		<file name="Race-Felis.xml" url="https://raw.githubusercontent.com/Nightwrr/Aurorabuilder/main/Race-Felis.xml" />
+		<file name="Race-Bearkin.xml" url="https://raw.githubusercontent.com/Nightwrr/Aurorabuilder/main/Race-Bearkin.xml" />
 		<file name="Race-Mothian.xml" url="https://raw.githubusercontent.com/Nightwrr/Aurorabuilder/main/Race-Mothian.xml" />
 	</files>
 </index>
