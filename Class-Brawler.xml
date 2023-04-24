@@ -82,7 +82,7 @@
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_RAGE" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_UNARMORED_DEFENCE" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_RECKLESS_ATTACK" />
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_DANGER_SENSE" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_THE_SMASH" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_PRIMAL_PATH" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_ABILITYSCOREIMPROVEMENT" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_EXTRA_ATTACK" />
@@ -114,7 +114,7 @@
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_RAGE" level="1" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_UNARMORED_DEFENCE" level="1" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_RECKLESS_ATTACK" level="2" />
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_DANGER_SENSE" level="2" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_THE_SMASH" level="2" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_PRIMAL_PATH" level="3" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_ABILITYSCOREIMPROVEMENT" level="4" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_EXTRA_ATTACK" level="5" />
@@ -163,35 +163,34 @@
 	</element>
 	<element name="Rage" type="Class Feature" source="AAA" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_RAGE">
 		<description>
-			<p>In battle, you fight with primal ferocity. On your turn, you can enter a rage as a bonus action. While raging, you gain the following benefits if you aren’t wearing heavy armor:</p>
+			<p>At 1st level, on your turn, you can enter a rage as a bonus action. While raging, you gain the following benefits if you aren't wearing heavy armor:</p>
 			<ul>
-				<li>You have advantage on Strength checks and Strength saving throws.</li>
-				<li>When you make a melee weapon attack using Strength, you gain a bonus to the damage roll that increases as you gain levels as a brawler, as shown in the Rage Damage column of the Brawler table.</li>
-				<li>You have resistance to bludgeoning, piercing, and slashing damage.</li>
+				<li>You have advantage on Constitution checks and saving throws.</li>
+				<li>You gain a number of temporary hit points equal to three times your level in this class.</li>
+				<li>When you use the Attack action with an unarmed strike on your turn, you can make one unarmed strike as a bonus action.</li>
 			</ul>
 			<p>If you are able to cast spells, you can’t cast them or concentrate on them while raging.</p>
 			<p class="indent">Your rage lasts for 1 minute. It ends early if you are knocked unconscious or if your turn ends and you haven’t attacked a hostile creature since your last turn or taken damage since then. You can also end your rage on your turn as a bonus action.</p>
 			<p class="indent">Once you have raged the number of times shown for your brawler level in the Rages column of the Brawler table, you must finish a long rest before you can rage again.</p>
 		</description>
 		<sheet action="Bonus Action">
-			<description usage="{{brawler rage:count}}/Long Rest">Advantage on Strength checks and Strength Saves. 
-			A +{{brawler rage:damage}} to damage rolls with strength melee weapon attacks. 
-			You have resistance to bludgeoning, piercing, and slashing damage. </description>
-			<description usage="Unlimited" level="20">Advantage on Strength checks and Strength Saves. 
-			A +{{brawler rage:damage}} to damage rolls with strength melee weapon attacks. 
-			You have resistance to bludgeoning, piercing, and slashing damage.</description>
+			<description usage="{{brawler rage:count}}/Long Rest">Advantage on Constitution checks and Saves. 
+			You gain a number of temporary hit points equal to three times your level in this class.</description>
+			<description>When you use the Attack action with an unarmed strike on your turn, you can make one unarmed strike as a bonus action.</description>
 		</sheet>
 		<rules>
-			<stat name="brawler rage:count" value="2" level="1" />
-			<stat name="brawler rage:count" value="1" level="3" />
-			<stat name="brawler rage:count" value="1" level="6" />
-			<stat name="brawler rage:count" value="1" level="12" />
+			
+			<stat name="brawler rage:count" value="1" level="1" />
+			<stat name="brawler rage:count" value="1" level="2" />
+			<stat name="brawler rage:count" value="1" level="4" />
+			<stat name="brawler rage:count" value="1" level="7" />
+			<!-- 
 			<stat name="brawler rage:count" value="1" level="17" />
 			<stat name="brawler rage:count" value="93" level="20" />
 			<stat name="brawler rage:damage" value="2" level="1" />
 			<stat name="brawler rage:damage" value="1" level="9" />
 			<stat name="brawler rage:damage" value="1" level="16" />
-			<!-- 
+			
 			<stat name="melee:damage, strength" value="brawler rage:damage" condition="while raging" />
 			<stat name="advantage:Strength Check" condition="while raging" />
 			<stat name="advantage:Strength Saving Throws" condition="while raging" />
@@ -228,16 +227,29 @@
 			<description>When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have advantage until your next turn.</description>
 		</sheet>
 	</element>
-	<element name="Danger Sense" type="Class Feature" source="AAA" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_DANGER_SENSE">
+	<element name="The Smash" type="Class Feature" source="AAA" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_THE_SMASH">
 		<description>
-			<p>At 2nd level, you gain an uncanny sense of when things nearby aren’t as they should be, giving you an edge when you dodge away from danger.</p>
-			<p class="indent">You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can’t be blinded, deafened, or incapacitated.</p>
+			<p>Starting at the 2nd level you can now perform your official Sunday punch, "The Smash". You wind up and deliver one of your most devastating punches to a single enemy.</p>
+			<p>Once in each of your turns, when you hit a creature with your unarmed strike, you can add 2d8 to the damage caused by that attack. This damage increases as you gain levels in this class.</p>
+			<p>You can use this feature a number of times equal to your proficiency bonus, rounded down. You regain all expended uses on a short or a long rest.</p>
 		</description>
 		<sheet>
-			<description>You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can’t be blinded, deafened, or incapacitated.</description>
+			<description>Once in each of your turns, when you hit a creature with your unarmed strike, you can add </description>
+			<description usage="{{smash:count}}">d8 to the damage caused by that attack. You can do this </description>
+			<description usage="{{smash prof:count}}"> times, you regain all expended uses on a short or a long rest</description>
 		</sheet>
 		<rules>
-			<!--<stat name="advantage:Dexterity Saving Throws" condition="against effects that you can see, such as traps and spells. While not blinded, deafened, or incapacitated." />-->
+			<stat name="smash:count" value="1" level="2" />
+			<stat name="smash:count" value="1" level="3" />
+			<stat name="smash:count" value="1" level="7" />
+			<stat name="smash:count" value="1" level="14" />
+			<stat name="smash:count" value="1" level="19" />
+			
+			<stat name="smash prof:count" value="2" level="1" />
+			<stat name="smash prof:count" value="1" level="5" />
+			<stat name="smash prof:count" value="1" level="9" />
+			<stat name="smash prof:count" value="1" level="13" />
+			<stat name="smash prof:count" value="1" level="17" />
 		</rules>
 	</element>
 	<element name="Primal Path" type="Class Feature" source="AAA" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_PRIMAL_PATH">
@@ -378,32 +390,29 @@
 			<description>For the duration of your rage you can make a single melee weapon attack as a bonus action on each of your turns after this one. When your rage ends, you suffer one level of exhaustion.</description>
 		</sheet>
 	</element>
-	<element name="Mindless Rage" type="Archetype Feature" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_IRON_KNUCKLE_ENLARGED_MUSCLES">
+	<element name="Enlarged Muscles" type="Archetype Feature" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_IRON_KNUCKLE_ENLARGED_MUSCLES">
 		<description>
-			<p>Beginning at 6th level, you can’t be charmed or frightened while raging. If you are charmed or frightened when you enter your rage, the effect is suspended for the duration of the rage.</p>
+			<p>Starting at the 6th level, your muscles over harsh training and brutal abuse, have become harder then Raw Iron. You gain a +2 to your AC as long as you are not wearing any form of armor or shield. Your carrying capacity (including maximum load and maximum lift) is doubled, and you have advantage on Strength checks made to push, pull, lift, grip, or break objects. (this does not stack with any other ability that that also increases your carrying capacity and maximum lift).</p>
 		</description>
 		<sheet>
-			<description>You can’t be charmed or frightened while raging. If you are charmed or frightened when you enter your rage, the effect is suspended for the duration of the rage.</description>
+			<description>n. You gain a +2 to your AC as long as you are not wearing any form of armor or shield.Your carrying capacity (including maximum load and maximum lift) is doubled, and you have advantage on Strength checks made to push, pull, lift, grip, or break objects.(Does not stack with others)</description>
 		</sheet>
 	</element>
-	<element name="Intimidating Presence" type="Archetype Feature" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_IRON_KNUCKLE_BRUTE_FORCE">
+	<element name="Brute Force" type="Archetype Feature" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_IRON_KNUCKLE_BRUTE_FORCE">
 		<description>
-			<p>Beginning at 10th level, you can use your action to frighten someone with your menacing presence. When you do so, choose one creature that you can see within 30 feet of you. If the creature can see or hear you, it must succeed on a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Charisma modifier) or be frightened of you until the end of your next turn. On subsequent turns, you can use your action to extend the duration of this effect on the frightened creature until the end of your next turn. This effect ends if the creature ends its turn out of line of sight or more than 60 feet away from you.</p>
-			<p class="indent">If the creature succeeds on its saving throw, you can't use this feature on that creature again for 24 hours.</p>
+			<p>Starting at the 10th level, through your agonizing training you have learned the perfect way to advance on ranged opponents. When an opponent hits you with a ranged attack and you can see them, as a reaction, you can advance in their direction an amount of distance equal to your race's moving speed. If you are within 5 feet of the target, you can perform an unarmed strike during the same reaction with no other cost.</p>
+			<p>You can use this feature a number of times equal to your Constitution modifier. Once you expend all your uses, you can't do it again until you complete a long rest.</p>
 		</description>
 		<sheet action="Action">
-			<description>Choose one creature that you can see within 30 feet of you. If the creature can see or hear you, it must succeed on a DC{{intimidating presence:dc}} Wisdom saving throw or be frightened of you until the end of your next turn. On subsequent turns, you can use your action to extend the duration of this effect on the frightened creature until the end of your next turn. This effect ends if the creature ends its turn out of line of sight or more than 60 feet away from you.
-			If the creature succeeds on its saving throw, you can't use this feature on that creature again for 24 hours.</description>
+			<description>When an opponent hits you with a ranged attack and you can see them, as a reaction, you can advance in their direction an amount of distance equal to your race's moving speed. If you are within 5 feet of the target, you can perform an unarmed strike during the same reaction with no other cost. You can do this {{intimidating presence:dc}} times.</description>
 		</sheet>
 		<rules>
-			<stat name="intimidating presence:dc" value="8" />
-			<stat name="intimidating presence:dc" value="proficiency" />
-			<stat name="intimidating presence:dc" value="charisma:modifier" />
+			<stat name="brute force:dc" value="constitution:modifier" />
 		</rules>
 	</element>
-	<element name="Retaliation" type="Archetype Feature" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_IRON_KNUCKLE_THE_WALL">
+	<element name="The Wall" type="Archetype Feature" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_IRON_KNUCKLE_THE_WALL">
 		<description>
-			<p>Starting at 14th level, when you take damage from a creature that is within 5 feet of you, you can use your reaction to make a melee weapon attack against that creature.</p>
+			<p>Finally, at the 14th level, you can add your Constitution modifier to all of your other saving throws. If you succeed on a saving throw against an area effect, can choose to fail the save, if you do gain 10ft of movement and any friendly target that is in a 90-foot cone behind you will succeed on their saving throw instead. You can choose to use this feature after their saving throws are rolled and after the DM says if they fail or succeed.</p>
 		</description>
 		<sheet action="Reaction">
 			<description>When you take damage from a creature that is within 5 feet of you, you can use your reaction to make a melee weapon attack against that creature.</description>
@@ -411,68 +420,72 @@
 	</element>
 
 	<!-- Path of the Totem Warrior -->
-	<element name="Path of the Totem Warrior" type="Archetype" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_PATH_OF_THE_TOTEM_WARRIOR">
+	<element name="Path of the Nimble Figther" type="Archetype" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_PATH_OF_THE_NIMLE_FIGTHER">
 		<supports>Primal Path</supports>
 		<description>
-			<p>The Path of the Totem Warrior is a spiritual journey, as the brawler accepts a spirit animal as guide, protector, and inspiration. In battle, your totem spirit fills you with supernatural might, adding magical fuel to your brawler rage. Most brawler tribes consider a totem animal to be kin to a particular clan. In such cases, it is unusual for an individual to have more than one totem animal spirit, though exceptions exist.</p>
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_SPIRIT_SEEKER" />
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEM_SPIRIT" />
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_ASPECT_OF_THE_BEAST" />
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_SPIRIT_WALKER" />
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEMIC_ATTUNEMENT" />
+			<p>You've Begun to start honing your razor-sharp Skills. Running sprints, and practicing on your speed bag, to increase your lethality through lightning-fast punches and reflexes. Some might even say your hand speed was not even noticeable to the average eye.</p>
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_NIMBLE_FIGHTING" />
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_NIMBLE_FOOTWORK" />
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_CRITICAL_FISTS" />
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_FIGHTERS_REFLEX" />
 		</description>
 		<sheet display="false">
 			<description>The Path of the Totem Warrior is a spiritual journey, as the brawler accepts a spirit animal as guide, protector, and inspiration.</description>
 		</sheet>
 		<rules>
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_SPIRIT_SEEKER" level="3" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEM_SPIRIT" level="3" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_ASPECT_OF_THE_BEAST" level="6" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_SPIRIT_WALKER" level="10" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEMIC_ATTUNEMENT" level="14" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_NIMBLE_FIGHTING" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_NIMBLE_FOOTWORK" level="6" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_CRITICAL_FISTS" level="10" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_FIGHTERS_REFLEX" level="14" />
 		</rules>
 	</element>
-	<element name="Spirit Seeker" type="Archetype Feature" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_SPIRIT_SEEKER">
+	<element name="Nimble Fighting Initiative" type="Archetype Feature" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_NIMBLE_FIGHTING">
 		<description>
-			<p>Yours is a path that seeks attunement with the natural world, giving you a kinship with beasts. At 3rd level when you adopt this path, you gain the ability to cast the beast sense and speak with animals spells, but only as rituals.</p>
+			<p>At the 3rd level, You may add half your proficiency modifier to your initiative roll (rounded up).</p>
 		</description>
 		<sheet>
-			<description>You can cast beast sense and speak with animals as rituals</description>
+			<description>You may add half your proficiency modifier(</description>
+				<description usage="{{prof:count}}">) to your initiative roll (rounded up).</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_BEAST_SENSE" />
-			<grant type="Spell" id="ID_PHB_SPELL_SPEAK_WITH_ANIMALS" />
+			<stat name="prof:count" value="2" level="1" />
+			<stat name="prof:count" value="1" level="5" />
+			<stat name="prof:count" value="1" level="9" />
+			<stat name="prof:count" value="1" level="13" />
+			<stat name="prof:count" value="1" level="17" />
 		</rules>
 	</element>
-	<element name="Totem Spirit" type="Archetype Feature" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEM_SPIRIT">
+	<element name="Nimble Footwork" type="Archetype Feature" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_NIMBLE_FOOTWORK">
 		<description>
-			<p>At 3rd level, when you adopt this path, you choose a totem spirit and gain its feature. You must make or acquire a physical totem object- an amulet or similar adornment—that incorporates fur or feathers, claws, teeth, or bones of the totem animal. At your option, you also gain minor physical attributes that are reminiscent of your totem spirit. For example, if you have a bear totem spirit, you might be unusually hairy and thickskinned, or if your totem is the eagle, your eyes turn bright yellow.</p>
-			<p class="indent">Your totem animal might be an animal related to those listed here but more appropriate to your homeland. For example, you could choose a hawk or vulture in place of an eagle.</p>
-		</description>
-		<sheet display="false" />
-		<rules>
-			<select type="Archetype Feature" name="Totem Spirit" supports="Totem Spirit" />
-		</rules>
-	</element>
-	<element name="Aspect of the Beast" type="Archetype Feature" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_ASPECT_OF_THE_BEAST">
-		<description>
-			<p>At 6th level, you gain a magical benefit based on the totem animal of your choice. You can choose the same animal you selected at 3rd level or a different one.</p>
-		</description>
-		<sheet display="false" />
-		<rules>
-			<select type="Archetype Feature" name="Aspect of the Beast" supports="Aspect of the Beast" />
-		</rules>
-	</element>
-	<element name="Spirit Walker" type="Archetype Feature" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_SPIRIT_WALKER">
-		<description>
-			<p>At 10th level, you can cast the commune with nature spell, but only as a ritual. When you do so, a spiritual version of one of the animals you chose for Totem Spirit or Aspect of the Beast appears to you to convey the information you seek.</p>
+			<p>Beginning at 6th level, you gain +10 feet to your movement speed and no longer have movement penalties for difficult terrain.</p>
 		</description>
 		<sheet>
-			<description>You can cast the commune with nature spell, but only as a ritual. A spiritual version of one of the animals you chose for Totem Spirit or Aspect of the Beast appears to you to convey the information you seek.</description>
+			<description>
+			<p>You gain +10 feet to your movement speed and no longer have movement penalties for difficult terrain.</p>
+			</description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_COMMUNE_WITH_NATURE" />
+			<stat name="innate speed" value="10"/>
+			
 		</rules>
+	</element>
+	<element name="Critical Swift Fists" type="Archetype Feature" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_CRITICAL_FISTS">
+		<description>
+			<p>Starting at 10th level, your critical hit chance on all your unarmed attacks are now between the ranges of 19-20 instead of just 20.</p>
+		</description>
+		<sheet>
+			<description>
+			<p>Your critical hit chance on all your unarmed attacks are now between the ranges of 19-20 instead of just 20.</p>
+			</description>
+		</sheet>
+	</element>
+	<element name="Fighters Reflexes" type="Archetype Feature" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_FIGHTERS_REFLEX">
+		<description>
+			<p>Starting at 14th level, if an enemy attacks you or your allies while within your melee range of 5 feet, You can use a reaction to attack them with an unarmed attack. If your attack roll is higher than that of your enemy while being targeted, you only take half the damage the enemy dealt to you, while targeting your allies, they take no damage.</p>
+		</description>
+		<sheet>
+			<description>If an enemy attacks you or your allies while within your melee range of 5 feet, You can use a reaction to attack them with an unarmed attack. If your attack roll is higher than that of your enemy while being targeted, you only take half the damage the enemy dealt to you, while targeting your allies, they take no damage.</description>
+		</sheet>
 	</element>
 	<element name="Totemic Attunement" type="Archetype Feature" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEMIC_ATTUNEMENT">
 		<description>
@@ -484,8 +497,8 @@
 		</rules>
 	</element>
 
-	<!-- Totem Spirit Choices-->
-	<element name="Totem Spirit (Bear)" type="Archetype Feature" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEM_SPIRIT_BEAR">
+	<!-- Totem Spirit Choices
+	<element name="Totem Spirit (Bear)" type="Archetype Feature" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_NIMBLE_FOOTWORK_BEAR">
 		<supports>Totem Spirit</supports>
 		<description>
 			<p>While raging, you have resistance to all damage except psychic damage. The spirit of the bear makes you tough enough to stand up to any punishment.</p>
@@ -494,7 +507,7 @@
 			<description>While raging, you have resistance to all damage except psychic damage.</description>
 		</sheet>
 	</element>
-	<element name="Totem Spirit (Eagle)" type="Archetype Feature" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEM_SPIRIT_EAGLE">
+	<element name="Totem Spirit (Eagle)" type="Archetype Feature" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_NIMBLE_FOOTWORK_EAGLE">
 		<supports>Totem Spirit</supports>
 		<description>
 			<p>While you're raging and aren't wearing any armor, other creatures have disadvantage on opportunity attack rolls against you, and you can use the Dash Action as a bonus action on your turn. The spirit of the eagle makes you into a predator who can weave through the fray with ease.</p>
@@ -503,7 +516,7 @@
 			<description>While you're raging and aren't wearing any armor, other creatures have disadvantage on opportunity attack rolls against you, and you can use the Dash Action as a bonus action on your turn.</description>
 		</sheet>
 	</element>
-	<element name="Totem Spirit (Wolf)" type="Archetype Feature" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEM_SPIRIT_WOLF">
+	<element name="Totem Spirit (Wolf)" type="Archetype Feature" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_NIMBLE_FOOTWORK_WOLF">
 		<supports>Totem Spirit</supports>
 		<description>
 			<p>While you're raging, your friends have advantage on melee attack rolls against any creature within 5 feet of you that is hostile to you. The spirit of the wold makes you a leader of hunters.</p>
@@ -512,9 +525,9 @@
 			<description>While you're raging, your friends have advantage on melee attack rolls against any creature within 5 feet of you that is hostile to you.</description>
 		</sheet>
 	</element>
-
-	<!-- Aspect of the Beast Choices-->
-	<element name="Aspect of the Beast (Bear)" type="Archetype Feature" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_ASPECT_OF_THE_BEAST_BEAR">
+-->
+	<!-- Aspect of the Beast Choices
+	<element name="Aspect of the Beast (Bear)" type="Archetype Feature" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_CRITICAL_FISTS_BEAR">
 		<supports>Aspect of the Beast</supports>
 		<description>
 			<p>You gain the might of a bear. Your carrying capacity (including maximum load and maximum lift) is doubled, and you have advantage on Strength checks made to push, pull, lift, or break objects.</p>
@@ -526,7 +539,7 @@
 			<grant type="Grants" id="ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_DOUBLED" />
 		</rules>
 	</element>
-	<element name="Aspect of the Beast (Eagle)" type="Archetype Feature" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_ASPECT_OF_THE_BEAST_EAGLE">
+	<element name="Aspect of the Beast (Eagle)" type="Archetype Feature" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_CRITICAL_FISTS_EAGLE">
 		<supports>Aspect of the Beast</supports>
 		<description>
 			<p>You gain the eyesight of an eagle. You can see up to 1 mile away with no difficulty, able to discern even fine details as though looking at something no more than 100 feet away from you. Additionally, dim light doesn't impose disadvantage on your Wisdom (Perception) checks.</p>
@@ -535,7 +548,7 @@
 			<description>You can see up to 1 mile away with no difficulty, able to discern even fine details as though looking at something no more than 100 feet away from you. Additionally, dim light doesn't impose disadvantage on your Perception checks.</description>
 		</sheet>
 	</element>
-	<element name="Aspect of the Beast (Wolf)" type="Archetype Feature" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_ASPECT_OF_THE_BEAST_WOLF">
+	<element name="Aspect of the Beast (Wolf)" type="Archetype Feature" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_CRITICAL_FISTS_WOLF">
 		<supports>Aspect of the Beast</supports>
 		<description>
 			<p>You gain the hunting sensibilities of a wolf. You can track other creatures while traveling at a fast pace, and you can move stealthily while traveling at a normal pace (see chapter 8 for rules on travel pace).</p>
@@ -544,8 +557,8 @@
 			<description>You can track other creatures while traveling at a fast pace, and you can move stealthily while traveling at a normal pace.</description>
 		</sheet>
 	</element>
-
-	<!-- Totemic Attunement Choices-->
+-->
+	<!-- Totemic Attunement Choices
 	<element name="Totemic Attunement (Bear)" type="Archetype Feature" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEMIC_ATTUNEMENT_BEAR">
 		<supports>Totemic Attunement</supports>
 		<description>
@@ -573,4 +586,5 @@
 			<description>While you’re raging, you can knock a Large or smaller creature prone when you hit it with melee weapon attack.</description>
 		</sheet>
 	</element>
+-->
 </elements>
