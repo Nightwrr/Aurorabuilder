@@ -51,33 +51,33 @@
 				<li><i>(a)</i> Old sleeveless cotton shirt, worn out stiff fabric trousers, and old shoes made from boat sales(canvas) with stiff rubbery leather soles.</li>
 				<li><i>(a)</i> Hand  wraps</li>
 				<li>Water skin and five days worth of stale unsalted crackers.</li>
-        <li>If you are using starting wealth, you have 1d4 x 2 gold in funds.</li>
+        			<li>If you are using starting wealth, you have 1d4 x 2 gold in funds.</li>
 			</ul>
 			<h5 class="caption">The Unarmed Brawler</h5>
 			<table class="class-features">
 				<thead>
 					<tr><td class="col-10">Level</td><td>Proficiency Bonus</td><td class="col-60 left">Features</td><td>Unarmed Attack</td><td>Unarmed Attack</td><td>The Smash</td></tr>
 				</thead>
-				<tr><td>1st</td><td>+2</td><td class="left">Rage, Unarmored Defense</td>      <td>1d6</td>  <td>1</td>  <td>-</td></tr>
-				<tr><td>2nd</td><td>+2</td><td class="left">Reckless Attack, Danger Sense</td><td>1d6</td>  <td>2</td>  <td>1d8</td></tr>
-				<tr><td>3rd</td><td>+2</td><td class="left">Primal Path</td>                  <td>1d6</td>  <td>2</td>  <td>2d8</td></tr>
-				<tr><td>4th</td><td>+2</td><td class="left">Ability Score Improvement</td>    <td>1d6</td>  <td>3</td>  <td>2d8</td></tr>
-				<tr><td>5th</td><td>+3</td><td class="left">Extra Attack, Fast Movement</td>  <td>1d8</td>  <td>3</td>  <td>2d8</td></tr>
-				<tr><td>6th</td><td>+3</td><td class="left">Path feature</td>                 <td>1d8</td>  <td>3</td>  <td>2d8</td></tr>
-				<tr><td>7th</td><td>+3</td><td class="left">Feral Instinct</td>               <td>1d8</td>  <td>4</td>  <td>3d8</td></tr>
-				<tr><td>8th</td><td>+3</td><td class="left">Ability Score Improvement</td>    <td>1d8</td>  <td>4</td>  <td>3d8</td></tr>
-				<tr><td>9th</td><td>+4</td><td class="left">Brutal Critical (1 die)</td>      <td>1d8</td>  <td>4</td>  <td>3d8</td></tr>
-				<tr><td>10th</td><td>+4</td><td class="left">Path feature</td>                <td>1d8</td>  <td>4</td>  <td>3d8</td></tr>
-				<tr><td>11th</td><td>+4</td><td class="left">Relentless Rage</td>             <td>1d10</td> <td>4</td>  <td>3d8</td></tr>
-				<tr><td>12th</td><td>+4</td><td class="left">Ability Score Improvement</td>   <td>1d10</td> <td>4</td>  <td>3d8</td></tr>
-				<tr><td>13th</td><td>+5</td><td class="left">Brutal Critical (2 dice)</td>    <td>1d10</td> <td>4</td>  <td>3d8</td></tr>
-				<tr><td>14th</td><td>+5</td><td class="left">Path feature</td>                <td>1d10</td> <td>4</td>  <td>4d8</td></tr>
-				<tr><td>15th</td><td>+5</td><td class="left">Persistent Rage</td>             <td>1d10</td> <td>4</td>  <td>4d8</td></tr>
-				<tr><td>16th</td><td>+5</td><td class="left">Ability Score Improvement</td>   <td>1d10</td> <td>4</td>  <td>4d8</td></tr>
-				<tr><td>17th</td><td>+6</td><td class="left">Brutal Critical (3 dice)</td>    <td>1d12</td> <td>4</td>  <td>4d8</td></tr>
-				<tr><td>18th</td><td>+6</td><td class="left">Indomitable Might</td>           <td>1d12</td> <td>4</td>  <td>4d8</td></tr>
-				<tr><td>19th</td><td>+6</td><td class="left">Ability Score Improvement</td>   <td>1d12</td> <td>4</td>  <td>5d8</td></tr>
-				<tr><td>20th</td><td>+6</td><td class="left">Primal Champion</td>             <td>1d12</td> <td>4</td>  <td>5d8</td></tr>
+				<tr><td>1st</td><td>+2</td><td class="left">Rage, Unarmored Defense</td>      <td>1d6</td>  <td>1</td>  <td>-</td>	</tr>
+				<tr><td>2nd</td><td>+2</td><td class="left">Reckless Attack, Danger Sense</td><td>1d6</td>  <td>2</td>  <td>1d8</td>	</tr>
+				<tr><td>3rd</td><td>+2</td><td class="left">Primal Path</td>                  <td>1d6</td>  <td>2</td>  <td>2d8</td>	</tr>
+				<tr><td>4th</td><td>+2</td><td class="left">Ability Score Improvement</td>    <td>1d6</td>  <td>3</td>  <td>2d8</td>	</tr>
+				<tr><td>5th</td><td>+3</td><td class="left">Extra Attack, Fast Movement</td>  <td>1d8</td>  <td>3</td>  <td>2d8</td>	</tr>
+				<tr><td>6th</td><td>+3</td><td class="left">Path feature</td>                 <td>1d8</td>  <td>3</td>  <td>2d8</td>	</tr>
+				<tr><td>7th</td><td>+3</td><td class="left">Feral Instinct</td>               <td>1d8</td>  <td>4</td>  <td>3d8</td>	</tr>
+				<tr><td>8th</td><td>+3</td><td class="left">Ability Score Improvement</td>    <td>1d8</td>  <td>4</td>  <td>3d8</td>	</tr>
+				<tr><td>9th</td><td>+4</td><td class="left">Brutal Critical (1 die)</td>      <td>1d8</td>  <td>4</td>  <td>3d8</td>	</tr>
+				<tr><td>10th</td><td>+4</td><td class="left">Path feature</td>                <td>1d8</td>  <td>4</td>  <td>3d8</td>	</tr>
+				<tr><td>11th</td><td>+4</td><td class="left">Relentless Rage</td>             <td>1d10</td> <td>4</td>  <td>3d8</td>	</tr>
+				<tr><td>12th</td><td>+4</td><td class="left">Ability Score Improvement</td>   <td>1d10</td> <td>4</td>  <td>3d8</td>	</tr>
+				<tr><td>13th</td><td>+5</td><td class="left">Brutal Critical (2 dice)</td>    <td>1d10</td> <td>4</td>  <td>3d8</td>	</tr>
+				<tr><td>14th</td><td>+5</td><td class="left">Path feature</td>                <td>1d10</td> <td>4</td>  <td>4d8</td>	</tr>
+				<tr><td>15th</td><td>+5</td><td class="left">Persistent Rage</td>             <td>1d10</td> <td>4</td>  <td>4d8</td>	</tr>
+				<tr><td>16th</td><td>+5</td><td class="left">Ability Score Improvement</td>   <td>1d10</td> <td>4</td>  <td>4d8</td>	</tr>
+				<tr><td>17th</td><td>+6</td><td class="left">Brutal Critical (3 dice)</td>    <td>1d12</td> <td>4</td>  <td>4d8</td>	</tr>
+				<tr><td>18th</td><td>+6</td><td class="left">Indomitable Might</td>           <td>1d12</td> <td>4</td>  <td>4d8</td>	</tr>
+				<tr><td>19th</td><td>+6</td><td class="left">Ability Score Improvement</td>   <td>1d12</td> <td>4</td>  <td>5d8</td>	</tr>
+				<tr><td>20th</td><td>+6</td><td class="left">Primal Champion</td>             <td>1d12</td> <td>4</td>  <td>5d8</td>	</tr>
 			</table>
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_RAGE" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_UNARMORED_DEFENCE" />
@@ -110,6 +110,7 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" requirements="!ID_WOTC_PHB_MULTICLASS_BRAWLER" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" requirements="!ID_WOTC_PHB_MULTICLASS_BRAWLER" />
 			<select type="Proficiency" name="Skill Proficiency (Brawler)" number="2" supports="Skill,Brawler" requirements="!ID_WOTC_PHB_MULTICLASS_BRAWLER" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_BRUTAL_PUGILIST" level="1" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_RAGE" level="1" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_UNARMORED_DEFENCE" level="1" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_RECKLESS_ATTACK" level="2" />
@@ -131,13 +132,34 @@
 			<setters>
 				<set name="multiclass proficiencies">None</set>
 			</setters>
-      <description>
-        <p><b>Penalties. </b>When you multiclass into the Unarmed Brawler class, You will receive all the main penalties of this class as well. Including the inability to use magic in any shape or form. Regardless of the other class your multi classing into Unarmed Brawler with.</p>
-      </description>
+		      	<description>
+				<p><b>Penalties. </b>When you multiclass into the Unarmed Brawler class, You will receive all the main penalties of this class as well. Including the inability to use magic in any shape or form. Regardless of the other class your multi classing into Unarmed Brawler with.</p>
+		      	</description>
 			<rules>
 				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
 			</rules>
 		</multiclass>
+	</element>
+	<element name="Brutal Pugilist" type="Class Feature" source="AAA" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_BRUTAL_PUGILIST">
+		<description>
+			<p>Beginning at 1st level, your life with fighters have turned your fists into dangerous weapons. You gain the following benefits:</p>
+			<p class="indent">You can roll a d6 in place of the normal damage of your unarmed strike. This die changes as you gain unarmed brawler levels, as shown in the Unarmed Attack column of the Unarmed Brawler table.</p>
+			<p class="indent">You gain proficiency with the brass knuckle weapon. Once in each of your turns you can add the damage die of the weapon to your unarmed strike.</p>
+		</description>
+		<sheet>
+			<description>while you are wearing no armor and not wielding a shieldr, your AC equals {{ac:unarmored defense brawler}}.</description>
+		</sheet>
+		<rules>
+			<stat name="ac:unarmored defense brawler:base" value="10" />
+			<stat name="ac:unarmored defense brawler:constitution" value="constitution:modifier" />
+			<stat name="ac:unarmored defense brawler:strength" value="strength:modifier" />
+
+			<stat name="ac:unarmored defense brawler" value="ac:unarmored defense brawler:base" />
+			<stat name="ac:unarmored defense brawler" value="ac:unarmored defense brawler:constitution" />
+			<stat name="ac:unarmored defense brawler" value="ac:unarmored defense brawler:strength" />
+
+			<stat name="ac:calculation" value="ac:unarmored defense brawler" bonus="calculation" equipped="[armor:none]" alt="Unarmored Defense (Brawler)" />
+		</rules>
 	</element>
 	<element name="Rage" type="Class Feature" source="AAA" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_RAGE">
 		<description>
