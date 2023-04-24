@@ -128,14 +128,11 @@
 			<grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_PRIMAL_CHAMPION" level="20" />
 		</rules>
 		<multiclass id="ID_CUSTOM_MULTICLASS_BRAWLER">
-			<prerequisite>Strength 13, Constitution 13</prerequisite>
-			<requirements>[str:13][con:13]</requirements>
+			<prerequisite>Strength 13 and Constitution 13</prerequisite>
+			<requirements>[str:13],[con:13]</requirements>
 			<setters>
 				<set name="multiclass proficiencies">None</set>
 			</setters>
-		      	<description>
-				<p><b>Penalties. </b>When you multiclass into the Unarmed Brawler class, You will receive all the main penalties of this class as well. Including the inability to use magic in any shape or form. Regardless of the other class your multi classing into Unarmed Brawler with.</p>
-		      	</description>
 			<rules>
 				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
 			</rules>
