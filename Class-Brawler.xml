@@ -110,7 +110,7 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" requirements="!ID_CUSTOM_MULTICLASS_BRAWLER" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" requirements="!ID_CUSTOM_MULTICLASS_BRAWLER" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" requirements="!ID_CUSTOM_MULTICLASS_BRAWLER" />
-			<select type="Proficiency" name="Skill Proficiency (Brawler)" number="2" supports="Skill,Brawler" requirements="!ID_CUSTOM_MULTICLASS_BRAWLER" />
+			<select type="Proficiency" name="Skill Proficiency (Brawler)" number="2" supports="ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_ACROBATICS|ID_PROFICIENCY_SKILL_INTIMIDATION|ID_PROFICIENCY_SKILL_PERFORMANCE|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_PERSUASION" requirements="!ID_CUSTOM_MULTICLASS_BRAWLER" />
 			<grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_BRUTAL_PUGILIST" level="1" />
 			<grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_RAGE" level="1" />
 			<grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_UNARMORED_DEFENCE" level="1" />
