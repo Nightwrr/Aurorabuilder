@@ -9,7 +9,7 @@
 		</update>
 	</info>
 
-	<element name="Brawler" type="Class" source="AAA" id="ID_WOTC_PHB_CLASS_BRAWLER">
+	<element name="Brawler" type="Class" source="AAA" id="ID_CUSTOM_CLASS_BRAWLER">
 		<description>
 			<p>A tall human tribesman strides through a blizzard, draped in fur and hefting his axe. He laughs as he charges toward the frost giant who dared poach his people’s elk herd.</p>
 			<p class="indent">A half-orc snarls at the latest challenger to her authority over their savage tribe, ready to break his neck with her bare hands as she did to the last six rivals.</p>
@@ -56,7 +56,7 @@
 			<h5 class="caption">The Unarmed Brawler</h5>
 			<table class="class-features">
 				<thead>
-					<tr><td class="col-10">Level</td><td>Proficiency Bonus</td><td class="col-60 left">Features</td><td>Unarmed Attack</td><td>Unarmed Attack</td><td>The Smash</td></tr>
+					<tr><td class="col-10">Level</td><td>Proficiency Bonus</td><td class="col-60 left">Features</td><td>Unarmed Attack</td><td>Brawler rage Uses</td><td>The Smash</td></tr>
 				</thead>
 				<tr><td>1st</td><td>+2</td><td class="left">Rage, Unarmored Defense</td>      <td>1d6</td>  <td>1</td>  <td>-</td>	</tr>
 				<tr><td>2nd</td><td>+2</td><td class="left">Reckless Attack, Danger Sense</td><td>1d6</td>  <td>2</td>  <td>1d8</td>	</tr>
@@ -79,21 +79,21 @@
 				<tr><td>19th</td><td>+6</td><td class="left">Ability Score Improvement</td>   <td>1d12</td> <td>4</td>  <td>5d8</td>	</tr>
 				<tr><td>20th</td><td>+6</td><td class="left">Primal Champion</td>             <td>1d12</td> <td>4</td>  <td>5d8</td>	</tr>
 			</table>
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_RAGE" />
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_UNARMORED_DEFENCE" />
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_RECKLESS_ATTACK" />
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_THE_SMASH" />
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_PRIMAL_PATH" />
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_ABILITYSCOREIMPROVEMENT" />
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_EXTRA_ATTACK" />
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_MIGHTY_BLOWS" />
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_UNSHAKEABLE_RESOLVE" />
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_BRUTAL_CRITICAL" />
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_IMMOVABLE_OBJECT" />
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_RELENTLESS_RAGE"/>
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_FLURRY_RUSH" />
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_TOUGHENED_RAGE" />
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_PRIMAL_CHAMPION" />
+			<div element="ID_CUSTOM_CLASS_FEATURE_BRAWLER_RAGE" />
+			<div element="ID_CUSTOM_CLASS_FEATURE_BRAWLER_UNARMORED_DEFENCE" />
+			<div element="ID_CUSTOM_CLASS_FEATURE_BRAWLER_RECKLESS_ATTACK" />
+			<div element="ID_CUSTOM_CLASS_FEATURE_BRAWLER_THE_SMASH" />
+			<div element="ID_CUSTOM_CLASS_FEATURE_BRAWLER_PRIMAL_PATH" />
+			<div element="ID_CUSTOM_CLASS_FEATURE_BRAWLER_ABILITYSCOREIMPROVEMENT" />
+			<div element="ID_CUSTOM_CLASS_FEATURE_BRAWLER_EXTRA_ATTACK" />
+			<div element="ID_CUSTOM_CLASS_FEATURE_BRAWLER_MIGHTY_BLOWS" />
+			<div element="ID_CUSTOM_CLASS_FEATURE_BRAWLER_UNSHAKEABLE_RESOLVE" />
+			<div element="ID_CUSTOM_CLASS_FEATURE_BRAWLER_BRUTAL_CRITICAL" />
+			<div element="ID_CUSTOM_CLASS_FEATURE_BRAWLER_IMMOVABLE_OBJECT" />
+			<div element="ID_CUSTOM_CLASS_FEATURE_BRAWLER_RELENTLESS_RAGE"/>
+			<div element="ID_CUSTOM_CLASS_FEATURE_BRAWLER_FLURRY_RUSH" />
+			<div element="ID_CUSTOM_CLASS_FEATURE_BRAWLER_TOUGHENED_RAGE" />
+			<div element="ID_CUSTOM_CLASS_FEATURE_BRAWLER_PRIMAL_CHAMPION" />
 		</description>
 		<sheet display="false">
 			<description>A fierce warrior of primitive background who can enter a battle rage.</description>
@@ -103,31 +103,31 @@
 			<set name="hd">d12</set>
 		</setters>
 		<rules>
-			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_WOTC_PHB_MULTICLASS_BRAWLER" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_WOTC_PHB_MULTICLASS_BRAWLER" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" requirements="!ID_WOTC_PHB_MULTICLASS_BRAWLER" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_WOTC_PHB_MULTICLASS_BRAWLER"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" requirements="!ID_WOTC_PHB_MULTICLASS_BRAWLER" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" requirements="!ID_WOTC_PHB_MULTICLASS_BRAWLER" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" requirements="!ID_WOTC_PHB_MULTICLASS_BRAWLER" />
-			<select type="Proficiency" name="Skill Proficiency (Brawler)" number="2" supports="Skill,Brawler" requirements="!ID_WOTC_PHB_MULTICLASS_BRAWLER" />
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_BRUTAL_PUGILIST" level="1" />
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_RAGE" level="1" />
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_UNARMORED_DEFENCE" level="1" />
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_RECKLESS_ATTACK" level="2" />
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_THE_SMASH" level="2" />
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_PRIMAL_PATH" level="3" />
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_ABILITYSCOREIMPROVEMENT" level="4" />
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_EXTRA_ATTACK" level="5" />
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_FAST_MOVEMENT" level="5" />
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_FERAL_INSTINCT" level="7" />
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_BRUTAL_CRITICAL" level="9" />
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_RELENTLESS_RAGE" level="11" />
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_PERSISTANT_RAGE" level="15" />
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_INDOMITABLE_MIGHT" level="18" />
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_PRIMAL_CHAMPION" level="20" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_CUSTOM_MULTICLASS_BRAWLER" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_CUSTOM_MULTICLASS_BRAWLER" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" requirements="!ID_CUSTOM_MULTICLASS_BRAWLER" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_CUSTOM_MULTICLASS_BRAWLER"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" requirements="!ID_CUSTOM_MULTICLASS_BRAWLER" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" requirements="!ID_CUSTOM_MULTICLASS_BRAWLER" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" requirements="!ID_CUSTOM_MULTICLASS_BRAWLER" />
+			<select type="Proficiency" name="Skill Proficiency (Brawler)" number="2" supports="Skill,Brawler" requirements="!ID_CUSTOM_MULTICLASS_BRAWLER" />
+			<grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_BRUTAL_PUGILIST" level="1" />
+			<grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_RAGE" level="1" />
+			<grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_UNARMORED_DEFENCE" level="1" />
+			<grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_RECKLESS_ATTACK" level="2" />
+			<grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_THE_SMASH" level="2" />
+			<grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_PRIMAL_PATH" level="3" />
+			<grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_ABILITYSCOREIMPROVEMENT" level="4" />
+			<grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_EXTRA_ATTACK" level="5" />
+			<grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_FAST_MOVEMENT" level="5" />
+			<grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_FERAL_INSTINCT" level="7" />
+			<grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_BRUTAL_CRITICAL" level="9" />
+			<grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_RELENTLESS_RAGE" level="11" />
+			<grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_PERSISTANT_RAGE" level="15" />
+			<grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_INDOMITABLE_MIGHT" level="18" />
+			<grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_PRIMAL_CHAMPION" level="20" />
 		</rules>
-		<multiclass id="ID_WOTC_PHB_MULTICLASS_BRAWLER">
+		<multiclass id="ID_CUSTOM_MULTICLASS_BRAWLER">
 			<prerequisite>Strength 13, Constitution 13</prerequisite>
 			<requirements>[str:13][con:13]</requirements>
 			<setters>
@@ -141,7 +141,7 @@
 			</rules>
 		</multiclass>
 	</element>
-	<element name="Brutal Pugilist" type="Class Feature" source="AAA" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_BRUTAL_PUGILIST">
+	<element name="Brutal Pugilist" type="Class Feature" source="AAA" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_BRUTAL_PUGILIST">
 		<description>
 			<p>Beginning at 1st level, your life with fighters have turned your fists into dangerous weapons. You gain the following benefits:</p>
 			<p class="indent">You can roll a d6 in place of the normal damage of your unarmed strike. This die changes as you gain unarmed brawler levels, as shown in the Unarmed Attack column of the Unarmed Brawler table.</p>
@@ -162,7 +162,7 @@
 			<stat name="ac:calculation" value="ac:unarmored defense brawler" bonus="calculation" equipped="[armor:none]" alt="Unarmored Defense (Brawler)" />
 		</rules>
 	</element>
-	<element name="Rage" type="Class Feature" source="AAA" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_RAGE">
+	<element name="Rage" type="Class Feature" source="AAA" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_RAGE">
 		<description>
 			<p>At 1st level, on your turn, you can enter a rage as a bonus action. While raging, you gain the following benefits if you aren't wearing heavy armor:</p>
 			<ul>
@@ -201,7 +201,7 @@
 			-->
 		</rules>
 	</element>
-	<element name="Unarmored Defense" type="Class Feature" source="AAA" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_UNARMORED_DEFENCE">
+	<element name="Unarmored Defense" type="Class Feature" source="AAA" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_UNARMORED_DEFENCE">
 		<description>
 			<p>while you are wearing no armor and not wielding a shield, your Armor Class equals 10 + your Constitution modifier + your Strength modifier.</p>
 		</description>
@@ -220,7 +220,7 @@
 			<stat name="ac:calculation" value="ac:unarmored defense brawler" bonus="calculation" equipped="[armor:none]" alt="Unarmored Defense (Brawler)" />
 		</rules>
 	</element>
-	<element name="Reckless Attack" type="Class Feature" source="AAA" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_RECKLESS_ATTACK">
+	<element name="Reckless Attack" type="Class Feature" source="AAA" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_RECKLESS_ATTACK">
 		<description>
 			<p>Starting at 2nd level, you can throw aside all concern for defense to attack with fierce desperation. When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have advantage until your next turn.</p>
 		</description>
@@ -228,7 +228,7 @@
 			<description>When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have advantage until your next turn.</description>
 		</sheet>
 	</element>
-	<element name="The Smash" type="Class Feature" source="AAA" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_THE_SMASH">
+	<element name="The Smash" type="Class Feature" source="AAA" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_THE_SMASH">
 		<description>
 			<p>Starting at the 2nd level you can now perform your official Sunday punch, "The Smash". You wind up and deliver one of your most devastating punches to a single enemy.</p>
 			<p>Once in each of your turns, when you hit a creature with your unarmed strike, you can add 2d8 to the damage caused by that attack. This damage increases as you gain levels in this class.</p>
@@ -253,7 +253,7 @@
 			<stat name="smash prof:count" value="1" level="17" />
 		</rules>
 	</element>
-	<element name="Primal Path" type="Class Feature" source="AAA" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_PRIMAL_PATH">
+	<element name="Primal Path" type="Class Feature" source="AAA" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_PRIMAL_PATH">
 		<description>
 			<p>At 3rd level, you choose a path that shapes the nature of your rage. Choose the Path of the Iron Knuckle or the Path of the Nimble Fighter, both detailed at the end of the class description. Your choice grants you features at 3rd level and again at 6th, 10th, and 14th levels.</p>
 		</description>
@@ -262,7 +262,7 @@
 			<select type="Archetype" name="Primal Path" supports="Primal Path" level="3" />
 		</rules>
 	</element>
-	<element name="Ability Score Improvement" type="Class Feature" source="AAA" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_ABILITYSCOREIMPROVEMENT">
+	<element name="Ability Score Improvement" type="Class Feature" source="AAA" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_ABILITYSCOREIMPROVEMENT">
 		<compendium display="false" />
 		<description>
 			<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
@@ -276,7 +276,7 @@
 			<select type="Class Feature" name="Improvement Option (Brawler 19)" supports="Improvement Option,Brawler,19" level="19" />
 		</rules>
 	</element>
-	<element name="Extra Attack" type="Class Feature" source="AAA" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_EXTRA_ATTACK">
+	<element name="Extra Attack" type="Class Feature" source="AAA" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_EXTRA_ATTACK">
 		<description>
 			<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
 		</description>
@@ -287,7 +287,7 @@
 			<stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
 		</rules>
 	</element>
-	<element name="Mighty Blows" type="Class Feature" source="AAA" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_MIGHTY_BLOWS">
+	<element name="Mighty Blows" type="Class Feature" source="AAA" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_MIGHTY_BLOWS">
 		<description>
 			<p>Starting at 6th level, your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</p>
 		</description>
@@ -296,7 +296,7 @@
 		</sheet>
 
 	</element>
-	<element name="Unshakeable Resolve" type="Class Feature" source="AAA" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_UNSHAKEABLE_RESOLVE">
+	<element name="Unshakeable Resolve" type="Class Feature" source="AAA" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_UNSHAKEABLE_RESOLVE">
 		<description>
 			<p>Starting at the 7th level, your stubborn personality makes you resistant to mental harm. You have advantage on saving throws against being charmed or frightened. While Raging, you have advantage on Intelligence, Wisdom, and Charisma saving throws and you have immunity to the charmed and frightened conditions.</p>
 		</description>
@@ -304,7 +304,7 @@
 			<description>You have advantage on Saving throws against being charmed or frightened. While raging, you have advantage on Intelligence, Wisdom, and Charisma saving throws and you have immunity to the charmed and frightened conditions.</description> 
 			</sheet>
 	</element>
-	<element name="Brutal Critical" type="Class Feature" source="AAA" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_BRUTAL_CRITICAL">
+	<element name="Brutal Critical" type="Class Feature" source="AAA" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_BRUTAL_CRITICAL">
 		<description>
 			<p>Beginning at 9th level, you can roll one additional unarmed strike damage die when determining the extra damage for a critical hit with a melee attack.</p>
 			<p class="indent">This increases to two additional dice at 13th level and three additional dice at 17th level.</p>
@@ -315,7 +315,7 @@
 			<description level="17">Three additional unarmed strike die when determining the extra damage for a critical hit with a melee attack.</description>
 		</sheet>
 	</element>
-  <element name="Immovable Object" type="Class Feature" source="AAA" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_IMMOVABLE_OBJECT">
+  <element name="Immovable Object" type="Class Feature" source="AAA" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_IMMOVABLE_OBJECT">
 		<description>
 			<p>Starting at 10th level, your sheer mass of muscle makes you heavier than you look. When an effect would push or otherwise unwillingly cause you to move, the distance you are moved is reduced by 5 x your proficiency bonus.</p>
 		</description>
@@ -323,7 +323,7 @@
 			<description>Starting at 10th level, your sheer mass of muscle makes you heavier than you look. When an effect would push or otherwise unwillingly cause you to move, the distance you are moved is reduced by 5 x your proficiency bonus.</description>
 		</sheet>
 	</element>
-	<element name="Relentless Rage" type="Class Feature" source="AAA" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_RELENTLESS_RAGE">
+	<element name="Relentless Rage" type="Class Feature" source="AAA" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_RELENTLESS_RAGE">
 		<description>
 			<p>Starting at 11th level, your rage can keep you fighting despite grievous wounds. If you drop to 0 hit points while you’re raging and don’t die outright, you can make a DC 10 Constitution saving throw. If you succeed, you drop to 1 hit point instead.</p>
 			<p class="indent">Each time you use this feature after the first, the DC increases by 5. When you finish a short or long rest, the DC resets to 10.</p>
@@ -332,7 +332,7 @@
 			<description>If you drop to 0 hp while you’re raging and don’t die outright, you can make a DC 10 Constitution saving throw. If you succeed, you drop to 1 hp instead. Each time you use this feature after the first, the DC increases by 5. When you finish a short or long rest, the DC resets to 10.</description>
 		</sheet>
 	</element>
-	<element name="Flurry Rush" type="Class Feature" source="AAA" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_FLURRY_RUSH">
+	<element name="Flurry Rush" type="Class Feature" source="AAA" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_FLURRY_RUSH">
 		<description>
 			<p>At 15th level, when you successfully attack a creature on your turn, you enter a flurry rush. Each successful attack after your initial strike on your turn deals an additional 1d4 damage.</p>
 		</description>
@@ -340,7 +340,7 @@
 			<description>At 15th level, when you successfully attack a creature on your turn, you enter a flurry rush. Each successful attack after your initial strike on your turn deals an additional 1d4 damage.</description>
 		</sheet>
 	</element>
-	<element name="Toughened Rage" type="Class Feature" source="AAA" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_TOUGHENED_RAGE">
+	<element name="Toughened Rage" type="Class Feature" source="AAA" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_TOUGHENED_RAGE">
 		<description>
 			<p>At the 18th level, while raging, you are now resistant to one physical and one magical damage type of your choice. You may change the damage type after you complete a long rest.</p>
 		</description>
@@ -348,7 +348,7 @@
 			<description>At the 18th level, while raging, you are now resistant to one physical and one magical damage type of your choice. You may change the damage type after you complete a long rest.</description>
 		</sheet>
 	</element>
-	<element name="Primal Champion" type="Class Feature" source="AAA" id="ID_WOTC_PHB_CLASS_FEATURE_BRAWLER_PRIMAL_CHAMPION">
+	<element name="Primal Champion" type="Class Feature" source="AAA" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_PRIMAL_CHAMPION">
 		<description>
 			<p>At 20th level, you embody the power of the wilds. Your Strength and Constitution scores increase by 4. Your maximum for those scores is now 24.</p>
 		</description>
@@ -364,26 +364,26 @@
 	</element>
 
 	<!-- Path of the Iron Knuckle -->
-	<element name="Path of the Iron Knuckle" type="Archetype" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_PATH_OF_THE_IRON_KNUCKLE">
+	<element name="Path of the Iron Knuckle" type="Archetype" source="AAA" id="ID_CUSTOM_ARCHETYPE_PATH_OF_THE_IRON_KNUCKLE">
 		<supports>Primal Path</supports>
 		<description>
 			<p>Your completely agonizing and painful training has granted you knuckles so hard its as if they are made of Iron. Your Fists will feel like great warhammers in comparison to other unarmed attacks. You have also trained to be as tough and durable as iron is compared to normal flesh.</p>
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_IRON_KNUCKLE_IRON_STANCE" />
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_IRON_KNUCKLE_ENLARGED_MUSCLES" />
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_IRON_KNUCKLE_BRUTE_FORCE" />
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_IRON_KNUCKLE_THE_WALL" />
+			<div element="ID_CUSTOM_ARCHETYPE_FEATURE_PATH_OF_THE_IRON_KNUCKLE_IRON_STANCE" />
+			<div element="ID_CUSTOM_ARCHETYPE_FEATURE_PATH_OF_THE_IRON_KNUCKLE_ENLARGED_MUSCLES" />
+			<div element="ID_CUSTOM_ARCHETYPE_FEATURE_PATH_OF_THE_IRON_KNUCKLE_BRUTE_FORCE" />
+			<div element="ID_CUSTOM_ARCHETYPE_FEATURE_PATH_OF_THE_IRON_KNUCKLE_THE_WALL" />
 		</description>
 		<sheet display="false">
 			<description>The Path of the Iron Knuckle is a path of untrammeled fury, slick with blood.</description>
 		</sheet>
 		<rules>
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_IRON_KNUCKLE_IRON_STANCE" level="3" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_IRON_KNUCKLE_ENLARGED_MUSCLES" level="6" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_IRON_KNUCKLE_BRUTE_FORCE" level="10" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_IRON_KNUCKLE_THE_WALL" level="14" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_ARCHETYPE_FEATURE_PATH_OF_THE_IRON_KNUCKLE_IRON_STANCE" level="3" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_ARCHETYPE_FEATURE_PATH_OF_THE_IRON_KNUCKLE_ENLARGED_MUSCLES" level="6" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_ARCHETYPE_FEATURE_PATH_OF_THE_IRON_KNUCKLE_BRUTE_FORCE" level="10" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_ARCHETYPE_FEATURE_PATH_OF_THE_IRON_KNUCKLE_THE_WALL" level="14" />
 		</rules>
 	</element>
-	<element name="Iron Stance" type="Archetype Feature" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_IRON_KNUCKLE_IRON_STANCE">
+	<element name="Iron Stance" type="Archetype Feature" source="AAA" id="ID_CUSTOM_ARCHETYPE_FEATURE_PATH_OF_THE_IRON_KNUCKLE_IRON_STANCE">
 		<description>
 			<p>Starting at the 3rd level, if you have not used any movement this turn, attacks on you have disavantage.</p>
 		</description>
@@ -391,7 +391,7 @@
 			<description>For the duration of your rage you can make a single melee weapon attack as a bonus action on each of your turns after this one. When your rage ends, you suffer one level of exhaustion.</description>
 		</sheet>
 	</element>
-	<element name="Enlarged Muscles" type="Archetype Feature" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_IRON_KNUCKLE_ENLARGED_MUSCLES">
+	<element name="Enlarged Muscles" type="Archetype Feature" source="AAA" id="ID_CUSTOM_ARCHETYPE_FEATURE_PATH_OF_THE_IRON_KNUCKLE_ENLARGED_MUSCLES">
 		<description>
 			<p>Starting at the 6th level, your muscles over harsh training and brutal abuse, have become harder then Raw Iron. You gain a +2 to your AC as long as you are not wearing any form of armor or shield. Your carrying capacity (including maximum load and maximum lift) is doubled, and you have advantage on Strength checks made to push, pull, lift, grip, or break objects. (this does not stack with any other ability that that also increases your carrying capacity and maximum lift).</p>
 		</description>
@@ -399,7 +399,7 @@
 			<description>n. You gain a +2 to your AC as long as you are not wearing any form of armor or shield.Your carrying capacity (including maximum load and maximum lift) is doubled, and you have advantage on Strength checks made to push, pull, lift, grip, or break objects.(Does not stack with others)</description>
 		</sheet>
 	</element>
-	<element name="Brute Force" type="Archetype Feature" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_IRON_KNUCKLE_BRUTE_FORCE">
+	<element name="Brute Force" type="Archetype Feature" source="AAA" id="ID_CUSTOM_ARCHETYPE_FEATURE_PATH_OF_THE_IRON_KNUCKLE_BRUTE_FORCE">
 		<description>
 			<p>Starting at the 10th level, through your agonizing training you have learned the perfect way to advance on ranged opponents. When an opponent hits you with a ranged attack and you can see them, as a reaction, you can advance in their direction an amount of distance equal to your race's moving speed. If you are within 5 feet of the target, you can perform an unarmed strike during the same reaction with no other cost.</p>
 			<p>You can use this feature a number of times equal to your Constitution modifier. Once you expend all your uses, you can't do it again until you complete a long rest.</p>
@@ -411,7 +411,7 @@
 			<stat name="brute force:dc" value="constitution:modifier" />
 		</rules>
 	</element>
-	<element name="The Wall" type="Archetype Feature" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_IRON_KNUCKLE_THE_WALL">
+	<element name="The Wall" type="Archetype Feature" source="AAA" id="ID_CUSTOM_ARCHETYPE_FEATURE_PATH_OF_THE_IRON_KNUCKLE_THE_WALL">
 		<description>
 			<p>Finally, at the 14th level, you can add your Constitution modifier to all of your other saving throws. If you succeed on a saving throw against an area effect, can choose to fail the save, if you do gain 10ft of movement and any friendly target that is in a 90-foot cone behind you will succeed on their saving throw instead. You can choose to use this feature after their saving throws are rolled and after the DM says if they fail or succeed.</p>
 		</description>
@@ -420,27 +420,27 @@
 		</sheet>
 	</element>
 
-	<!-- Path of the Totem Warrior -->
-	<element name="Path of the Nimble Figther" type="Archetype" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_PATH_OF_THE_NIMLE_FIGTHER">
+	<!-- Path of the Nimble Fighter -->
+	<element name="Path of the Nimble Figther" type="Archetype" source="AAA" id="ID_CUSTOM_ARCHETYPE_PATH_OF_THE_NIMLE_FIGTHER">
 		<supports>Primal Path</supports>
 		<description>
 			<p>You've Begun to start honing your razor-sharp Skills. Running sprints, and practicing on your speed bag, to increase your lethality through lightning-fast punches and reflexes. Some might even say your hand speed was not even noticeable to the average eye.</p>
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_NIMBLE_FIGHTING" />
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_NIMBLE_FOOTWORK" />
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_CRITICAL_FISTS" />
-			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_FIGHTERS_REFLEX" />
+			<div element="ID_CUSTOM_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_NIMBLE_FIGHTING" />
+			<div element="ID_CUSTOM_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_NIMBLE_FOOTWORK" />
+			<div element="ID_CUSTOM_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_CRITICAL_FISTS" />
+			<div element="ID_CUSTOM_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_FIGHTERS_REFLEX" />
 		</description>
 		<sheet display="false">
 			<description>The Path of the Totem Warrior is a spiritual journey, as the brawler accepts a spirit animal as guide, protector, and inspiration.</description>
 		</sheet>
 		<rules>
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_NIMBLE_FIGHTING" level="3" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_NIMBLE_FOOTWORK" level="6" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_CRITICAL_FISTS" level="10" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_FIGHTERS_REFLEX" level="14" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_NIMBLE_FIGHTING" level="3" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_NIMBLE_FOOTWORK" level="6" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_CRITICAL_FISTS" level="10" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_FIGHTERS_REFLEX" level="14" />
 		</rules>
 	</element>
-	<element name="Nimble Fighting Initiative" type="Archetype Feature" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_NIMBLE_FIGHTING">
+	<element name="Nimble Fighting Initiative" type="Archetype Feature" source="AAA" id="ID_CUSTOM_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_NIMBLE_FIGHTING">
 		<description>
 			<p>At the 3rd level, You may add half your proficiency modifier to your initiative roll (rounded up).</p>
 		</description>
@@ -456,7 +456,7 @@
 			<stat name="prof:count" value="1" level="17" />
 		</rules>
 	</element>
-	<element name="Nimble Footwork" type="Archetype Feature" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_NIMBLE_FOOTWORK">
+	<element name="Nimble Footwork" type="Archetype Feature" source="AAA" id="ID_CUSTOM_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_NIMBLE_FOOTWORK">
 		<description>
 			<p>Beginning at 6th level, you gain +10 feet to your movement speed and no longer have movement penalties for difficult terrain.</p>
 		</description>
@@ -466,11 +466,10 @@
 			</description>
 		</sheet>
 		<rules>
-			<stat name="innate speed" value="10"/>
-			
+			<!--stat name="innate speed" value="10"/-->
 		</rules>
 	</element>
-	<element name="Critical Swift Fists" type="Archetype Feature" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_CRITICAL_FISTS">
+	<element name="Critical Swift Fists" type="Archetype Feature" source="AAA" id="ID_CUSTOM_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_CRITICAL_FISTS">
 		<description>
 			<p>Starting at 10th level, your critical hit chance on all your unarmed attacks are now between the ranges of 19-20 instead of just 20.</p>
 		</description>
@@ -480,7 +479,7 @@
 			</description>
 		</sheet>
 	</element>
-	<element name="Fighters Reflexes" type="Archetype Feature" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_FIGHTERS_REFLEX">
+	<element name="Fighters Reflexes" type="Archetype Feature" source="AAA" id="ID_CUSTOM_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_FIGHTERS_REFLEX">
 		<description>
 			<p>Starting at 14th level, if an enemy attacks you or your allies while within your melee range of 5 feet, You can use a reaction to attack them with an unarmed attack. If your attack roll is higher than that of your enemy while being targeted, you only take half the damage the enemy dealt to you, while targeting your allies, they take no damage.</p>
 		</description>
@@ -488,104 +487,4 @@
 			<description>If an enemy attacks you or your allies while within your melee range of 5 feet, You can use a reaction to attack them with an unarmed attack. If your attack roll is higher than that of your enemy while being targeted, you only take half the damage the enemy dealt to you, while targeting your allies, they take no damage.</description>
 		</sheet>
 	</element>
-	<element name="Totemic Attunement" type="Archetype Feature" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEMIC_ATTUNEMENT">
-		<description>
-			<p>At 14th level, you gain a magical benefit based on a totem animal of your choice. You can choose the same animal you selected previously or a different one.</p>
-		</description>
-		<sheet display="false" />
-		<rules>
-			<select type="Archetype Feature" name="Totemic Attunement" supports="Totemic Attunement" />
-		</rules>
-	</element>
-
-	<!-- Totem Spirit Choices
-	<element name="Totem Spirit (Bear)" type="Archetype Feature" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_NIMBLE_FOOTWORK_BEAR">
-		<supports>Totem Spirit</supports>
-		<description>
-			<p>While raging, you have resistance to all damage except psychic damage. The spirit of the bear makes you tough enough to stand up to any punishment.</p>
-		</description>
-		<sheet>
-			<description>While raging, you have resistance to all damage except psychic damage.</description>
-		</sheet>
-	</element>
-	<element name="Totem Spirit (Eagle)" type="Archetype Feature" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_NIMBLE_FOOTWORK_EAGLE">
-		<supports>Totem Spirit</supports>
-		<description>
-			<p>While you're raging and aren't wearing any armor, other creatures have disadvantage on opportunity attack rolls against you, and you can use the Dash Action as a bonus action on your turn. The spirit of the eagle makes you into a predator who can weave through the fray with ease.</p>
-		</description>
-		<sheet>
-			<description>While you're raging and aren't wearing any armor, other creatures have disadvantage on opportunity attack rolls against you, and you can use the Dash Action as a bonus action on your turn.</description>
-		</sheet>
-	</element>
-	<element name="Totem Spirit (Wolf)" type="Archetype Feature" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_NIMBLE_FOOTWORK_WOLF">
-		<supports>Totem Spirit</supports>
-		<description>
-			<p>While you're raging, your friends have advantage on melee attack rolls against any creature within 5 feet of you that is hostile to you. The spirit of the wold makes you a leader of hunters.</p>
-		</description>
-		<sheet>
-			<description>While you're raging, your friends have advantage on melee attack rolls against any creature within 5 feet of you that is hostile to you.</description>
-		</sheet>
-	</element>
--->
-	<!-- Aspect of the Beast Choices
-	<element name="Aspect of the Beast (Bear)" type="Archetype Feature" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_CRITICAL_FISTS_BEAR">
-		<supports>Aspect of the Beast</supports>
-		<description>
-			<p>You gain the might of a bear. Your carrying capacity (including maximum load and maximum lift) is doubled, and you have advantage on Strength checks made to push, pull, lift, or break objects.</p>
-		</description>
-		<sheet>
-			<description>Your carrying capacity is doubled, and you have advantage on Strength checks made to push, pull, lift, or break objects.</description>
-		</sheet>
-		<rules>
-			<grant type="Grants" id="ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_DOUBLED" />
-		</rules>
-	</element>
-	<element name="Aspect of the Beast (Eagle)" type="Archetype Feature" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_CRITICAL_FISTS_EAGLE">
-		<supports>Aspect of the Beast</supports>
-		<description>
-			<p>You gain the eyesight of an eagle. You can see up to 1 mile away with no difficulty, able to discern even fine details as though looking at something no more than 100 feet away from you. Additionally, dim light doesn't impose disadvantage on your Wisdom (Perception) checks.</p>
-		</description>
-		<sheet>
-			<description>You can see up to 1 mile away with no difficulty, able to discern even fine details as though looking at something no more than 100 feet away from you. Additionally, dim light doesn't impose disadvantage on your Perception checks.</description>
-		</sheet>
-	</element>
-	<element name="Aspect of the Beast (Wolf)" type="Archetype Feature" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_CRITICAL_FISTS_WOLF">
-		<supports>Aspect of the Beast</supports>
-		<description>
-			<p>You gain the hunting sensibilities of a wolf. You can track other creatures while traveling at a fast pace, and you can move stealthily while traveling at a normal pace (see chapter 8 for rules on travel pace).</p>
-		</description>
-		<sheet>
-			<description>You can track other creatures while traveling at a fast pace, and you can move stealthily while traveling at a normal pace.</description>
-		</sheet>
-	</element>
--->
-	<!-- Totemic Attunement Choices
-	<element name="Totemic Attunement (Bear)" type="Archetype Feature" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEMIC_ATTUNEMENT_BEAR">
-		<supports>Totemic Attunement</supports>
-		<description>
-			<p>While you’re raging, any creature within 5 feet of you that’s hostile to you has disadvantage on attack rolls against targets other than you or another character with this feature. An enemy is immune to this effect if it can’t see or hear you or if it can’t be frightened.</p>
-		</description>
-		<sheet>
-			<description>While you’re raging, any creature within 5 feet of you that’s hostile to you has disadvantage on attack rolls against targets other than you or another character with this feature. An enemy is immune to this effect if it can’t see or hear you or if it can’t be frightened.</description>
-		</sheet>
-	</element>
-	<element name="Totemic Attunement (Eagle)" type="Archetype Feature" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEMIC_ATTUNEMENT_EAGLE">
-		<supports>Totemic Attunement</supports>
-		<description>
-			<p>While raging, you have a flying speed equal to your current walking speed. This benefit works only in short bursts; you fall if you end your turn in the air and nothing else is holding you aloft.</p>
-		</description>
-		<sheet>
-			<description>While raging, you have a {{speed}} ft. flying speed. This benefit works only in short bursts; you fall if you end your turn in the air and nothing else is holding you aloft.</description>
-		</sheet>
-	</element>
-	<element name="Totemic Attunement (Wolf)" type="Archetype Feature" source="AAA" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEMIC_ATTUNEMENT_WOLF">
-		<supports>Totemic Attunement</supports>
-		<description>
-			<p>While you’re raging, you can use a bonus action on your turn to knock a Large or smaller creature prone when you hit it with melee weapon attack.</p>
-		</description>
-		<sheet action="Bonus Action">
-			<description>While you’re raging, you can knock a Large or smaller creature prone when you hit it with melee weapon attack.</description>
-		</sheet>
-	</element>
--->
 </elements>
