@@ -232,8 +232,8 @@
 			<p>You can use this feature a number of times equal to your proficiency bonus, rounded down. You regain all expended uses on a short or a long rest.</p>
 		</description>
 		<sheet>
-			<description>Once in each of your turns, when you hit a creature with your unarmed strike, you can add </description>
-			<description usage="{{smash:count}}">d8 to the damage caused by that attack. You can do this </description>
+			<description>Once in each of your turns, when you hit a creature with your unarmed strike, you can add 
+			<description usage="{{smash:count}}">d8 to the damage caused by that attack. You can do this 
 			<description usage="{{smash prof:count}}"> times, you regain all expended uses on a short or a long rest</description>
 		</sheet>
 		<rules>
