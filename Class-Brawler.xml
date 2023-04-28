@@ -119,11 +119,20 @@
 			<grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_PRIMAL_PATH" level="3" />
 			<grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_ABILITYSCOREIMPROVEMENT" level="4" />
 			<grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_EXTRA_ATTACK" level="5" />
-			<grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_FERAL_INSTINCT" level="7" />
+			<grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_MIGHTY_BLOWS" level="6" />
+			<grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_UNSHAKEABLE_RESOLVE" level="7" />
+			<grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_ABILITYSCOREIMPROVEMENT" level="8" />
 			<grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_BRUTAL_CRITICAL" level="9" />
+			<grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_IMMOVABLE_OBJECT" level="10" />
 			<grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_RELENTLESS_RAGE" level="11" />
-			<grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_PERSISTANT_RAGE" level="15" />
-			<grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_INDOMITABLE_MIGHT" level="18" />
+			<grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_ABILITYSCOREIMPROVEMENT" level="12" />
+			<grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_BRUTAL_CRITICAL" level="13" />
+			<!--<grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_PERSISTANT_RAGE" level="14" /> -->
+			<grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_FLURRY_RUSH" level="15" />
+			<grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_ABILITYSCOREIMPROVEMENT" level="16" />
+			<grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_BRUTAL_CRITICAL" level="17" />
+			<grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_TOUGHENED_RAGE" level="18" />
+			<grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_ABILITYSCOREIMPROVEMENT" level="19" />
 			<grant type="Class Feature" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_PRIMAL_CHAMPION" level="20" />
 		</rules>
 		<multiclass id="ID_CUSTOM_MULTICLASS_BRAWLER">
