@@ -9,7 +9,7 @@
 		</update>
 	</info>
 
-	<element name="Brawler" type="Class" source="AAA" id="ID_CUSTOM_CLASS_BRAWLER">
+	<element name="Brawler" type="Class" source="Nightwrr Builder" id="ID_CUSTOM_CLASS_BRAWLER">
 		<description>
 			<p>A tall human tribesman strides through a blizzard, draped in fur and hefting his axe. He laughs as he charges toward the frost giant who dared poach his people’s elk herd.</p>
 			<p class="indent">A half-orc snarls at the latest challenger to her authority over their savage tribe, ready to break his neck with her bare hands as she did to the last six rivals.</p>
@@ -146,7 +146,7 @@
 			</rules>
 		</multiclass>
 	</element>
-	<element name="Brutal Pugilist" type="Class Feature" source="AAA" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_BRUTAL_PUGILIST">
+	<element name="Brutal Pugilist" type="Class Feature" source="Nightwrr Builder" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_BRUTAL_PUGILIST">
 		<description>
 			<p>Beginning at 1st level, your life with fighters have turned your fists into dangerous weapons. You gain the following benefits:</p>
 			<p class="indent">You can roll a d6 in place of the normal damage of your unarmed strike. This die changes as you gain unarmed brawler levels, as shown in the Unarmed Attack column of the Unarmed Brawler table.</p>
@@ -163,7 +163,7 @@
 
 		</rules>
 	</element>
-	<element name="Rage" type="Class Feature" source="AAA" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_RAGE">
+	<element name="Rage" type="Class Feature" source="Nightwrr Builder" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_RAGE">
 		<description>
 			<p>At 1st level, on your turn, you can enter a rage as a bonus action. While raging, you gain the following benefits if you aren't wearing heavy armor:</p>
 			<ul>
@@ -202,7 +202,7 @@
 			-->
 		</rules>
 	</element>
-	<element name="Unarmored Defense" type="Class Feature" source="AAA" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_UNARMORED_DEFENCE">
+	<element name="Unarmored Defense" type="Class Feature" source="Nightwrr Builder" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_UNARMORED_DEFENCE">
 		<description>
 			<p>while you are wearing no armor and not wielding a shield, your Armor Class equals 10 + your Constitution modifier + your Strength modifier.</p>
 		</description>
@@ -221,7 +221,7 @@
 			<stat name="ac:calculation" value="ac:unarmored defense brawler" bonus="calculation" equipped="[armor:none]" alt="Unarmored Defense (Brawler)" />
 		</rules>
 	</element>
-	<element name="Reckless Attack" type="Class Feature" source="AAA" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_RECKLESS_ATTACK">
+	<element name="Reckless Attack" type="Class Feature" source="Nightwrr Builder" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_RECKLESS_ATTACK">
 		<description>
 			<p>Starting at 2nd level, you can throw aside all concern for defense to attack with fierce desperation. When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have advantage until your next turn.</p>
 		</description>
@@ -229,7 +229,7 @@
 			<description>When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have advantage until your next turn.</description>
 		</sheet>
 	</element>
-	<element name="The Smash" type="Class Feature" source="AAA" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_THE_SMASH">
+	<element name="The Smash" type="Class Feature" source="Nightwrr Builder" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_THE_SMASH">
 		<description>
 			<p>Starting at the 2nd level you can now perform your official Sunday punch, "The Smash". You wind up and deliver one of your most devastating punches to a single enemy.</p>
 			<p>Once in each of your turns, when you hit a creature with your unarmed strike, you can add 2d8 to the damage caused by that attack. This damage increases as you gain levels in this class.</p>
@@ -252,7 +252,7 @@
 			<stat name="smash prof:count" value="1" level="17" />
 		</rules>
 	</element>
-	<element name="Primal Path" type="Class Feature" source="AAA" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_PRIMAL_PATH">
+	<element name="Primal Path" type="Class Feature" source="Nightwrr Builder" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_PRIMAL_PATH">
 		<description>
 			<p>At 3rd level, you choose a path that shapes the nature of your rage. Choose the Path of the Iron Knuckle or the Path of the Nimble Fighter, both detailed at the end of the class description. Your choice grants you features at 3rd level and again at 6th, 10th, and 14th levels.</p>
 		</description>
@@ -261,7 +261,7 @@
 			<select type="Archetype" name="Primal Path" supports="Primal Path" level="3" />
 		</rules>
 	</element>
-	<element name="Ability Score Improvement" type="Class Feature" source="AAA" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_ABILITYSCOREIMPROVEMENT">
+	<element name="Ability Score Improvement" type="Class Feature" source="Nightwrr Builder" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_ABILITYSCOREIMPROVEMENT">
 		<compendium display="false" />
 		<description>
 			<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
@@ -275,7 +275,7 @@
 			<select type="Class Feature" name="Improvement Option (Brawler 19)" supports="Improvement Option,Brawler,19" level="19" />
 		</rules>
 	</element>
-	<element name="Extra Attack" type="Class Feature" source="AAA" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_EXTRA_ATTACK">
+	<element name="Extra Attack" type="Class Feature" source="Nightwrr Builder" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_EXTRA_ATTACK">
 		<description>
 			<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
 		</description>
@@ -286,7 +286,7 @@
 			<stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
 		</rules>
 	</element>
-	<element name="Mighty Blows" type="Class Feature" source="AAA" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_MIGHTY_BLOWS">
+	<element name="Mighty Blows" type="Class Feature" source="Nightwrr Builder" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_MIGHTY_BLOWS">
 		<description>
 			<p>Starting at 6th level, your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</p>
 		</description>
@@ -295,7 +295,7 @@
 		</sheet>
 
 	</element>
-	<element name="Unshakeable Resolve" type="Class Feature" source="AAA" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_UNSHAKEABLE_RESOLVE">
+	<element name="Unshakeable Resolve" type="Class Feature" source="Nightwrr Builder" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_UNSHAKEABLE_RESOLVE">
 		<description>
 			<p>Starting at the 7th level, your stubborn personality makes you resistant to mental harm. You have advantage on saving throws against being charmed or frightened. While Raging, you have advantage on Intelligence, Wisdom, and Charisma saving throws and you have immunity to the charmed and frightened conditions.</p>
 		</description>
@@ -303,7 +303,7 @@
 			<description>You have advantage on Saving throws against being charmed or frightened. While raging, you have advantage on Intelligence, Wisdom, and Charisma saving throws and you have immunity to the charmed and frightened conditions.</description> 
 			</sheet>
 	</element>
-	<element name="Brutal Critical" type="Class Feature" source="AAA" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_BRUTAL_CRITICAL">
+	<element name="Brutal Critical" type="Class Feature" source="Nightwrr Builder" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_BRUTAL_CRITICAL">
 		<description>
 			<p>Beginning at 9th level, you can roll one additional unarmed strike damage die when determining the extra damage for a critical hit with a melee attack.</p>
 			<p class="indent">This increases to two additional dice at 13th level and three additional dice at 17th level.</p>
@@ -314,7 +314,7 @@
 			<description level="17">Three additional unarmed strike die when determining the extra damage for a critical hit with a melee attack.</description>
 		</sheet>
 	</element>
-  <element name="Immovable Object" type="Class Feature" source="AAA" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_IMMOVABLE_OBJECT">
+  <element name="Immovable Object" type="Class Feature" source="Nightwrr Builder" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_IMMOVABLE_OBJECT">
 		<description>
 			<p>Starting at 10th level, your sheer mass of muscle makes you heavier than you look. When an effect would push or otherwise unwillingly cause you to move, the distance you are moved is reduced by 5 x your proficiency bonus.</p>
 		</description>
@@ -322,7 +322,7 @@
 			<description>Starting at 10th level, your sheer mass of muscle makes you heavier than you look. When an effect would push or otherwise unwillingly cause you to move, the distance you are moved is reduced by 5 x your proficiency bonus.</description>
 		</sheet>
 	</element>
-	<element name="Relentless Rage" type="Class Feature" source="AAA" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_RELENTLESS_RAGE">
+	<element name="Relentless Rage" type="Class Feature" source="Nightwrr Builder" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_RELENTLESS_RAGE">
 		<description>
 			<p>Starting at 11th level, your rage can keep you fighting despite grievous wounds. If you drop to 0 hit points while you’re raging and don’t die outright, you can make a DC 10 Constitution saving throw. If you succeed, you drop to 1 hit point instead.</p>
 			<p class="indent">Each time you use this feature after the first, the DC increases by 5. When you finish a short or long rest, the DC resets to 10.</p>
@@ -331,7 +331,7 @@
 			<description>If you drop to 0 hp while you’re raging and don’t die outright, you can make a DC 10 Constitution saving throw. If you succeed, you drop to 1 hp instead. Each time you use this feature after the first, the DC increases by 5. When you finish a short or long rest, the DC resets to 10.</description>
 		</sheet>
 	</element>
-	<element name="Flurry Rush" type="Class Feature" source="AAA" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_FLURRY_RUSH">
+	<element name="Flurry Rush" type="Class Feature" source="Nightwrr Builder" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_FLURRY_RUSH">
 		<description>
 			<p>At 15th level, when you successfully attack a creature on your turn, you enter a flurry rush. Each successful attack after your initial strike on your turn deals an additional 1d4 damage.</p>
 		</description>
@@ -339,7 +339,7 @@
 			<description>At 15th level, when you successfully attack a creature on your turn, you enter a flurry rush. Each successful attack after your initial strike on your turn deals an additional 1d4 damage.</description>
 		</sheet>
 	</element>
-	<element name="Toughened Rage" type="Class Feature" source="AAA" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_TOUGHENED_RAGE">
+	<element name="Toughened Rage" type="Class Feature" source="Nightwrr Builder" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_TOUGHENED_RAGE">
 		<description>
 			<p>At the 18th level, while raging, you are now resistant to one physical and one magical damage type of your choice. You may change the damage type after you complete a long rest.</p>
 		</description>
@@ -347,7 +347,7 @@
 			<description>At the 18th level, while raging, you are now resistant to one physical and one magical damage type of your choice. You may change the damage type after you complete a long rest.</description>
 		</sheet>
 	</element>
-	<element name="Primal Champion" type="Class Feature" source="AAA" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_PRIMAL_CHAMPION">
+	<element name="Primal Champion" type="Class Feature" source="Nightwrr Builder" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_PRIMAL_CHAMPION">
 		<description>
 			<p>At 20th level, you embody the power of the wilds. Your Strength and Constitution scores increase by 4. Your maximum for those scores is now 24.</p>
 		</description>
@@ -363,7 +363,7 @@
 	</element>
 
 	<!-- Path of the Iron Knuckle -->
-	<element name="Path of the Iron Knuckle" type="Archetype" source="AAA" id="ID_CUSTOM_ARCHETYPE_PATH_OF_THE_IRON_KNUCKLE">
+	<element name="Path of the Iron Knuckle" type="Archetype" source="Nightwrr Builder" id="ID_CUSTOM_ARCHETYPE_PATH_OF_THE_IRON_KNUCKLE">
 		<supports>Primal Path</supports>
 		<description>
 			<p>Your completely agonizing and painful training has granted you knuckles so hard its as if they are made of Iron. Your Fists will feel like great warhammers in comparison to other unarmed attacks. You have also trained to be as tough and durable as iron is compared to normal flesh.</p>
@@ -382,7 +382,7 @@
 			<grant type="Archetype Feature" id="ID_CUSTOM_ARCHETYPE_FEATURE_PATH_OF_THE_IRON_KNUCKLE_THE_WALL" level="14" />
 		</rules>
 	</element>
-	<element name="Iron Stance" type="Archetype Feature" source="AAA" id="ID_CUSTOM_ARCHETYPE_FEATURE_PATH_OF_THE_IRON_KNUCKLE_IRON_STANCE">
+	<element name="Iron Stance" type="Archetype Feature" source="Nightwrr Builder" id="ID_CUSTOM_ARCHETYPE_FEATURE_PATH_OF_THE_IRON_KNUCKLE_IRON_STANCE">
 		<description>
 			<p>Starting at the 3rd level, if you have not used any movement this turn, attacks on you have disavantage.</p>
 		</description>
@@ -390,7 +390,7 @@
 			<description>For the duration of your rage you can make a single melee weapon attack as a bonus action on each of your turns after this one. When your rage ends, you suffer one level of exhaustion.</description>
 		</sheet>
 	</element>
-	<element name="Enlarged Muscles" type="Archetype Feature" source="AAA" id="ID_CUSTOM_ARCHETYPE_FEATURE_PATH_OF_THE_IRON_KNUCKLE_ENLARGED_MUSCLES">
+	<element name="Enlarged Muscles" type="Archetype Feature" source="Nightwrr Builder" id="ID_CUSTOM_ARCHETYPE_FEATURE_PATH_OF_THE_IRON_KNUCKLE_ENLARGED_MUSCLES">
 		<description>
 			<p>Starting at the 6th level, your muscles over harsh training and brutal abuse, have become harder then Raw Iron. You gain a +2 to your AC as long as you are not wearing any form of armor or shield. Your carrying capacity (including maximum load and maximum lift) is doubled, and you have advantage on Strength checks made to push, pull, lift, grip, or break objects. (this does not stack with any other ability that that also increases your carrying capacity and maximum lift).</p>
 		</description>
@@ -398,7 +398,7 @@
 			<description>n. You gain a +2 to your AC as long as you are not wearing any form of armor or shield.Your carrying capacity (including maximum load and maximum lift) is doubled, and you have advantage on Strength checks made to push, pull, lift, grip, or break objects.(Does not stack with others)</description>
 		</sheet>
 	</element>
-	<element name="Brute Force" type="Archetype Feature" source="AAA" id="ID_CUSTOM_ARCHETYPE_FEATURE_PATH_OF_THE_IRON_KNUCKLE_BRUTE_FORCE">
+	<element name="Brute Force" type="Archetype Feature" source="Nightwrr Builder" id="ID_CUSTOM_ARCHETYPE_FEATURE_PATH_OF_THE_IRON_KNUCKLE_BRUTE_FORCE">
 		<description>
 			<p>Starting at the 10th level, through your agonizing training you have learned the perfect way to advance on ranged opponents. When an opponent hits you with a ranged attack and you can see them, as a reaction, you can advance in their direction an amount of distance equal to your race's moving speed. If you are within 5 feet of the target, you can perform an unarmed strike during the same reaction with no other cost.</p>
 			<p>You can use this feature a number of times equal to your Constitution modifier. Once you expend all your uses, you can't do it again until you complete a long rest.</p>
@@ -410,7 +410,7 @@
 			<stat name="brute force:dc" value="constitution:modifier" />
 		</rules>
 	</element>
-	<element name="The Wall" type="Archetype Feature" source="AAA" id="ID_CUSTOM_ARCHETYPE_FEATURE_PATH_OF_THE_IRON_KNUCKLE_THE_WALL">
+	<element name="The Wall" type="Archetype Feature" source="Nightwrr Builder" id="ID_CUSTOM_ARCHETYPE_FEATURE_PATH_OF_THE_IRON_KNUCKLE_THE_WALL">
 		<description>
 			<p>Finally, at the 14th level, you can add your Constitution modifier to all of your other saving throws. If you succeed on a saving throw against an area effect, can choose to fail the save, if you do gain 10ft of movement and any friendly target that is in a 90-foot cone behind you will succeed on their saving throw instead. You can choose to use this feature after their saving throws are rolled and after the DM says if they fail or succeed.</p>
 		</description>
@@ -420,7 +420,7 @@
 	</element>
 
 	<!-- Path of the Nimble Fighter -->
-	<element name="Path of the Nimble Figther" type="Archetype" source="AAA" id="ID_CUSTOM_ARCHETYPE_PATH_OF_THE_NIMLE_FIGTHER">
+	<element name="Path of the Nimble Figther" type="Archetype" source="Nightwrr Builder" id="ID_CUSTOM_ARCHETYPE_PATH_OF_THE_NIMLE_FIGTHER">
 		<supports>Primal Path</supports>
 		<description>
 			<p>You've Begun to start honing your razor-sharp Skills. Running sprints, and practicing on your speed bag, to increase your lethality through lightning-fast punches and reflexes. Some might even say your hand speed was not even noticeable to the average eye.</p>
@@ -439,7 +439,7 @@
 			<grant type="Archetype Feature" id="ID_CUSTOM_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_FIGHTERS_REFLEX" level="14" />
 		</rules>
 	</element>
-	<element name="Nimble Fighting Initiative" type="Archetype Feature" source="AAA" id="ID_CUSTOM_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_NIMBLE_FIGHTING">
+	<element name="Nimble Fighting Initiative" type="Archetype Feature" source="Nightwrr Builder" id="ID_CUSTOM_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_NIMBLE_FIGHTING">
 		<description>
 			<p>At the 3rd level, You may add half your proficiency modifier to your initiative roll (rounded up).</p>
 		</description>
@@ -455,7 +455,7 @@
 			<stat name="prof:count" value="1" level="17" />
 		</rules>
 	</element>
-	<element name="Nimble Footwork" type="Archetype Feature" source="AAA" id="ID_CUSTOM_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_NIMBLE_FOOTWORK">
+	<element name="Nimble Footwork" type="Archetype Feature" source="Nightwrr Builder" id="ID_CUSTOM_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_NIMBLE_FOOTWORK">
 		<description>
 			<p>Beginning at 6th level, you gain +10 feet to your movement speed and no longer have movement penalties for difficult terrain.</p>
 		</description>
@@ -468,7 +468,7 @@
 			<!--stat name="innate speed" value="10"/-->
 		</rules>
 	</element>
-	<element name="Critical Swift Fists" type="Archetype Feature" source="AAA" id="ID_CUSTOM_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_CRITICAL_FISTS">
+	<element name="Critical Swift Fists" type="Archetype Feature" source="Nightwrr Builder" id="ID_CUSTOM_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_CRITICAL_FISTS">
 		<description>
 			<p>Starting at 10th level, your critical hit chance on all your unarmed attacks are now between the ranges of 19-20 instead of just 20.</p>
 		</description>
@@ -478,7 +478,7 @@
 			</description>
 		</sheet>
 	</element>
-	<element name="Fighters Reflexes" type="Archetype Feature" source="AAA" id="ID_CUSTOM_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_FIGHTERS_REFLEX">
+	<element name="Fighters Reflexes" type="Archetype Feature" source="Nightwrr Builder" id="ID_CUSTOM_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_FIGHTERS_REFLEX">
 		<description>
 			<p>Starting at 14th level, if an enemy attacks you or your allies while within your melee range of 5 feet, You can use a reaction to attack them with an unarmed attack. If your attack roll is higher than that of your enemy while being targeted, you only take half the damage the enemy dealt to you, while targeting your allies, they take no damage.</p>
 		</description>
