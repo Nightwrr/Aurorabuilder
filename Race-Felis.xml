@@ -9,7 +9,7 @@
 		</update>
 	</info>
 
-	<element name="Felis" type="Race" source="AAA" id="ID_CUSTOM_RACE_FELIS">
+	<element name="Felis" type="Race" source="Nightwrr Builder" id="ID_CUSTOM_RACE_FELIS">
 		<description>
 			<p class="flavor">“Felis are the kindest, and most adorable stranglers I have ever met. If it were not for their love of sunbathing I fear they would have turned to conquest; and I find myself wondering if the world is worse for it”</p>
 			
@@ -76,7 +76,7 @@
 	</element>
 
 		<!-- Common Bond -->
-		<element name="Common Bond" type="Sub Race" source="AAA" id="ID_TCOE_FELIS_SUBRACE_CB">
+		<element name="Common Bond" type="Sub Race" source="Nightwrr Builder" id="ID_TCOE_FELIS_SUBRACE_CB">
 		<supports>Felis Lineages</supports>
 		<description>
 			<p>Tabby Felis are among the most common of all the lineages. As such they know more about common social spheres. You increase your Wisdom score by 1.</p>
@@ -87,7 +87,7 @@
 		</rules>
 	</element>
 		<!-- Noble Leadership -->
-		<element name="Noble Leadership" type="Sub Race" source="AAA" id="ID_TCOE_FELIS_SUBRACE_NL">
+		<element name="Noble Leadership" type="Sub Race" source="Nightwrr Builder" id="ID_TCOE_FELIS_SUBRACE_NL">
 		<supports>Felis Lineages</supports>
 		<description>
 			<p>Fur pure as the whitest snow, those Felis born without color are often seen as the noblest of the Felis. When of age they take up leadership roles in their clans. Once per long rest you can instill allies with a sense of vigor. Those within a 15 foot range of you gain temporary health equal to your Charisma modifier for 8 hours.</p>
@@ -98,7 +98,7 @@
 		</rules>
 	</element>
 		<!-- Fiery Nature -->
-		<element name="Fiery Nature" type="Sub Race" source="AAA" id="ID_TCOE_FELIS_SUBRACE_FN">
+		<element name="Fiery Nature" type="Sub Race" source="Nightwrr Builder" id="ID_TCOE_FELIS_SUBRACE_FN">
 		<supports>Felis Lineages</supports>
 		<description>
 			<p>Hot tempered and quick to lash out with claws, these ginger furred Felis are furious in the field of battle. Increase your Strength score by 1. </p>
@@ -109,7 +109,7 @@
 		</rules>
 	</element>
 		<!-- Hunters Sense -->
-		<element name="Hunters Sense" type="Sub Race" source="AAA" id="ID_TCOE_FELIS_SUBRACE_HS">
+		<element name="Hunters Sense" type="Sub Race" source="Nightwrr Builder" id="ID_TCOE_FELIS_SUBRACE_HS">
 		<supports>Felis Lineages</supports>
 		<description>
 			<p>Masters of tracking, those with brown fur are destined to hunt. You gain proficence in the Survival skill.</p>
@@ -121,7 +121,7 @@
 		</rules>
 	</element>
 		<!-- Good Fortune -->
-		<element name="Good Fortune" type="Sub Race" source="AAA" id="ID_TCOE_FELIS_SUBRACE_GF">
+		<element name="Good Fortune" type="Sub Race" source="Nightwrr Builder" id="ID_TCOE_FELIS_SUBRACE_GF">
 		<supports>Felis Lineages</supports>
 		<description>
 			<p>Calico fur is the rarest of all Felis lineages. The legends say that all of the black furred Felis' luck went to the calico. Once per day when you roll an attack roll, ability check, or saving throw you can choose to reroll. You must accept the results of the reroll.</p>
@@ -132,7 +132,7 @@
 		</rules>
 	</element>
 		<!-- Arcane Adept -->
-		<element name="Arcane Adept" type="Sub Race" source="AAA" id="ID_TCOE_FELIS_SUBRACE_AA">
+		<element name="Arcane Adept" type="Sub Race" source="Nightwrr Builder" id="ID_TCOE_FELIS_SUBRACE_AA">
 		<supports>Felis Lineages</supports>
 		<description>
 			<p>Starry eyed and fur of a blue-night sky it is said that these Felis are connected to the Astral Sea. Increase your intelligence by 1.</p>
@@ -143,7 +143,7 @@
 		</rules>
 	</element>
 		<!-- Night Stalker -->
-		<element name="Night Stalker" type="Sub Race" source="AAA" id="ID_TCOE_FELIS_SUBRACE_NS">
+		<element name="Night Stalker" type="Sub Race" source="Nightwrr Builder" id="ID_TCOE_FELIS_SUBRACE_NS">
 		<supports>Felis Lineages</supports>
 		<description>
 			<p>Grey is the purrfect color for being able to blend into things. Felis with grey fur are able to hide very easily. you gain proficency in the Stealth skill.</p>
@@ -155,7 +155,7 @@
 		</rules>
 	</element>
 		<!-- Unlucky -->
-		<element name="Unlucky" type="Sub Race" source="AAA" id="ID_TCOE_FELIS_SUBRACE_U">
+		<element name="Unlucky" type="Sub Race" source="Nightwrr Builder" id="ID_TCOE_FELIS_SUBRACE_U">
 		<supports>Felis Lineages</supports>
 		<description>
 			<p>Typically those born of this lineage are of pure black fur and carry a natural unluckiness where ever they go. Once per long rest as a reaction you cast your bad luck onto an enemy giving them disadvantage on one attack or ability saving throw.</p>
@@ -166,7 +166,7 @@
 		</rules>
 	</element>
 	
-	<element name="Claws" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_CLAWS">
+	<element name="Claws" type="Racial Trait" source="Nightwrr Builder" id="ID_CUSTOM_RACIAL_TRAIT_CLAWS">
 		<description>
 			<p>You have a climbing speed of 15 feet. To use this speed, you can’t be wearing heavy armor.</p>
 		</description>
@@ -178,7 +178,7 @@
 		</rules>
 	</element>
 	
-	<element name="Purrsuasion" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_PURRSUASION">
+	<element name="Purrsuasion" type="Racial Trait" source="Nightwrr Builder" id="ID_CUSTOM_RACIAL_TRAIT_PURRSUASION">
 		<description>
 			<p>You gain proficiency in the Persuasion skill.</p>
 		</description>
@@ -191,7 +191,7 @@
 		</rules>
 	</element>
 	
-	<element name="Curious Nature" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_CURIOUS_NATURE">
+	<element name="Curious Nature" type="Racial Trait" source="Nightwrr Builder" id="ID_CUSTOM_RACIAL_TRAIT_CURIOUS_NATURE">
 		<description>
 			<p>You gain proficiency in the Investigation skill.</p>
 		</description>
@@ -204,7 +204,7 @@
 		</rules>
 	</element>
 	
-	<element name="Nine Lives" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_NINE_LIVES">
+	<element name="Nine Lives" type="Racial Trait" source="Nightwrr Builder" id="ID_CUSTOM_RACIAL_TRAIT_NINE_LIVES">
 		<description>
 			<p>You can fail 9 death saves before you die, instead of 3. Additionally you regain 1 hit point on a natural 19 when rolling death saves.</p>
 		</description>
@@ -218,7 +218,7 @@
 	</element>
 	
 		
-		<element name="Ride" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_RIDE">
+		<element name="Ride" type="Racial Trait" source="Nightwrr Builder" id="ID_CUSTOM_RACIAL_TRAIT_RIDE">
 		<description>
 			<p>You can get on the back of any Party member taller than 6.5 feet and ride them, reducing your damage to 1d6.</p>
 		</description>
@@ -231,7 +231,7 @@
 		</sheet>
   	</element>
 	
-		<element name="Leadership" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_LEADERSHIP">
+		<element name="Leadership" type="Racial Trait" source="Nightwrr Builder" id="ID_CUSTOM_RACIAL_TRAIT_LEADERSHIP">
 		<description>
 			<p>Those within a 15 foot range of you gain temporary health, equal to your Charisma modifier for 8 hours.</p>
 		</description>
@@ -243,7 +243,7 @@
 			<description>Those within a 15 foot range of you gain temporary health, equal to your Charisma modifier for 8 hours.</description>
 		</sheet>
   	</element>
-		<element name="Fortune" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_FORTUNE">
+		<element name="Fortune" type="Racial Trait" source="Nightwrr Builder" id="ID_CUSTOM_RACIAL_TRAIT_FORTUNE">
 		<description>
 			<p>Once per day when you roll an attack roll, ability check, or saving throw, you can choose to reroll. You must accept the results of the reroll.</p>
 		</description>
@@ -255,7 +255,7 @@
 			<description>Once per day when you roll an attack roll, ability check, or saving throw, you can choose to reroll. You must accept the results of the reroll.</description>
 		</sheet>
   	</element>
-		<element name="Unfortune" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_UNFORTUNE">
+		<element name="Unfortune" type="Racial Trait" source="Nightwrr Builder" id="ID_CUSTOM_RACIAL_TRAIT_UNFORTUNE">
 		<description>
 			<p>Once per long rest as a reaction you cast your bad luck onto an enemy giving them disadvantage on one attack or ability saving throw.</p>
 		</description>
