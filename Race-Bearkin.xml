@@ -9,7 +9,7 @@
 		</update>
 	</info>
 
-	<element name="Bearkin" type="Race" source="AAA" id="ID_CUSTOM_RACE_BEARKIN">
+	<element name="Bearkin" type="Race" source="Nightwrr Builder" id="ID_CUSTOM_RACE_BEARKIN">
 		<description>
 			<p class="flavor">“ROOARR”</p>
 			
@@ -37,7 +37,7 @@
 				<p><b>Ability Score Decrease.</b> Your Intelligence score decreases by 1. </p>
 				<p><b>Reverted Rage.</b> While raging, you are unable to speak any language but Bearic. </p>
 				<p><b>Raging Bear.</b> While raging and wearing no armor, your unarmed strikes with claws deal 1d6 damage. When attacking in this way, you can also make another unarmed strike as a bonus action (does not stack with any monk abilities).</p>
-      			<h4>Felis Traits</h4>
+      			<h4>Bearkin Traits</h4>
 				<p>Your Bearkin character has a number of traits as a part of their ursine heritage.</p>
 				<p class="indent"><b><i>Ability Score Increase. </i></b>Your Strength and Constitution score increases by 2.</p>
 				<p class="indent"><b><i>Age. </i></b>Bearkin reach adolescence at about the same time as humans, but usually only live to about age 60.</p>
@@ -84,7 +84,7 @@
 	</element>
 
 		<!-- Black Bear -->
-		<element name="Black Bear" type="Sub Race" source="AAA" id="ID_TCOE_BEARKIN_SUBRACE_BLB">
+		<element name="Black Bear" type="Sub Race" source="Nightwrr Builder" id="ID_TCOE_BEARKIN_SUBRACE_BLB">
 		<supports>Bearkin Subrace</supports>
 		<description>
 			<p>The smallest and most timid of the bearkin varieties, Black Bears tend to be smarter and make up clans of single families in caves or other underground locations, occasionally including the Underdark. They mostly keep to themselves and protect their lairs and territories without moving about, but will happily interact with others of their kind.</p>
@@ -101,7 +101,7 @@
 	</element>
   
 		<!-- Brown Bear -->
-		<element name="Brown Bear" type="Sub Race" source="AAA" id="ID_TCOE_BEARKIN_SUBRACE_BRB">
+		<element name="Brown Bear" type="Sub Race" source="Nightwrr Builder" id="ID_TCOE_BEARKIN_SUBRACE_BRB">
 		<supports>Bearkin Subrace</supports>
 		<description>
 		  <p>Fiercely protective, honorable and strong, and usually friendly to outsiders, the most common of the bearkin varieties have a strong protective instinct and make up large clans with a lax hierachy." They often live nomadically, moving from forest to forest to cycle their prey and avoid retaliation from nearby developed settlements.</p>
@@ -118,7 +118,7 @@
 	</element>
   
 		<!-- Polar Bear -->
-		<element name="Polar Bear" type="Sub Race" source="AAA" id="ID_TCOE_BEARKIN_SUBRACE_PB">
+		<element name="Polar Bear" type="Sub Race" source="Nightwrr Builder" id="ID_TCOE_BEARKIN_SUBRACE_PB">
 		<supports>Bearkin Subrace</supports>
 		<description>
 			<p>The rarest of the bearkin, polar bears have thick winter hides, tend to be very aggressive to outsiders and have very large territories. During harsh winters, Polar Bear tribes raid human settlements at their weakest for food and supplies when their natural prey runs low. For this reason, especially in colder regions, Polar Bears are usually regarded as hostile.</p>
@@ -133,7 +133,7 @@
 	</element>
   
 		<!-- Panda Bear -->
-		<element name="Panda Bear" type="Sub Race" source="AAA" id="ID_TCOE_BEARKIN_SUBRACE_PBD">
+		<element name="Panda Bear" type="Sub Race" source="Nightwrr Builder" id="ID_TCOE_BEARKIN_SUBRACE_PBD">
 		<supports>Bearkin Subrace</supports>
 		<description>
 			<p>Found in the Far East, Panda Bear tribes and customs are largely unknown and foreign, partly as a result of their rarity. As spiritual as their notorious appetite, they have a long history and a keen sense of wisdom, preferring to keep out of the eyes of civilized society.</p>
@@ -152,7 +152,7 @@
 
   "ID_CUSTOM_RACIAL_TRAIT_SPIRIT_COM"
 	
-	<element name="Keen Smell" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_KEEN_SMELL">
+	<element name="Keen Smell" type="Racial Trait" source="Nightwrr Builder" id="ID_CUSTOM_RACIAL_TRAIT_KEEN_SMELL">
 		<description>
 			<p>You gain advantage on Wisdom(Perception) checks that rely on smell.</p>
 		</description>
@@ -161,7 +161,7 @@
 		</sheet>
 	</element>
 	
-	<element name="Animal Instinct" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_ANIMAL_INSTINCT">
+	<element name="Animal Instinct" type="Racial Trait" source="Nightwrr Builder" id="ID_CUSTOM_RACIAL_TRAIT_ANIMAL_INSTINCT">
 		<description>
 			<p>You have proficiency in the Survival skill.</p>
 		</description>
@@ -174,7 +174,7 @@
 		</rules>
 	</element>
 	
-	<element name="Large Paws" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_CURIOUS_CLAWS">
+	<element name="Large Paws" type="Racial Trait" source="Nightwrr Builder" id="ID_CUSTOM_RACIAL_TRAIT_CURIOUS_CLAWS">
 		<description>
 			<p>Using your bear claws to attack, your unarmed strikes deal 1d4 slashing damage.</p>
 		</description>
@@ -183,7 +183,7 @@
 		</sheet>
 	</element>
 	
-	<element name="Down On Four" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_DOWN_ON_FOUR">
+	<element name="Down On Four" type="Racial Trait" source="Nightwrr Builder" id="ID_CUSTOM_RACIAL_TRAIT_DOWN_ON_FOUR">
 		<description>
 			<p>Going down on all four gives you 40 ft speed. And lets you carry 1.5 times as much. At the cost of your dignity.</p>
 		</description>
@@ -193,7 +193,7 @@
 	</element>
 	
 		
-		<element name="Powerful Build" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_POWERFUL_BUILD">
+		<element name="Powerful Build" type="Racial Trait" source="Nightwrr Builder" id="ID_CUSTOM_RACIAL_TRAIT_POWERFUL_BUILD">
       <description>
         <p>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
       </description>
@@ -202,7 +202,7 @@
       </sheet>
   	</element>
 	
-		<element name="Mask Of The Wild" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_MASK_OF_THE_WILD">
+		<element name="Mask Of The Wild" type="Racial Trait" source="Nightwrr Builder" id="ID_CUSTOM_RACIAL_TRAIT_MASK_OF_THE_WILD">
       <description>
         <p>You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.</p>
       </description>
@@ -211,7 +211,7 @@
       </sheet>
   	</element>
     
-		<element name="Protector" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_PROTECTOR">
+		<element name="Protector" type="Racial Trait" source="Nightwrr Builder" id="ID_CUSTOM_RACIAL_TRAIT_PROTECTOR">
       <description>
         <p>When an ally within 10ft of you must make a Strength saving throw, you may choose to have the effect target you in their place. This feature can only be used twice every short rest.</p>
       </description>
@@ -220,7 +220,7 @@
       </sheet>
   	</element>
     
-		<element name="Brave" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_BRAVE">
+		<element name="Brave" type="Racial Trait" source="Nightwrr Builder" id="ID_CUSTOM_RACIAL_TRAIT_BRAVE">
 		<description>
 			<p>You have advantage on saving throws against being frightened.</p>
 		</description>
@@ -229,7 +229,7 @@
 		</sheet>
   	</element>
     
-    <element name="Winter Hide" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_WINTER_HIDE">
+    <element name="Winter Hide" type="Racial Trait" source="Nightwrr Builder" id="ID_CUSTOM_RACIAL_TRAIT_WINTER_HIDE">
 		<description>
 			<p>You have resistance to Cold damage. You are also able to weather much colder climates than most other races.</p>
 		</description>
@@ -238,7 +238,7 @@
 		</sheet>
   	</element>
     
-    <element name="Spiritual Communication" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_SPIRIT_COM">
+    <element name="Spiritual Communication" type="Racial Trait" source="Nightwrr Builder" id="ID_CUSTOM_RACIAL_TRAIT_SPIRIT_COM">
 		<description>
 			<p>You have the ability to cast the spell Speak With Plants using Wisdom as your spellcasting modifier. Using this feature, you are only able to communicate with the plants, not command, move or control them. Once you use this feature, you cannot use it again until the end of a long rest.</p>
 		</description>
@@ -247,7 +247,7 @@
 		</sheet>
   	</element>
 	
-	<element name="Reverted Rage" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_REVERTED_RAGE">
+	<element name="Reverted Rage" type="Racial Trait" source="Nightwrr Builder" id="ID_CUSTOM_RACIAL_TRAIT_REVERTED_RAGE">
 		<description>
 			<p>While raging, you are unable to speak any language but Bearic.</p>
 		</description>
@@ -256,7 +256,7 @@
 		</sheet>
   	</element>
 	
-	<element name="Raging Bear" type="Racial Trait" source="AAA" id="ID_CUSTOM_RACIAL_TRAIT_RAGING_BEAR">
+	<element name="Raging Bear" type="Racial Trait" source="Nightwrr Builder" id="ID_CUSTOM_RACIAL_TRAIT_RAGING_BEAR">
 		<description>
 			<p>While raging and wearing no armor, your unarmed strikes with claws deal 1d6 damage. When attacking in this way, you can also make another unarmed strike as a bonus action (does not stack with any monk abilities).</p>
 		</description>
