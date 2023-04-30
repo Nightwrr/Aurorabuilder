@@ -1,0 +1,118 @@
+
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Companion-Succubus</name>
+        <update version="0.0.2">
+            <file name="Companion-Succubus.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/companions.xml" />
+        </update>
+    </info>
+    
+    
+    <element name="Succubus" type="Companion" source="Monster Manual" id="ID_WOTC_MM_COMPANION_SUCCUBUS">
+        <supports>Familiar, Variant Familiar</supports>
+        <description>
+          <p>The Succubus can be found in the service to mortal spellcasters, acting as advisors, spies, and familiars. A Succubus urges its master to acts of evil, knowing the mortal's soul is a prize the Succubus might ultimately claim. Succubus display an unusual loyalty to their masters, and a Succubus can be quite dangerous if its master is threatened. Some such Succubus have the following trait.</p>
+          <p class="indent">A Succubus can assume animal form at will, but in its natural state it resembles a red-skinned humanoid with an arrow tail, small horns, and leathery wings. It strikes while invisible, attacking with its sharp claws.</p>
+            </description>
+        <setters>
+          <set name="strength">6</set>
+          <set name="dexterity">17</set>
+          <set name="constitution">13</set>
+          <set name="intelligence">11</set>
+          <set name="wisdom">12</set>
+          <set name="charisma">14</set>
+          <set name="ac">13</set>
+          <set name="hp">10 (3d4+3)</set>
+          <set name="speed">20 ft., fly 40 ft.</set>
+          <set name="languages">Common, Abyssal, Infernal</set>
+          <set name="skills">Deception +4, Insight +3, Persuasion +4, Stealth +5</set>
+          <set name="senses">darkvision 60 ft., passive Perception 15</set>
+          <set name="type">Fiend</set>
+          <set name="size">Medium</set>
+          <set name="alignment">neutral evil</set>
+          <set name="challenge">2</set>
+          <set name="traits">ID_WOTC_MM_COMPANION_TRAIT_SUCCUBUS_SHAPECHANGER,ID_WOTC_MM_COMPANION_TRAIT_SUCCUBUS_DEVILS_SIGHT,ID_WOTC_MM_COMPANION_TRAIT_SUCCUBUS_DEVILS_SIGHT,ID_WOTC_MM_COMPANION_TRAIT_SUCCUBUS_MAGIC_RESISTANCE</set>
+          <set name="actions">ID_WOTC_MM_COMPANION_ACTION_SUCCUBUS_CLAW,ID_WOTC_MM_COMPANION_ACTION_SUCCUBUS_INVISIBILITY,ID_WOTC_MM_COMPANION_ACTION_SUCCUBUS_CHARM</set>
+        </setters>
+        <rules>
+          <stat name="companion:ac" value="14" />
+          <stat name="companion:hp:max" value="10" bonus="base" />
+          <stat name="companion:speed" value="20" bonus="base" />
+          <stat name="companion:speed:fly" value="40" bonus="base" />
+          <stat name="companion:deception:proficiency" value="companion:proficiency" bonus="base" />
+          <stat name="companion:insight:proficiency" value="companion:proficiency" bonus="base" />
+          <stat name="companion:persuasion:proficiency" value="companion:proficiency" bonus="base" />
+          <stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
+        </rules>
+      </element>
+
+      <element name="Shapechanger" type="Companion Trait" source="Monster Manual" id="ID_WOTC_MM_COMPANION_TRAIT_SUCCUBUS_SHAPECHANGER">
+        <description>
+          <p>The Succubus can use its action to polymorph into a beast form that resembles a rat (speed 20 ft.), a butterfly/moth (20 ft., fly 30 ft.), or a spider (20 ft., climb 20 ft.), or back into its true form. Its statistics are the same in each form, except for the speed changes noted. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.</p>
+        </description>
+        <sheet>
+          <description>The Succubus can use its action to polymorph into a beast form that resembles a rat (speed 20 ft.), a butterfly/moth (20 ft., fly 30 ft.), or a spider (20 ft., climb 20 ft.), or back into its true form. Its statistics are the same in each form, except for the speed changes noted. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.</description>
+        </sheet>
+       </element>
+
+      <element name="Devil's Sight" type="Companion Trait" source="Monster Manual" id="ID_WOTC_MM_COMPANION_TRAIT_SUCCUBUS_DEVILS_SIGHT">
+        <description>
+          <p>Magical darkness doesn't impede the Succubus's darkvision.</p>
+        </description>
+        <sheet>
+          <description>Magical darkness doesn't impede the Succubus's darkvision.</description>
+        </sheet>
+      </element>
+  
+    <element name="Devil's Bond" type="Companion Trait" source="Monster Manual" id="ID_WOTC_MM_COMPANION_TRAIT_SUCCUBUS_DEVILS_BOND">
+        <description>
+          <p>The fiend ignores the range restriction on its telepathy when communicating with a creature it has charmed. The two don't even need to be on the same plane of existence.</p>
+        </description>
+        <sheet>
+          <description>The fiend ignores the range restriction on its telepathy when communicating with a creature it has charmed. The two don't even need to be on the same plane of existence.</description>
+        </sheet>
+      </element>
+
+      <element name="Magic Resistance" type="Companion Trait" source="Monster Manual" id="ID_WOTC_MM_COMPANION_TRAIT_SUCCUBUS_MAGIC_RESISTANCE">
+        <description>
+          <p>The Succubus has advantage on saving throws against spells and other magical effects.</p>
+        </description>
+        <sheet>
+          <description>The Succubus has advantage on saving throws against spells and other magical effects.</description>
+        </sheet>
+      </element>
+
+      <element name="Claw (Bite in Beast Form)" type="Companion Action" source="Monster Manual" id="ID_WOTC_MM_COMPANION_ACTION_SUCCUBUS_CLAW">
+        <description>
+          <p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.</p>
+        </description>
+        <sheet>
+          <description>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.</description>
+        </sheet>
+      </element>
+
+      <element name="Invisibility" type="Companion Action" source="Monster Manual" id="ID_WOTC_MM_COMPANION_ACTION_SUCCUBUS_INVISIBILITY">
+        <description>
+          <p>The Succubus magically turns invisible until it attacks, or until its concentration ends (as if concentrating on a spell). Any equipment the Succubus wears or carries is invisible with it.</p>
+        </description>
+        <sheet>
+          <description>The Succubus magically turns invisible until it attacks, or until its concentration ends (as if concentrating on a spell). Any equipment the Succubus wears or carries is invisible with it.</description>
+        </sheet>
+      </element>
+  
+    <element name="Charm" type="Companion Action" source="Monster Manual" id="ID_WOTC_MM_COMPANION_ACTION_SUCCUBUS_CHARM">
+        <description>
+          <p>One humanoid the fiend can see within 30 feet of it must succeed on a DC 15 Wisdom saving throw or be magically charmed for 1 day.</p>
+          <p>The charmed target obeys the fiend's verbal or telepathic commands. If the target suffers any harm or receives a suicidal command, it can repeat the saving throw, ending the effect on a success. If the target successfully saves against the effect, or if the effect on it ends, the target is immune to this fiend's Charm for the next 24 hours.</p>
+          <p>The fiend can have only one target charmed at a time. If it charms another, the effect on the previous target ends.</p>
+        </description>
+        <sheet>
+          <description>One humanoid the fiend can see within 30 feet of it must succeed on a DC 15 Wisdom saving throw or be magically charmed for 1 day.
+            The charmed target obeys the fiend's verbal or telepathic commands. If the target suffers any harm or receives a suicidal command, it can repeat the saving throw, ending the effect on a success. If the target successfully saves against the effect, or if the effect on it ends, the target is immune to this fiend's Charm for the next 24 hours.
+            The fiend can have only one target charmed at a time. If it charms another, the effect on the previous target ends.
+          </description>
+        </sheet>
+      </element>
+
+  </elements>
