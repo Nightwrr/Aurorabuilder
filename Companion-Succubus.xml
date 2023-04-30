@@ -4,7 +4,7 @@
     <info>
         <name>Companion-Succubus</name>
         <update version="0.0.2">
-            <file name="Companion-Succubus.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/companions.xml" />
+            <file name="Companion-Succubus.xml" url="https://raw.githubusercontent.com/Nightwrr/Aurorabuilder/main/Companion-Succubus.xml" />
         </update>
     </info>
     
