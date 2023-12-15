@@ -207,7 +207,7 @@
 			<p>while you are wearing no armor and not wielding a shield, your Armor Class equals 10 + your Constitution modifier + your Strength modifier.</p>
 		</description>
 		<sheet>
-			<description>while you are wearing no armor and not wielding a shieldr, your AC equals {{ac:unarmored defense brawler}}.</description>
+			<description>while you are wearing no armor and not wielding a shield, your AC equals {{ac:unarmored defense brawler}}.</description>
 		</sheet>
 		<rules>
 			<stat name="ac:unarmored defense brawler:base" value="10" />
