@@ -4,7 +4,7 @@
 		<name>Nightwrr</name>
 		<description>Nightwrr</description>
 		<author url="https://raw.githubusercontent.com/Nightwrr/aurorabuilder/main/">Nightwrr</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="DnDAddon.index" url="https://raw.githubusercontent.com/Nightwrr/Aurorabuilder/main/DnDAddon.index" />
 		</update>
 	</info>
