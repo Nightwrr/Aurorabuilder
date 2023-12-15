@@ -387,7 +387,7 @@
 			<p>Starting at the 3rd level, if you have not used any movement this turn, attacks on you have disavantage.</p>
 		</description>
 		<sheet>
-			<description>For the duration of your rage you can make a single melee weapon attack as a bonus action on each of your turns after this one. When your rage ends, you suffer one level of exhaustion.</description>
+			<description>If you have not used any movement this turn, attacks on you have disavantage.</description>
 		</sheet>
 	</element>
 	<element name="Enlarged Muscles" type="Archetype Feature" source="Nightwrr Builder" id="ID_CUSTOM_ARCHETYPE_FEATURE_PATH_OF_THE_IRON_KNUCKLE_ENLARGED_MUSCLES">
