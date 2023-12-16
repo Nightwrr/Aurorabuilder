@@ -4,7 +4,7 @@
 		<name>Brawler</name>
 		<description>The Brawler class.</description>
 		<author url="https://raw.githubusercontent.com/Nightwrr/aurorabuilder/main/">Nightwrr</author>
-		<update version="0.2.8">
+		<update version="0.2.9">
 			<file name="Class-Brawler.xml" url="https://raw.githubusercontent.com/Nightwrr/aurorabuilder/main/Class-Brawler.xml" />
 		</update>
 	</info>
@@ -176,7 +176,7 @@
 			<p class="indent">Once you have raged the number of times shown for your brawler level in the Rages column of the Brawler table, you must finish a long rest before you can rage again.</p>
 		</description>
 		<sheet>
-			<description usage="{{brawler rage:count}}/Long Rest">Enter a rage as a bonus action. While raging, While not wearing heavy armor You gain:
+			<description usage="{{brawler rage:count}}/Long Rest">Enter a rage as a bonus action. While raging, and not wearing heavy armor you gain:
 				
 				You have advantage on Constitution checks and saving throws.
 				You gain a number of temporary hit points equal to three times your level in this class.
