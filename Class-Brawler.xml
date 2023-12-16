@@ -163,7 +163,7 @@
 
 		</rules>
 	</element>
-	<element name="Rage" type="Class Feature" source="Nightwrr Builder" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_RAGE">
+	<element name="Brawler Surge" type="Class Feature" source="Nightwrr Builder" id="ID_CUSTOM_CLASS_FEATURE_BRAWLER_RAGE">
 		<description>
 			<p>At 1st level, on your turn, you can enter a rage as a bonus action. While raging, you gain the following benefits if you aren't wearing heavy armor:</p>
 			<ul>
@@ -178,9 +178,11 @@
 		<sheet action="Bonus Action">
 			<description>
 				<p usage="{{brawler rage:count}}/Long Rest">Enter a rage as a bonus action. While raging, While not wearing heavy armor You gain:</p>
-				<p class="indent">You have advantage on Constitution checks and saving throws.</p>
-				<p class="indent">You gain a number of temporary hit points equal to three times your level in this class.</p>
-				<p class="indent">When you use the Attack action with an unarmed strike on your turn, you can make one unarmed strike as a bonus action.</p>
+				<ul>
+				<li>You have advantage on Constitution checks and saving throws.</li>
+				<li>You gain a number of temporary hit points equal to three times your level in this class.</li>
+				<li>When you use the Attack action with an unarmed strike on your turn, you can make one unarmed strike as a bonus action.</li>
+			</ul>
 				<p>Duration 1 minute. Or until knocked unconscious or if your turn ends and you haven't attacked or taken damage from a hostile creature since your last turn or end your rage as a bonus action.</p>				
 			</description>
 		</sheet>
