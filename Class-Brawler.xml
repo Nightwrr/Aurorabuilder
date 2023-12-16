@@ -4,7 +4,7 @@
 		<name>Brawler</name>
 		<description>The Brawler class.</description>
 		<author url="https://raw.githubusercontent.com/Nightwrr/aurorabuilder/main/">Nightwrr</author>
-		<update version="0.2.7">
+		<update version="0.2.8">
 			<file name="Class-Brawler.xml" url="https://raw.githubusercontent.com/Nightwrr/aurorabuilder/main/Class-Brawler.xml" />
 		</update>
 	</info>
@@ -177,15 +177,11 @@
 		</description>
 		<sheet action="Bonus Action">
 			<description>
-				<p usage="{{brawler rage:count}}/Long Rest">At 1st level, on your turn, you can enter a rage as a bonus action. While raging, you gain the following benefits if you aren't wearing heavy armor:</p>
-				<ul>
-					<li>You have advantage on Constitution checks and saving throws.</li>
-					<li>You gain a number of temporary hit points equal to three times your level in this class.</li>
-					<li>When you use the Attack action with an unarmed strike on your turn, you can make one unarmed strike as a bonus action.</li>
-				</ul>
-				<p>Your surge lasts for 1 minute. It ends early if you are knocked unconscious or if your turn ends and you haven't attacked a hostile creature since your last turn or taken damage since then. You can also end your rage on your turn as a bonus action.</p>
-				<p>Once you have raged the number of times shown for your unarmed brawler level in the Brawler's Rages column of the Unarmed Brawler table, you must finish a short our long rest before you can rage again.</p>
-				
+				<p usage="{{brawler rage:count}}/Long Rest">Enter a rage as a bonus action. While raging, While not wearing heavy armor You gain:</p>
+				<p class="indent">You have advantage on Constitution checks and saving throws.</p>
+				<p class="indent">You gain a number of temporary hit points equal to three times your level in this class.</p>
+				<p class="indent">When you use the Attack action with an unarmed strike on your turn, you can make one unarmed strike as a bonus action.</p>
+				<p>Duration 1 minute. Or until knocked unconscious or if your turn ends and you haven't attacked or taken damage from a hostile creature since your last turn or end your rage as a bonus action.</p>				
 			</description>
 		</sheet>
 		<rules>
