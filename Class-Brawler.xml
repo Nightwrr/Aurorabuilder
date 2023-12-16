@@ -4,7 +4,7 @@
 		<name>Brawler</name>
 		<description>The Brawler class.</description>
 		<author url="https://raw.githubusercontent.com/Nightwrr/aurorabuilder/main/">Nightwrr</author>
-		<update version="0.2.5">
+		<update version="0.2.6">
 			<file name="Class-Brawler.xml" url="https://raw.githubusercontent.com/Nightwrr/aurorabuilder/main/Class-Brawler.xml" />
 		</update>
 	</info>
