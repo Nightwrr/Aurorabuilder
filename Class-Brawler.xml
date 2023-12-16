@@ -4,7 +4,7 @@
 		<name>Brawler</name>
 		<description>The Brawler class.</description>
 		<author url="https://raw.githubusercontent.com/Nightwrr/aurorabuilder/main/">Nightwrr</author>
-		<update version="0.2.6">
+		<update version="0.2.7">
 			<file name="Class-Brawler.xml" url="https://raw.githubusercontent.com/Nightwrr/aurorabuilder/main/Class-Brawler.xml" />
 		</update>
 	</info>
@@ -176,9 +176,17 @@
 			<p class="indent">Once you have raged the number of times shown for your brawler level in the Rages column of the Brawler table, you must finish a long rest before you can rage again.</p>
 		</description>
 		<sheet action="Bonus Action">
-			<description usage="{{brawler rage:count}}/Long Rest">Advantage on Constitution checks and Saves. 
-			You gain a number of temporary hit points equal to three times your level in this class.</description>
-			<description>When you use the Attack action with an unarmed strike on your turn, you can make one unarmed strike as a bonus action.</description>
+			<description>
+				<p usage="{{brawler rage:count}}/Long Rest">At 1st level, on your turn, you can enter a rage as a bonus action. While raging, you gain the following benefits if you aren't wearing heavy armor:</p>
+				<ul>
+					<li>You have advantage on Constitution checks and saving throws.</li>
+					<li>You gain a number of temporary hit points equal to three times your level in this class.</li>
+					<li>When you use the Attack action with an unarmed strike on your turn, you can make one unarmed strike as a bonus action.</li>
+				</ul>
+				<p>Your surge lasts for 1 minute. It ends early if you are knocked unconscious or if your turn ends and you haven't attacked a hostile creature since your last turn or taken damage since then. You can also end your rage on your turn as a bonus action.</p>
+				<p>Once you have raged the number of times shown for your unarmed brawler level in the Brawler's Rages column of the Unarmed Brawler table, you must finish a short our long rest before you can rage again.</p>
+				
+			</description>
 		</sheet>
 		<rules>
 			
@@ -236,7 +244,7 @@
 			<p>You can use this feature a number of times equal to your proficiency bonus, rounded down. You regain all expended uses on a short or a long rest.</p>
 		</description>
 		<sheet>
-			<description usage="{{smash prof:count}}/Long Rest">when you hit a creature with your unarmed strike, a {{smash:count}}D8 is added once in each of your turns, you regain all expended uses on a short or a long rest</description>
+			<description usage="{{smash prof:count}}/Short Rest">when you hit a creature with your unarmed strike, a {{smash:count}}D8 is added once in each of your turns, you regain all expended uses on a short or a long rest</description>
 		</sheet>
 		<rules>
 			<stat name="smash:count" value="1" level="2" />
