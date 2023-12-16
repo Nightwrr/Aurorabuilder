@@ -176,14 +176,13 @@
 			<p class="indent">Once you have raged the number of times shown for your brawler level in the Rages column of the Brawler table, you must finish a long rest before you can rage again.</p>
 		</description>
 		<sheet>
-			<description usage="{{brawler rage:count}}/Long Rest">
-				<p>Enter a rage as a bonus action. While raging, While not wearing heavy armor You gain:</p>
-				<ul>
-				<li>You have advantage on Constitution checks and saving throws.</li>
-				<li>You gain a number of temporary hit points equal to three times your level in this class.</li>
-				<li>When you use the Attack action with an unarmed strike on your turn, you can make one unarmed strike as a bonus action.</li>
-			</ul>
-				<p>Duration 1 minute. Or until knocked unconscious or if your turn ends and you haven't attacked or taken damage from a hostile creature since your last turn or end your rage as a bonus action.</p>				
+			<description usage="{{brawler rage:count}}/Long Rest">Enter a rage as a bonus action. While raging, While not wearing heavy armor You gain:
+				
+				You have advantage on Constitution checks and saving throws.
+				You gain a number of temporary hit points equal to three times your level in this class.
+				When you use the Attack action with an unarmed strike on your turn, you can make one unarmed strike as a bonus action.
+				
+				Duration 1 minute. Or until knocked unconscious or if your turn ends and you haven't attacked or taken damage from a hostile creature since your last turn or end your rage as a bonus action.			
 			</description>
 		</sheet>
 		<rules>
